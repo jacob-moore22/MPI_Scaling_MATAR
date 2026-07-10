@@ -79,4 +79,6 @@ if(NOT TARGET matar::matar)
 endif()
 
 # --- Add Test1 Source ---
-add_subdirectory(src)   
+include_directories(include)
+add_executable(main src/main.cpp)
+target_link_libraries(main Kokkos::kokkos matar::matar)

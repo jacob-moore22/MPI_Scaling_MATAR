@@ -1,0 +1,3 @@
+# Ignore build directories at any depth (build, build_openmp, cmake-build-*, etc.)
+build*/
+**/build*/
