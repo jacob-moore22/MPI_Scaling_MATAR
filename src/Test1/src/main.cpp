@@ -2,11 +2,10 @@
 #include <cstdlib>
 #include <cmath>
 #include <iostream>
-#include <chrono>
-#include <limits>
-#include <algorithm>
+#include <vector>
 #include <mpi.h>
 #include "matar.h"
+#include "timing_common.h"
 
 // Required for MATAR data structures (CArrayDevice, MPICArrayKokkos, operation, FOR_ALL, ...)
 using namespace mtr;
@@ -19,44 +18,22 @@ using namespace mtr;
 //   Strong scaling: shrink <local_size> as the rank count grows so that
 //                   local_size * world_size (the global problem size) stays
 //                   constant; the launching script computes that division.
+//
+// Every run times two variants back to back, at identical local_size and
+// rank count, so their RESULT lines (schema in include/timing_common.h,
+// "matar" vs "bare_mpi" variant column) are directly comparable:
+//   "matar"    -- MPICArrayKokkos<double>::all_reduce()
+//   "bare_mpi" -- a plain C++ local reduction + a single MPI_Allreduce(),
+//                 with no Kokkos/MATAR involved, reproducing the exact same
+//                 access pattern (local reduction over local_size elements,
+//                 then a scalar MPI_Allreduce) that all_reduce() takes on
+//                 its no-CommunicationPlan path. The gap between the two
+//                 isolates MATAR/Kokkos's own array + reduction +
+//                 host-device-sync overhead from the underlying MPI
+//                 library's collective cost.
 #define DEFAULT_LOCAL_SIZE   1000000
 #define DEFAULT_TIMED_ITERS  20
 #define NUM_WARMUP_ITERS     2
-
-// Timer class for timing the execution of the all_reduce calls
-class Timer {
-private:
-    std::chrono::high_resolution_clock::time_point start_time;
-    std::chrono::high_resolution_clock::time_point end_time;
-    bool is_running;
-
-public:
-    Timer() : is_running(false) {}
-
-    void start() {
-        start_time = std::chrono::high_resolution_clock::now();
-        is_running = true;
-    }
-
-    double stop() {
-        if (!is_running) {
-            std::cerr << "Timer was not running!" << std::endl;
-            return 0.0;
-        }
-        end_time = std::chrono::high_resolution_clock::now();
-        is_running = false;
-
-        auto duration = std::chrono::duration_cast<std::chrono::microseconds>(end_time - start_time);
-        return duration.count() / 1000.0; // Convert to milliseconds
-    }
-};
-
-// Timing statistics + the reduced value from the last iteration, for one operator.
-struct ReduceResult {
-    double time_ms_min = 0.0;
-    double time_ms_avg  = 0.0;
-    double value        = 0.0;
-};
 
 // Times `timed_iters` calls to field.all_reduce(op), with `warmup_iters`
 // untimed calls first. A barrier precedes each timed call so that rank skew
@@ -89,35 +66,88 @@ ReduceResult time_all_reduce(MPICArrayKokkos<double>& field, operation op,
     return result;
 }
 
-bool nearly_equal(double a, double b, double rel_tol = 1.0e-9, double abs_tol = 1.0e-9)
+// ------------------------------------------------------------------------
+// Bare-MPI baseline: no Kokkos, no MATAR types anywhere below this point.
+// ------------------------------------------------------------------------
+
+enum class ReduceOp { sum, product, max, min };
+
+MPI_Op to_mpi_op(ReduceOp op)
 {
-    return std::fabs(a - b) <= std::max(abs_tol, rel_tol * std::max(std::fabs(a), std::fabs(b)));
+    switch (op) {
+        case ReduceOp::sum:     return MPI_SUM;
+        case ReduceOp::product: return MPI_PROD;
+        case ReduceOp::max:     return MPI_MAX;
+        case ReduceOp::min:     return MPI_MIN;
+    }
+    return MPI_SUM;
 }
 
-// Prints one machine-parsable line per operator (prefixed "RESULT,") so
-// scaling-sweep driver scripts can grep/parse timings across many runs,
-// plus a human-readable line for interactive use. Rank-0 only.
-void report(const char* op_name, int world_size, size_t local_size,
-            const ReduceResult& r, double expected, bool validated)
+// Sequential local reduction over a plain host array, using the same
+// reduction identities Kokkos uses (0 for sum, 1 for product, lowest/max
+// for max/min) so this is mathematically equivalent to MATAR's on-device
+// FOR_REDUCE_*_CLASS reduction, not just numerically close to it.
+double local_reduce(const std::vector<double>& data, ReduceOp op)
 {
-    const char* status = "SKIPPED";
-    if (validated) {
-        status = nearly_equal(r.value, expected) ? "PASS" : "FAIL";
+    switch (op) {
+        case ReduceOp::sum: {
+            double s = 0.0;
+            for (double v : data) s += v;
+            return s;
+        }
+        case ReduceOp::product: {
+            double p = 1.0;
+            for (double v : data) p *= v;
+            return p;
+        }
+        case ReduceOp::max: {
+            double m = std::numeric_limits<double>::lowest();
+            for (double v : data) if (v > m) m = v;
+            return m;
+        }
+        case ReduceOp::min: {
+            double m = std::numeric_limits<double>::max();
+            for (double v : data) if (v < m) m = v;
+            return m;
+        }
+    }
+    return 0.0;
+}
+
+// Same harness as the MATAR-side time_all_reduce() above, but timing
+// (local_reduce + MPI_Allreduce) directly with no MATAR/Kokkos call in the
+// timed region.
+ReduceResult time_all_reduce(const std::vector<double>& data, ReduceOp op,
+                              int warmup_iters, int timed_iters, MPI_Comm comm)
+{
+    ReduceResult result;
+    MPI_Op mpi_op = to_mpi_op(op);
+
+    for (int iter = 0; iter < warmup_iters; iter++) {
+        double local = local_reduce(data, op);
+        MPI_Allreduce(&local, &result.value, 1, MPI_DOUBLE, mpi_op, comm);
     }
 
-    std::cout << "  " << op_name
-              << ": value=" << r.value
-              << " expected=" << (validated ? expected : 0.0)
-              << " [" << status << "]"
-              << " min_ms=" << r.time_ms_min
-              << " avg_ms=" << r.time_ms_avg
-              << std::endl;
+    Timer timer;
+    double total_ms = 0.0;
+    double min_ms = std::numeric_limits<double>::max();
 
-    std::cout << "RESULT," << op_name << "," << world_size << "," << local_size << ","
-              << (local_size * static_cast<size_t>(world_size)) << ","
-              << r.time_ms_min << "," << r.time_ms_avg << ","
-              << r.value << "," << expected << "," << status
-              << std::endl;
+    for (int iter = 0; iter < timed_iters; iter++) {
+        MPI_Barrier(comm);
+        timer.start();
+        double local = local_reduce(data, op);
+        double global = 0.0;
+        MPI_Allreduce(&local, &global, 1, MPI_DOUBLE, mpi_op, comm);
+        double elapsed_ms = timer.stop();
+
+        result.value = global;
+        total_ms += elapsed_ms;
+        min_ms = std::min(min_ms, elapsed_ms);
+    }
+
+    result.time_ms_min = min_ms;
+    result.time_ms_avg  = total_ms / static_cast<double>(timed_iters);
+    return result;
 }
 
 // main
@@ -212,10 +242,33 @@ int main(int argc, char* argv[])
     ReduceResult prod_r = time_all_reduce(field, operation::product, NUM_WARMUP_ITERS, timed_iters, MPI_COMM_WORLD);
 
     if (rank == 0) {
-        report("sum",     world_size, local_size, sum_r,  expected_sum, true);
-        report("max",     world_size, local_size, max_r,  expected_max, true);
-        report("min",     world_size, local_size, min_r,  expected_min, true);
-        report("product", world_size, local_size, prod_r, expected_product, !product_underflows);
+        report("matar", "sum",     world_size, local_size, sum_r,  expected_sum, true);
+        report("matar", "max",     world_size, local_size, max_r,  expected_max, true);
+        report("matar", "min",     world_size, local_size, min_r,  expected_min, true);
+        report("matar", "product", world_size, local_size, prod_r, expected_product, !product_underflows);
+    }
+
+    // ------------------------------------------------------------------
+    // Bare-MPI baseline, run in the same process/rank layout immediately
+    // after the MATAR timings above, same local_size/timed_iters, same
+    // fill pattern -> same expected_* values computed above still apply.
+    // ------------------------------------------------------------------
+    std::vector<double> bare_data(local_size, rank_value);
+
+    if (rank == 0) {
+        std::cout << "Timing bare-MPI all_reduce baseline..." << std::endl;
+    }
+
+    ReduceResult bare_sum_r  = time_all_reduce(bare_data, ReduceOp::sum,     NUM_WARMUP_ITERS, timed_iters, MPI_COMM_WORLD);
+    ReduceResult bare_max_r  = time_all_reduce(bare_data, ReduceOp::max,     NUM_WARMUP_ITERS, timed_iters, MPI_COMM_WORLD);
+    ReduceResult bare_min_r  = time_all_reduce(bare_data, ReduceOp::min,     NUM_WARMUP_ITERS, timed_iters, MPI_COMM_WORLD);
+    ReduceResult bare_prod_r = time_all_reduce(bare_data, ReduceOp::product, NUM_WARMUP_ITERS, timed_iters, MPI_COMM_WORLD);
+
+    if (rank == 0) {
+        report("bare_mpi", "sum",     world_size, local_size, bare_sum_r,  expected_sum, true);
+        report("bare_mpi", "max",     world_size, local_size, bare_max_r,  expected_max, true);
+        report("bare_mpi", "min",     world_size, local_size, bare_min_r,  expected_min, true);
+        report("bare_mpi", "product", world_size, local_size, bare_prod_r, expected_product, !product_underflows);
     }
 
     } // MATAR scope
