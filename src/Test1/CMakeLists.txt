@@ -10,6 +10,10 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${PROJECT_SOURCE_DIR}/../../cmake)
 # Find the vector library
 find_package(Vector REQUIRED)
 
+# Find MPI (required for MATAR's MPICArrayKokkos / CommunicationPlan types,
+# which are compiled out entirely unless HAVE_MPI is defined below)
+find_package(MPI REQUIRED)
+
 # Set the compiler flags
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${VECTOR_CXX_FLAGS}")
 
@@ -81,4 +85,4 @@ endif()
 # --- Add Test1 Source ---
 include_directories(include)
 add_executable(main src/main.cpp)
-target_link_libraries(main Kokkos::kokkos matar::matar)
+target_link_libraries(main Kokkos::kokkos matar::matar MPI::MPI_CXX)
