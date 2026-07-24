@@ -20,7 +20,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${VECTOR_CXX_FLAGS}")
 
 # --- Set build type if not already set ---
 if (NOT CMAKE_BUILD_TYPE)
-  set(CMAKE_BUILD_TYPE RelWithDebInfo)
+  set(CMAKE_BUILD_TYPE Release)
  # set(CMAKE_BUILD_TYPE Release)
 endif(NOT CMAKE_BUILD_TYPE)
 
@@ -114,11 +114,5 @@ FetchContent_GetProperties(ELEMENTS SOURCE_DIR ELEMENTS_SOURCE_DIR)
 # --- Add Test2 Source ---
 include_directories(include)
 add_executable(main src/main.cpp)
-
-# examples/decomp_example/include holds the mesh_io.h / state.h headers this
-# example is built from; they are private to that example (not installed as
-# part of the ELEMENTS library), so pull them in directly from the fetched
-# ELEMENTS source tree, same as ELEMENTS's own examples/decomp_example/CMakeLists.txt does.
-target_include_directories(main PRIVATE ${ELEMENTS_SOURCE_DIR}/examples/decomp_example/include)
 
 target_link_libraries(main Kokkos::kokkos matar::matar MPI::MPI_CXX ELEMENTS)
