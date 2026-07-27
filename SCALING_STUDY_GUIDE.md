@@ -34,8 +34,8 @@ This builds one executable, `main`, linked against the Serial Kokkos backend by 
 
 To build for a different backend instead, pass the matching option at configure time (only enable one backend at a time):
 ```bash
-cmake -DTest1_ENABLE_SERIAL=OFF -DTest1_ENABLE_OPENMP=ON ..
-cmake -DTest1_ENABLE_SERIAL=OFF -DTest1_ENABLE_CUDA=ON ..
+cmake -DTest1_ENABLE_OPENMP=ON ..
+cmake -DTest1_ENABLE_CUDA=ON ..
 ```
 Use a **separate build directory per backend** (e.g. `build-serial`, `build-openmp`, `build-cuda`) rather than reconfiguring the same one back and forth — Kokkos bakes the backend choice deep into its own build, and switching in place is unreliable.
 
