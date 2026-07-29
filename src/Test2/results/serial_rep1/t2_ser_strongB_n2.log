@@ -1,0 +1,60 @@
+srun: warning: can't run 2 processes on 8 nodes, setting nnodes to 2
+World size: 2
+Rank 0 Building initial mesh
+Mesh resolution: 200 x 200 x 200
+Communication steps: 20, smoothing passes/step: 3
+Initializing mesh
+Creating a 3D box mesh 
+Initial mesh build time: 26.8802 seconds
+Initial mesh has 8000000 elements and 8120601 nodes
+ Num_nodes_in_elem: 8
+ Num_dims: 3
+ Num_elems: 8000000
+ Num_nodes: 8120601
+ Num_nodes_in_elem: 8
+ Num_nodes_in_elem: 8
+Partitioning mesh using PT-Scotch
+After partitioning
+Mesh partitioning time: 13165.27 seconds
+-----------------------------
+Rank 0 mesh info:
+Final mesh has 4049229 elements and 4134889 nodes
+Final mesh has 3999962 owned elements and 4085173 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 1 mesh info:
+Final mesh has 4049313 elements and 4134885 nodes
+Final mesh has 4000038 owned elements and 4085153 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+Total number of nodes: 8120601
+Error in node count = 0
+Generating phony data for gauss points to test MPI communications for the gauss point field communication
+Rank 0 gauss point fields communication time over 20 step(s): min=0.00113967 avg=0.00118087 max=0.00123377 seconds
+Rank 0 gauss point fields_vec communication time over 20 step(s): min=0.00130135 avg=0.00133167 max=0.00154206 seconds
+Generating phony data for nodes to test MPI communications for the nodal fields
+Rank 1 gauss point fields communication time over 20 step(s): min=0.00113385 avg=0.00117434 max=0.00123012 seconds
+Rank 1 gauss point fields_vec communication time over 20 step(s): min=0.0013046 avg=0.00133425 max=0.00152659 seconds
+Rank 0 nodal scalar_field communication time over 20 step(s): min=0.000971159 avg=0.00102553 max=0.00125302 seconds
+Rank 0 nodal vector_field communication time over 20 step(s): min=0.00137133 avg=0.00142404 max=0.0018787 seconds
+Rank 0 communication volume (sent 3168224 bytes, received 3167456 bytes):
+  element (gauss) fields:
+    -> rank 1: 1576800 bytes
+    <- rank 1: 1576544 bytes
+  node fields:
+    -> rank 1: 1591424 bytes
+    <- rank 1: 1590912 bytes
+Rank 1 nodal scalar_field communication time over 20 step(s): min=0.000985537 avg=0.0010224 max=0.00124921 seconds
+Rank 1 nodal vector_field communication time over 20 step(s): min=0.00136904 avg=0.00141682 max=0.00168502 seconds
+Total data volume exchanged across all ranks: 6335680 bytes (6.04218 MB)
+Writing VTU file for rank 0
+Rank 1 communication volume (sent 3167456 bytes, received 3168224 bytes):
+  element (gauss) fields:
+    -> rank 0: 1576544 bytes
+    <- rank 0: 1576800 bytes
+  node fields:
+    -> rank 0: 1590912 bytes
+    <- rank 0: 1591424 bytes
+Total execution time: 13231.57 seconds
+Wrote scaling-study CSV log: test2_results_mesh200x200x200_np2_comms20_smooth3.csv

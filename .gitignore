@@ -5,3 +5,12 @@ build*/
 # Ignore Claude.md at any depth
 CLAUDE.md
 **/CLAUDE.md
+**/CMakeCache.txt
+**/CMakeFiles/
+**/Makefile
+**/cmake_install.cmake
+**/_deps/
+**/cmake_packages/
+**/generated/
+**git-state.txt
+**/main

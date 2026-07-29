@@ -1,0 +1,126 @@
+srun: warning: can't run 4 processes on 8 nodes, setting nnodes to 4
+World size: 4
+Rank 0 Building initial mesh
+Mesh resolution: 100 x 100 x 100
+Communication steps: 20, smoothing passes/step: 3
+Initializing mesh
+Creating a 3D box mesh 
+Initial mesh build time: 3.44767 seconds
+Initial mesh has 1000000 elements and 1030301 nodes
+ Num_nodes_in_elem: 8
+ Num_dims: 3
+ Num_elems: 1000000
+ Num_nodes: 1030301
+ Num_nodes_in_elem: 8
+ Num_nodes_in_elem: 8
+Partitioning mesh using PT-Scotch
+After partitioning
+Mesh partitioning time: 58.95 seconds
+-----------------------------
+Rank 0 mesh info:
+Final mesh has 261131 elements and 274688 nodes
+Final mesh has 249900 owned elements and 263150 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 1 mesh info:
+Final mesh has 261114 elements and 274588 nodes
+Final mesh has 250100 owned elements and 263288 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 2 mesh info:
+Final mesh has 260306 elements and 273395 nodes
+Final mesh has 250000 owned elements and 262783 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+Total number of nodes: 1030301
+Error in node count = 0
+Generating phony data for gauss points to test MPI communications for the gauss point field communication
+-----------------------------
+Rank 3 mesh info:
+Final mesh has 260308 elements and 273446 nodes
+Final mesh has 250000 owned elements and 262826 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+Rank 1 gauss point fields communication time over 20 step(s): min=0.000157828 avg=0.000171559 max=0.000351153 seconds
+Rank 1 gauss point fields_vec communication time over 20 step(s): min=0.000164902 avg=0.000170047 max=0.00017449 seconds
+Rank 2 gauss point fields communication time over 20 step(s): min=0.000158918 avg=0.000170943 max=0.000346299 seconds
+Rank 2 gauss point fields_vec communication time over 20 step(s): min=0.000162534 avg=0.000168589 max=0.000171481 seconds
+Rank 0 gauss point fields communication time over 20 step(s): min=0.000162732 avg=0.000177091 max=0.000355146 seconds
+Rank 0 gauss point fields_vec communication time over 20 step(s): min=0.00016797 avg=0.000184872 max=0.00037107 seconds
+Generating phony data for nodes to test MPI communications for the nodal fields
+Rank 3 gauss point fields communication time over 20 step(s): min=0.000158557 avg=0.000170986 max=0.000344042 seconds
+Rank 3 gauss point fields_vec communication time over 20 step(s): min=0.000162063 avg=0.000167363 max=0.000173855 seconds
+Rank 0 nodal scalar_field communication time over 20 step(s): min=0.000160567 avg=0.000164237 max=0.00017258 seconds
+Rank 0 nodal vector_field communication time over 20 step(s): min=0.000158542 avg=0.000162763 max=0.000169437 seconds
+Rank 1 nodal scalar_field communication time over 20 step(s): min=0.000156516 avg=0.000159486 max=0.000164471 seconds
+Rank 1 nodal vector_field communication time over 20 step(s): min=0.000156295 avg=0.000160342 max=0.000170653 seconds
+Rank 2 nodal scalar_field communication time over 20 step(s): min=0.000153458 avg=0.000156339 max=0.000161784 seconds
+Rank 2 nodal vector_field communication time over 20 step(s): min=0.000151264 avg=0.000153838 max=0.000159248 seconds
+Rank 0 communication volume (sent 731456 bytes, received 733920 bytes):
+  element (gauss) fields:
+    -> rank 1: 192096 bytes
+    -> rank 2: 86304 bytes
+    -> rank 3: 80192 bytes
+    <- rank 1: 192704 bytes
+    <- rank 2: 86560 bytes
+    <- rank 3: 80128 bytes
+Rank 3 nodal scalar_field communication time over 20 step(s): min=0.000153767 avg=0.000156414 max=0.000159337 seconds
+Rank 3 nodal vector_field communication time over 20 step(s): min=0.000150802 avg=0.000154927 max=0.000159528 seconds
+  node fields:
+    -> rank 1: 196224 bytes
+    -> rank 2: 91456 bytes
+    -> rank 3: 85184 bytes
+    <- rank 1: 197504 bytes
+    <- rank 2: 91968 bytes
+    <- rank 3: 85056 bytes
+Rank 1 communication volume (sent 720672 bytes, received 719360 bytes):
+  element (gauss) fields:
+    -> rank 0: 192704 bytes
+    -> rank 2: 77056 bytes
+    -> rank 3: 83104 bytes
+    <- rank 0: 192096 bytes
+    <- rank 2: 77312 bytes
+    <- rank 3: 83040 bytes
+  node fields:
+    -> rank 0: 197504 bytes
+    -> rank 2: 82176 bytes
+Rank 2 communication volume (sent 676672 bytes, received 674752 bytes):
+  element (gauss) fields:
+    -> rank 0: 86560 bytes
+    -> rank 1: 77312 bytes
+    -> rank 3: 166560 bytes
+    <- rank 0: 86304 bytes
+    <- rank 1: 77056 bytes
+    <- rank 3: 166432 bytes
+  node fields:
+    -> rank 0: 91968 bytes
+    -> rank 1: 82688 bytes
+    -> rank 3: 88128 bytes
+    <- rank 0: 196224 bytes
+    <- rank 2: 82688 bytes
+    <- rank 3: 88000 bytes
+Total data volume exchanged across all ranks: 2802784 bytes (2.67294 MB)
+Writing VTU file for rank 0
+Rank 3 communication volume (sent 673984 bytes, received 674752 bytes):
+  element (gauss) fields:
+    -> rank 0: 80128 bytes
+    -> rank 1: 83040 bytes
+    -> rank 2: 166432 bytes
+    <- rank 0: 80192 bytes
+    <- rank 1: 83104 bytes
+    <- rank 2: 166560 bytes
+  node fields:
+    -> rank 0: 85056 bytes
+    -> rank 1: 88000 bytes
+    -> rank 3: 171584 bytes
+    <- rank 0: 91456 bytes
+    <- rank 1: 82176 bytes
+    <- rank 3: 171328 bytes
+    -> rank 2: 171328 bytes
+    <- rank 0: 85184 bytes
+    <- rank 1: 88128 bytes
+    <- rank 2: 171584 bytes
+Total execution time: 64.84 seconds
+Wrote scaling-study CSV log: test2_results_mesh100x100x100_np4_comms20_smooth3.csv

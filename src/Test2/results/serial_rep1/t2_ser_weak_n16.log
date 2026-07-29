@@ -1,0 +1,689 @@
+World size: 16
+Rank 0 Building initial mesh
+Mesh resolution: 128 x 64 x 64
+Communication steps: 20, smoothing passes/step: 3
+Initializing mesh
+Creating a 3D box mesh 
+Initial mesh build time: 1.78365 seconds
+Initial mesh has 524288 elements and 545025 nodes
+ Num_nodes_in_elem: 8
+ Num_dims: 3
+ Num_elems: 524288
+ Num_nodes: 545025
+ Num_nodes_in_elem: 8
+ Num_nodes_in_elem: 8
+Partitioning mesh using PT-Scotch
+After partitioning
+Mesh partitioning time: 3.98 seconds
+-----------------------------
+Rank 0 mesh info:
+Final mesh has 39242 elements and 43934 nodes
+Final mesh has 32735 owned elements and 37829 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 1 mesh info:
+Final mesh has 41374 elements and 46462 nodes
+Final mesh has 32736 owned elements and 38357 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 2 mesh info:
+Final mesh has 41066 elements and 46345 nodes
+Final mesh has 32736 owned elements and 38168 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 3 mesh info:
+Final mesh has 39219 elements and 43855 nodes
+Final mesh has 32737 owned elements and 37908 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 4 mesh info:
+Final mesh has 39069 elements and 43756 nodes
+Final mesh has 32736 owned elements and 37665 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 5 mesh info:
+Final mesh has 39904 elements and 44562 nodes
+Final mesh has 32736 owned elements and 37601 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 6 mesh info:
+Final mesh has 41573 elements and 46829 nodes
+Final mesh has 32736 owned elements and 38126 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 7 mesh info:
+Final mesh has 39122 elements and 43905 nodes
+Final mesh has 32736 owned elements and 37817 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 8 mesh info:
+Final mesh has 40802 elements and 45940 nodes
+Final mesh has 32800 owned elements and 38017 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 9 mesh info:
+Final mesh has 41190 elements and 46440 nodes
+Final mesh has 32800 owned elements and 38241 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 10 mesh info:
+Final mesh has 40629 elements and 45790 nodes
+Final mesh has 32800 owned elements and 38372 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 11 mesh info:
+Final mesh has 39709 elements and 44688 nodes
+Final mesh has 32800 owned elements and 38217 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 12 mesh info:
+Final mesh has 40644 elements and 45542 nodes
+Final mesh has 32800 owned elements and 38006 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+Total number of nodes: 545025
+Error in node count = 0
+-----------------------------
+Rank 13 mesh info:
+Final mesh has 39012 elements and 43586 nodes
+Final mesh has 32800 owned elements and 37735 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+Generating phony data for gauss points to test MPI communications for the gauss point field communication
+-----------------------------
+Rank 14 mesh info:
+Final mesh has 41199 elements and 46448 nodes
+Final mesh has 32800 owned elements and 38272 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 15 mesh info:
+Final mesh has 38973 elements and 43477 nodes
+Final mesh has 32800 owned elements and 37762 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+Rank 0 gauss point fields communication time over 20 step(s): min=0.000147057 avg=0.00017441 max=0.000420933 seconds
+Rank 0 gauss point fields_vec communication time over 20 step(s): min=0.000143511 avg=0.000173796 max=0.000392239 seconds
+Rank 1 gauss point fields communication time over 20 step(s): min=0.000171353 avg=0.000194067 max=0.000440711 seconds
+Rank 1 gauss point fields_vec communication time over 20 step(s): min=0.000171443 avg=0.000214607 max=0.000789809 seconds
+Rank 2 gauss point fields communication time over 20 step(s): min=0.000170542 avg=0.000210307 max=0.000747209 seconds
+Rank 2 gauss point fields_vec communication time over 20 step(s): min=0.000169379 avg=0.000198695 max=0.000486137 seconds
+Rank 3 gauss point fields communication time over 20 step(s): min=0.000147028 avg=0.00017768 max=0.000430301 seconds
+Rank 3 gauss point fields_vec communication time over 20 step(s): min=0.000144633 avg=0.000165125 max=0.000189377 seconds
+Rank 4 gauss point fields communication time over 20 step(s): min=0.000142338 avg=0.000185905 max=0.000730269 seconds
+Rank 4 gauss point fields_vec communication time over 20 step(s): min=0.000140592 avg=0.000172761 max=0.000472481 seconds
+Rank 5 gauss point fields communication time over 20 step(s): min=0.000161754 avg=0.00019868 max=0.000742072 seconds
+Rank 5 gauss point fields_vec communication time over 20 step(s): min=0.000162243 avg=0.000201837 max=0.000782789 seconds
+Rank 6 gauss point fields communication time over 20 step(s): min=0.000176293 avg=0.00021504 max=0.000753633 seconds
+Rank 6 gauss point fields_vec communication time over 20 step(s): min=0.000172506 avg=0.000217677 max=0.000796074 seconds
+Rank 7 gauss point fields communication time over 20 step(s): min=0.000141136 avg=0.00018723 max=0.000726382 seconds
+Rank 7 gauss point fields_vec communication time over 20 step(s): min=0.000137109 avg=0.000188611 max=0.000771317 seconds
+Rank 8 gauss point fields communication time over 20 step(s): min=0.00016031 avg=0.00018682 max=0.000439304 seconds
+Rank 8 gauss point fields_vec communication time over 20 step(s): min=0.000161082 avg=0.000205444 max=0.00077307 seconds
+Rank 9 gauss point fields communication time over 20 step(s): min=0.000171812 avg=0.000207754 max=0.000735939 seconds
+Rank 9 gauss point fields_vec communication time over 20 step(s): min=0.00017038 avg=0.000210532 max=0.000776406 seconds
+Rank 10 gauss point fields communication time over 20 step(s): min=0.00015522 avg=0.000162834 max=0.000172413 seconds
+Rank 10 gauss point fields_vec communication time over 20 step(s): min=0.00015456 avg=0.000174948 max=0.000424825 seconds
+Rank 11 gauss point fields communication time over 20 step(s): min=0.000159057 avg=0.000166672 max=0.000173875 seconds
+Rank 11 gauss point fields_vec communication time over 20 step(s): min=0.000159458 avg=0.000178232 max=0.000408755 seconds
+Rank 12 gauss point fields communication time over 20 step(s): min=0.000168587 avg=0.000205454 max=0.000748066 seconds
+Rank 12 gauss point fields_vec communication time over 20 step(s): min=0.000169689 avg=0.000207662 max=0.00078701 seconds
+Rank 13 gauss point fields communication time over 20 step(s): min=0.000150894 avg=0.000174046 max=0.000498287 seconds
+Rank 13 gauss point fields_vec communication time over 20 step(s): min=0.00014901 avg=0.000169175 max=0.000415662 seconds
+Generating phony data for nodes to test MPI communications for the nodal fields
+Rank 14 gauss point fields communication time over 20 step(s): min=0.00017055 avg=0.000194578 max=0.000519966 seconds
+Rank 14 gauss point fields_vec communication time over 20 step(s): min=0.000169258 avg=0.000207999 max=0.000791616 seconds
+Rank 15 gauss point fields communication time over 20 step(s): min=0.000145813 avg=0.000168894 max=0.000493156 seconds
+Rank 15 gauss point fields_vec communication time over 20 step(s): min=0.000142909 avg=0.00016356 max=0.000421541 seconds
+Rank 0 nodal scalar_field communication time over 20 step(s): min=0.000111901 avg=0.000158022 max=0.000166063 seconds
+Rank 0 nodal vector_field communication time over 20 step(s): min=0.000158509 avg=0.000160637 max=0.000165261 seconds
+Rank 1 nodal scalar_field communication time over 20 step(s): min=0.000181281 avg=0.000198598 max=0.000499351 seconds
+Rank 1 nodal vector_field communication time over 20 step(s): min=0.000180139 avg=0.000193627 max=0.000402779 seconds
+Rank 2 nodal scalar_field communication time over 20 step(s): min=0.000178647 avg=0.000198755 max=0.000501536 seconds
+Rank 2 nodal vector_field communication time over 20 step(s): min=0.000177445 avg=0.000192501 max=0.00043492 seconds
+Rank 3 nodal scalar_field communication time over 20 step(s): min=0.000163739 avg=0.000178321 max=0.000406136 seconds
+Rank 3 nodal vector_field communication time over 20 step(s): min=0.000162216 avg=0.000177032 max=0.000412347 seconds
+Rank 4 nodal scalar_field communication time over 20 step(s): min=0.000106928 avg=0.000153069 max=0.000161266 seconds
+Rank 4 nodal vector_field communication time over 20 step(s): min=0.000150649 avg=0.000167317 max=0.000409624 seconds
+Rank 6 nodal scalar_field communication time over 20 step(s): min=0.000184388 avg=0.000202531 max=0.000429962 seconds
+Rank 6 nodal vector_field communication time over 20 step(s): min=0.000183597 avg=0.000197821 max=0.000433339 seconds
+Rank 5 nodal scalar_field communication time over 20 step(s): min=0.000161265 avg=0.000178467 max=0.000417795 seconds
+Rank 5 nodal vector_field communication time over 20 step(s): min=0.000156936 avg=0.000175181 max=0.000423243 seconds
+Rank 8 nodal scalar_field communication time over 20 step(s): min=0.000168626 avg=0.00020849 max=0.000504486 seconds
+Rank 8 nodal vector_field communication time over 20 step(s): min=0.0001924 avg=0.000210732 max=0.000486472 seconds
+Rank 9 nodal scalar_field communication time over 20 step(s): min=0.000180318 avg=0.000199536 max=0.000499717 seconds
+Rank 9 nodal vector_field communication time over 20 step(s): min=0.000180759 avg=0.000196764 max=0.000419957 seconds
+Rank 10 nodal scalar_field communication time over 20 step(s): min=0.000156834 avg=0.000177193 max=0.000483275 seconds
+Rank 10 nodal vector_field communication time over 20 step(s): min=0.000151253 avg=0.00016904 max=0.000466112 seconds
+Rank 7 nodal scalar_field communication time over 20 step(s): min=0.00016412 avg=0.000168074 max=0.000173648 seconds
+Rank 7 nodal vector_field communication time over 20 step(s): min=0.000161645 avg=0.000175881 max=0.000403873 seconds
+Rank 11 nodal scalar_field communication time over 20 step(s): min=0.000159699 avg=0.000178754 max=0.000486099 seconds
+Rank 11 nodal vector_field communication time over 20 step(s): min=0.000154409 avg=0.000170776 max=0.000452757 seconds
+Rank 0 communication volume (sent 380704 bytes, received 411296 bytes):
+  element (gauss) fields:
+    -> rank 1: 113376 bytes
+    -> rank 3: 41120 bytes
+    -> rank 4: 9536 bytes
+    -> rank 7: 33376 bytes
+Rank 12 nodal scalar_field communication time over 20 step(s): min=0.000163828 avg=0.00018759 max=0.000495562 seconds
+Rank 12 nodal vector_field communication time over 20 step(s): min=0.000163889 avg=0.000181883 max=0.00045708 seconds
+    <- rank 1: 122464 bytes
+    <- rank 3: 43968 bytes
+    <- rank 4: 8160 bytes
+    <- rank 7: 33632 bytes
+  node fields:
+    -> rank 1: 88640 bytes
+    -> rank 3: 43488 bytes
+Rank 14 nodal scalar_field communication time over 20 step(s): min=0.000166272 avg=0.000186363 max=0.000486112 seconds
+Rank 14 nodal vector_field communication time over 20 step(s): min=0.00016477 avg=0.000181326 max=0.000458861 seconds
+Rank 13 nodal scalar_field communication time over 20 step(s): min=0.000144812 avg=0.000166218 max=0.000469312 seconds
+Rank 13 nodal vector_field communication time over 20 step(s): min=0.000145564 avg=0.000162362 max=0.000454294 seconds
+    -> rank 4: 13184 bytes
+    -> rank 7: 37984 bytes
+    <- rank 1: 105632 bytes
+    <- rank 3: 49408 bytes
+    <- rank 4: 10304 bytes
+    <- rank 7: 37728 bytes
+Rank 1 communication volume (sent 596416 bytes, received 557280 bytes):
+  element (gauss) fields:
+    -> rank 0: 122464 bytes
+    -> rank 2: 35648 bytes
+    -> rank 3: 17536 bytes
+    -> rank 4: 2272 bytes
+    -> rank 5: 6624 bytes
+    -> rank 6: 45760 bytes
+    -> rank 7: 14976 bytes
+    -> rank 8: 30336 bytes
+    -> rank 9: 15520 bytes
+    <- rank 0: 113376 bytes
+    <- rank 2: 33888 bytes
+    <- rank 3: 17024 bytes
+    <- rank 4: 2016 bytes
+    <- rank 5: 6368 bytes
+    <- rank 6: 44256 bytes
+    <- rank 7: 14752 bytes
+    <- rank 8: 30144 bytes
+    <- rank 9: 14592 bytes
+  node fields:
+    -> rank 0: 105632 bytes
+    -> rank 2: 40000 bytes
+    -> rank 3: 22176 bytes
+    -> rank 4: 4032 bytes
+    -> rank 5: 9120 bytes
+    -> rank 6: 50976 bytes
+    -> rank 7: 19936 bytes
+    -> rank 8: 33696 bytes
+    -> rank 9: 19712 bytes
+    <- rank 0: 88640 bytes
+    <- rank 2: 37056 bytes
+    <- rank 3: 21600 bytes
+    <- rank 4: 3456 bytes
+    <- rank 5: 8928 bytes
+    <- rank 6: 48256 bytes
+    <- rank 7: 19424 bytes
+    <- rank 8: 34944 bytes
+    <- rank 9: 18560 bytes
+Rank 2 communication volume (sent 498016 bytes, received 540320 bytes):
+  element (gauss) fields:
+    -> rank 1: 33888 bytes
+    -> rank 3: 94304 bytes
+    -> rank 5: 50784 bytes
+    -> rank 6: 13504 bytes
+    -> rank 9: 50656 bytes
+    -> rank 12: 7072 bytes
+    -> rank 14: 448 bytes
+    <- rank 1: 35648 bytes
+    <- rank 3: 106912 bytes
+    <- rank 5: 52224 bytes
+    <- rank 6: 13440 bytes
+    <- rank 9: 50496 bytes
+Rank 15 nodal scalar_field communication time over 20 step(s): min=0.000139021 avg=0.000156606 max=0.000398538 seconds
+Rank 15 nodal vector_field communication time over 20 step(s): min=0.000137598 avg=0.000155014 max=0.00045291 seconds
+    <- rank 12: 7488 bytes
+    <- rank 14: 352 bytes
+  node fields:
+    -> rank 1: 37056 bytes
+    -> rank 3: 72576 bytes
+    -> rank 5: 55168 bytes
+    -> rank 6: 16160 bytes
+    -> rank 9: 54784 bytes
+    -> rank 12: 10240 bytes
+    -> rank 14: 1376 bytes
+    <- rank 1: 40000 bytes
+    <- rank 3: 93280 bytes
+    <- rank 5: 57632 bytes
+    <- rank 6: 16064 bytes
+    <- rank 9: 54624 bytes
+    <- rank 12: 11168 bytes
+    <- rank 14: 992 bytes
+Rank 4 communication volume (sent 386592 bytes, received 407616 bytes):
+  element (gauss) fields:
+    -> rank 0: 8160 bytes
+    -> rank 1: 2016 bytes
+    -> rank 3: 44128 bytes
+    -> rank 5: 92320 bytes
+    -> rank 6: 544 bytes
+    -> rank 7: 46592 bytes
+    <- rank 0: 9536 bytes
+    <- rank 1: 2272 bytes
+    <- rank 3: 43104 bytes
+    <- rank 5: 98496 bytes
+    <- rank 6: 576 bytes
+    <- rank 7: 48672 bytes
+  node fields:
+    -> rank 0: 10304 bytes
+    -> rank 1: 3456 bytes
+    -> rank 3: 49216 bytes
+Rank 3 communication volume (sent 449792 bytes, received 408416 bytes):
+  element (gauss) fields:
+    -> rank 0: 43968 bytes
+    -> rank 1: 17024 bytes
+    -> rank 2: 106912 bytes
+    -> rank 4: 43104 bytes
+    -> rank 5: 11552 bytes
+    <- rank 0: 41120 bytes
+    <- rank 1: 17536 bytes
+    <- rank 2: 94304 bytes
+    <- rank 4: 44128 bytes
+    <- rank 5: 10336 bytes
+  node fields:
+    -> rank 0: 49408 bytes
+    -> rank 1: 21600 bytes
+    -> rank 2: 93280 bytes
+    -> rank 4: 46720 bytes
+    -> rank 5: 16224 bytes
+    <- rank 0: 43488 bytes
+    <- rank 1: 22176 bytes
+    <- rank 2: 72576 bytes
+    <- rank 4: 49216 bytes
+    <- rank 5: 13536 bytes
+    -> rank 5: 78112 bytes
+    -> rank 6: 1344 bytes
+    -> rank 7: 50400 bytes
+    <- rank 0: 13184 bytes
+    <- rank 1: 4032 bytes
+    <- rank 3: 46720 bytes
+    <- rank 5: 85568 bytes
+    <- rank 6: 1344 bytes
+    <- rank 7: 54112 bytes
+Rank 5 communication volume (sent 481824 bytes, received 468320 bytes):
+  element (gauss) fields:
+    -> rank 1: 6368 bytes
+    -> rank 2: 52224 bytes
+    -> rank 3: 10336 bytes
+    -> rank 4: 98496 bytes
+    -> rank 6: 39456 bytes
+    -> rank 7: 9568 bytes
+    -> rank 9: 32 bytes
+    -> rank 12: 19360 bytes
+    <- rank 1: 6624 bytes
+    <- rank 2: 50784 bytes
+    <- rank 3: 11552 bytes
+    <- rank 4: 92320 bytes
+    <- rank 6: 37696 bytes
+    <- rank 7: 9504 bytes
+    <- rank 9: 32 bytes
+    <- rank 12: 20864 bytes
+  node fields:
+    -> rank 1: 8928 bytes
+    -> rank 2: 57632 bytes
+    -> rank 3: 13536 bytes
+    -> rank 4: 85568 bytes
+    -> rank 6: 45440 bytes
+    -> rank 7: 13888 bytes
+    -> rank 9: 224 bytes
+    -> rank 12: 20768 bytes
+    <- rank 1: 9120 bytes
+    <- rank 2: 55168 bytes
+Rank 6 communication volume (sent 574624 bytes, received 579168 bytes):
+  element (gauss) fields:
+    -> rank 1: 44256 bytes
+    -> rank 2: 13440 bytes
+    -> rank 4: 576 bytes
+    -> rank 5: 37696 bytes
+    -> rank 7: 99840 bytes
+    -> rank 8: 3904 bytes
+    -> rank 9: 2272 bytes
+    -> rank 12: 26432 bytes
+    -> rank 14: 53248 bytes
+    <- rank 1: 45760 bytes
+    <- rank 2: 13504 bytes
+    <- rank 3: 16224 bytes
+    <- rank 4: 78112 bytes
+    <- rank 6: 42304 bytes
+    <- rank 7: 13696 bytes
+    <- rank 9: 224 bytes
+    <- rank 12: 24096 bytes
+Rank 8 communication volume (sent 509408 bytes, received 528352 bytes):
+  element (gauss) fields:
+    -> rank 1: 30144 bytes
+    -> rank 6: 3776 bytes
+    -> rank 9: 90336 bytes
+    -> rank 10: 53120 bytes
+    -> rank 11: 7456 bytes
+    -> rank 12: 2400 bytes
+    -> rank 14: 48256 bytes
+    -> rank 15: 13344 bytes
+    <- rank 1: 30336 bytes
+    <- rank 6: 3904 bytes
+    <- rank 9: 97728 bytes
+    <- rank 10: 53024 bytes
+    <- rank 11: 5888 bytes
+    <- rank 12: 3136 bytes
+    <- rank 14: 48704 bytes
+    <- rank 15: 13344 bytes
+  node fields:
+    -> rank 1: 34944 bytes
+    -> rank 6: 7008 bytes
+    -> rank 9: 75424 bytes
+    -> rank 10: 58720 bytes
+    -> rank 11: 11392 bytes
+    -> rank 12: 3424 bytes
+    -> rank 14: 53376 bytes
+    -> rank 15: 16288 bytes
+    <- rank 1: 33696 bytes
+    <- rank 6: 7168 bytes
+    <- rank 9: 87904 bytes
+    <- rank 10: 58880 bytes
+    <- rank 11: 8928 bytes
+    <- rank 12: 5344 bytes
+    <- rank 14: 54112 bytes
+    <- rank 15: 16256 bytes
+    <- rank 4: 544 bytes
+    <- rank 5: 39456 bytes
+    <- rank 7: 100640 bytes
+    <- rank 8: 3776 bytes
+    <- rank 9: 2048 bytes
+    <- rank 12: 26176 bytes
+    <- rank 14: 50880 bytes
+  node fields:
+    -> rank 1: 48256 bytes
+    -> rank 2: 16064 bytes
+    -> rank 4: 1344 bytes
+    -> rank 5: 42304 bytes
+    -> rank 7: 84864 bytes
+Rank 9 communication volume (sent 563936 bytes, received 549344 bytes):
+  element (gauss) fields:
+    -> rank 1: 14592 bytes
+    -> rank 2: 50496 bytes
+    -> rank 5: 32 bytes
+    -> rank 6: 2048 bytes
+    -> rank 8: 97728 bytes
+    -> rank 10: 7808 bytes
+    -> rank 11: 43232 bytes
+    -> rank 12: 45696 bytes
+    -> rank 13: 2400 bytes
+    -> rank 14: 9728 bytes
+    <- rank 1: 15520 bytes
+    <- rank 2: 50656 bytes
+    <- rank 5: 32 bytes
+    <- rank 6: 2272 bytes
+    <- rank 8: 90336 bytes
+    <- rank 10: 7808 bytes
+    <- rank 11: 44256 bytes
+    <- rank 12: 46464 bytes
+    <- rank 13: 1696 bytes
+    <- rank 14: 9440 bytes
+  node fields:
+    -> rank 1: 18560 bytes
+    -> rank 2: 54624 bytes
+    -> rank 5: 224 bytes
+    -> rank 6: 3968 bytes
+    -> rank 8: 87904 bytes
+Rank 10 communication volume (sent 513792 bytes, received 503744 bytes):
+  element (gauss) fields:
+    -> rank 8: 53024 bytes
+    -> rank 9: 7808 bytes
+    -> rank 11: 129216 bytes
+    -> rank 12: 5632 bytes
+    -> rank 13: 13184 bytes
+    -> rank 14: 7072 bytes
+    -> rank 15: 38688 bytes
+    <- rank 8: 53120 bytes
+    <- rank 9: 7808 bytes
+    <- rank 11: 124896 bytes
+    <- rank 12: 5280 bytes
+    <- rank 13: 14624 bytes
+    <- rank 14: 6432 bytes
+    <- rank 15: 38368 bytes
+  node fields:
+    -> rank 8: 58880 bytes
+    -> rank 9: 11104 bytes
+    -> rank 11: 112128 bytes
+    -> rank 12: 7936 bytes
+    -> rank 13: 15936 bytes
+    -> rank 8: 7168 bytes
+    -> rank 9: 4288 bytes
+    -> rank 12: 29568 bytes
+    -> rank 14: 59104 bytes
+    <- rank 1: 50976 bytes
+    <- rank 2: 16160 bytes
+    <- rank 4: 1344 bytes
+    <- rank 5: 45440 bytes
+    <- rank 7: 88224 bytes
+    <- rank 8: 7008 bytes
+    <- rank 9: 3968 bytes
+    <- rank 12: 29056 bytes
+    <- rank 14: 54208 bytes
+    -> rank 10: 11424 bytes
+    -> rank 11: 46144 bytes
+    -> rank 12: 50048 bytes
+    -> rank 13: 4096 bytes
+    -> rank 14: 13184 bytes
+    <- rank 1: 19712 bytes
+    <- rank 2: 54784 bytes
+    <- rank 5: 224 bytes
+    <- rank 6: 4288 bytes
+    <- rank 8: 75424 bytes
+    <- rank 10: 11104 bytes
+    <- rank 11: 48544 bytes
+    <- rank 12: 51936 bytes
+    <- rank 13: 2944 bytes
+    <- rank 14: 11904 bytes
+    -> rank 14: 9824 bytes
+    -> rank 15: 43360 bytes
+    <- rank 8: 58720 bytes
+    <- rank 9: 11424 bytes
+    <- rank 11: 105056 bytes
+    <- rank 12: 7456 bytes
+    <- rank 13: 19104 bytes
+    <- rank 14: 8768 bytes
+    <- rank 15: 42688 bytes
+Rank 7 communication volume (sent 420384 bytes, received 411424 bytes):
+  element (gauss) fields:
+    -> rank 0: 33632 bytes
+    -> rank 1: 14752 bytes
+    -> rank 4: 48672 bytes
+    -> rank 5: 9504 bytes
+    -> rank 6: 100640 bytes
+    <- rank 0: 33376 bytes
+    <- rank 1: 14976 bytes
+    <- rank 4: 46592 bytes
+    <- rank 5: 9568 bytes
+    <- rank 6: 99840 bytes
+  node fields:
+    -> rank 0: 37728 bytes
+    -> rank 1: 19424 bytes
+    -> rank 4: 54112 bytes
+    -> rank 5: 13696 bytes
+    -> rank 6: 88224 bytes
+    <- rank 0: 37984 bytes
+    <- rank 1: 19936 bytes
+    <- rank 4: 50400 bytes
+    <- rank 5: 13888 bytes
+Rank 12 communication volume (sent 531872 bytes, received 509056 bytes):
+  element (gauss) fields:
+    -> rank 2: 7488 bytes
+    -> rank 5: 20864 bytes
+    -> rank 6: 26176 bytes
+    -> rank 8: 3136 bytes
+    -> rank 9: 46464 bytes
+    -> rank 10: 5280 bytes
+    -> rank 11: 2112 bytes
+    -> rank 13: 109920 bytes
+    -> rank 14: 36320 bytes
+    -> rank 15: 2496 bytes
+Rank 11 communication volume (sent 426592 bytes, received 438624 bytes):
+  element (gauss) fields:
+    -> rank 8: 5888 bytes
+    -> rank 9: 44256 bytes
+    -> rank 10: 124896 bytes
+    -> rank 12: 2144 bytes
+    -> rank 13: 34752 bytes
+    -> rank 15: 4000 bytes
+    <- rank 8: 7456 bytes
+    <- rank 9: 43232 bytes
+    <- rank 10: 129216 bytes
+    <- rank 12: 2112 bytes
+    <- rank 13: 34976 bytes
+    <- rank 15: 4096 bytes
+  node fields:
+    -> rank 8: 8928 bytes
+    -> rank 9: 48544 bytes
+    -> rank 10: 105056 bytes
+    -> rank 12: 3904 bytes
+    -> rank 13: 38752 bytes
+    -> rank 15: 5472 bytes
+    <- rank 6: 84864 bytes
+    <- rank 2: 7072 bytes
+    <- rank 5: 19360 bytes
+    <- rank 6: 26432 bytes
+    <- rank 8: 2400 bytes
+    <- rank 9: 45696 bytes
+    <- rank 10: 5632 bytes
+    <- rank 11: 2144 bytes
+    <- rank 13: 103456 bytes
+    <- rank 14: 36160 bytes
+    <- rank 15: 2656 bytes
+  node fields:
+    -> rank 2: 11168 bytes
+    -> rank 5: 24096 bytes
+    <- rank 8: 11392 bytes
+    <- rank 9: 46144 bytes
+    <- rank 10: 112128 bytes
+    <- rank 12: 3680 bytes
+    <- rank 13: 38656 bytes
+    <- rank 15: 5536 bytes
+Rank 14 communication volume (sent 529920 bytes, received 546560 bytes):
+  element (gauss) fields:
+    -> rank 2: 352 bytes
+    -> rank 6: 50880 bytes
+    -> rank 8: 48704 bytes
+    -> rank 9: 9440 bytes
+    -> rank 10: 6432 bytes
+    -> rank 12: 36160 bytes
+    -> rank 13: 5824 bytes
+    -> rank 15: 106208 bytes
+    <- rank 2: 448 bytes
+    <- rank 6: 53248 bytes
+    <- rank 8: 48256 bytes
+    -> rank 6: 29056 bytes
+    -> rank 8: 5344 bytes
+    -> rank 9: 51936 bytes
+    -> rank 10: 7456 bytes
+    -> rank 11: 3680 bytes
+    -> rank 13: 93728 bytes
+    -> rank 14: 40800 bytes
+    -> rank 15: 4352 bytes
+    <- rank 2: 10240 bytes
+    <- rank 5: 20768 bytes
+    <- rank 6: 29568 bytes
+    <- rank 8: 3424 bytes
+    <- rank 9: 50048 bytes
+    <- rank 10: 7936 bytes
+    <- rank 11: 3904 bytes
+    <- rank 13: 86656 bytes
+    <- rank 14: 41088 bytes
+    <- rank 15: 4416 bytes
+Rank 13 communication volume (sent 388320 bytes, received 396832 bytes):
+  element (gauss) fields:
+    -> rank 9: 1696 bytes
+    -> rank 10: 14624 bytes
+    -> rank 11: 34976 bytes
+    -> rank 12: 103456 bytes
+    -> rank 14: 6560 bytes
+    -> rank 15: 32800 bytes
+    <- rank 9: 2400 bytes
+    <- rank 10: 13184 bytes
+    <- rank 11: 34752 bytes
+    <- rank 12: 109920 bytes
+    <- rank 14: 5824 bytes
+    <- rank 15: 32704 bytes
+  node fields:
+    -> rank 9: 2944 bytes
+    -> rank 10: 19104 bytes
+    -> rank 11: 38656 bytes
+    -> rank 12: 86656 bytes
+    -> rank 14: 9952 bytes
+    -> rank 15: 36896 bytes
+    <- rank 9: 4096 bytes
+    <- rank 10: 15936 bytes
+    <- rank 11: 38752 bytes
+    <- rank 12: 93728 bytes
+    <- rank 14: 8800 bytes
+    <- rank 15: 36736 bytes
+Total data volume exchanged across all ranks: 7646304 bytes (7.29208 MB)
+Writing VTU file for rank 0
+    <- rank 9: 9728 bytes
+    <- rank 10: 7072 bytes
+    <- rank 12: 36320 bytes
+    <- rank 13: 6560 bytes
+    <- rank 15: 107136 bytes
+  node fields:
+    -> rank 2: 992 bytes
+    -> rank 6: 54208 bytes
+    -> rank 8: 54112 bytes
+    -> rank 9: 11904 bytes
+    -> rank 10: 8768 bytes
+    -> rank 12: 41088 bytes
+    -> rank 13: 8800 bytes
+    -> rank 15: 86048 bytes
+    <- rank 2: 1376 bytes
+    <- rank 6: 59104 bytes
+    <- rank 8: 53376 bytes
+    <- rank 9: 13184 bytes
+    <- rank 10: 9824 bytes
+    <- rank 12: 40800 bytes
+    <- rank 13: 9952 bytes
+    <- rank 15: 90176 bytes
+Rank 15 communication volume (sent 394112 bytes, received 389952 bytes):
+  element (gauss) fields:
+    -> rank 8: 13344 bytes
+    -> rank 10: 38368 bytes
+    -> rank 11: 4096 bytes
+    -> rank 12: 2656 bytes
+    -> rank 13: 32704 bytes
+    -> rank 14: 107136 bytes
+    <- rank 8: 13344 bytes
+    <- rank 10: 38688 bytes
+    <- rank 11: 4000 bytes
+    <- rank 12: 2496 bytes
+    <- rank 13: 32800 bytes
+    <- rank 14: 106208 bytes
+  node fields:
+    -> rank 8: 16256 bytes
+    -> rank 10: 42688 bytes
+    -> rank 11: 5536 bytes
+    -> rank 12: 4416 bytes
+    -> rank 13: 36736 bytes
+    -> rank 14: 90176 bytes
+    <- rank 8: 16288 bytes
+    <- rank 10: 43360 bytes
+    <- rank 11: 5472 bytes
+    <- rank 12: 4352 bytes
+    <- rank 13: 36896 bytes
+    <- rank 14: 86048 bytes
+Total execution time: 6.20 seconds
+Wrote scaling-study CSV log: test2_results_mesh128x64x64_np16_comms20_smooth3.csv

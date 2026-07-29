@@ -1,0 +1,3481 @@
+World size: 64
+Rank 0 Building initial mesh
+Mesh resolution: 200 x 200 x 200
+Communication steps: 20, smoothing passes/step: 3
+Initializing mesh
+Creating a 3D box mesh 
+Initial mesh build time: 26.6454 seconds
+Initial mesh has 8000000 elements and 8120601 nodes
+ Num_nodes_in_elem: 8
+ Num_dims: 3
+ Num_elems: 8000000
+ Num_nodes: 8120601
+ Num_nodes_in_elem: 8
+ Num_nodes_in_elem: 8
+Partitioning mesh using PT-Scotch
+After partitioning
+Mesh partitioning time: 45.51 seconds
+-----------------------------
+Rank 0 mesh info:
+Final mesh has 136996 elements and 146291 nodes
+Final mesh has 124879 owned elements and 133740 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 1 mesh info:
+Final mesh has 142659 elements and 153458 nodes
+Final mesh has 124950 owned elements and 135122 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 2 mesh info:
+Final mesh has 147043 elements and 158802 nodes
+Final mesh has 124898 owned elements and 135745 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 3 mesh info:
+Final mesh has 142898 elements and 153599 nodes
+Final mesh has 124899 owned elements and 134913 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 4 mesh info:
+Final mesh has 137809 elements and 147366 nodes
+Final mesh has 124880 owned elements and 133959 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 5 mesh info:
+Final mesh has 144450 elements and 155926 nodes
+Final mesh has 124938 owned elements and 135669 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 6 mesh info:
+Final mesh has 135808 elements and 145507 nodes
+Final mesh has 124909 owned elements and 134206 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 7 mesh info:
+Final mesh has 140467 elements and 150673 nodes
+Final mesh has 124910 owned elements and 134559 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 8 mesh info:
+Final mesh has 145089 elements and 155723 nodes
+Final mesh has 124907 owned elements and 134813 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 9 mesh info:
+Final mesh has 140024 elements and 149847 nodes
+Final mesh has 124908 owned elements and 134196 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 10 mesh info:
+Final mesh has 142084 elements and 152649 nodes
+Final mesh has 124914 owned elements and 134827 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 11 mesh info:
+Final mesh has 138515 elements and 149087 nodes
+Final mesh has 124902 owned elements and 134963 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 12 mesh info:
+Final mesh has 137116 elements and 146126 nodes
+Final mesh has 124900 owned elements and 133426 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 13 mesh info:
+Final mesh has 142450 elements and 152592 nodes
+Final mesh has 124881 owned elements and 134347 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 14 mesh info:
+Final mesh has 139157 elements and 148787 nodes
+Final mesh has 124967 owned elements and 134136 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 15 mesh info:
+Final mesh has 133601 elements and 142254 nodes
+Final mesh has 124884 owned elements and 133199 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 16 mesh info:
+Final mesh has 141190 elements and 150899 nodes
+Final mesh has 125045 owned elements and 134134 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 17 mesh info:
+Final mesh has 136147 elements and 145027 nodes
+Final mesh has 125046 owned elements and 133477 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 18 mesh info:
+Final mesh has 139765 elements and 149253 nodes
+Final mesh has 125102 owned elements and 133971 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 19 mesh info:
+Final mesh has 143413 elements and 153097 nodes
+Final mesh has 125103 owned elements and 134079 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 20 mesh info:
+Final mesh has 140061 elements and 150509 nodes
+Final mesh has 125123 owned elements and 134985 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 21 mesh info:
+Final mesh has 135530 elements and 145205 nodes
+Final mesh has 125123 owned elements and 134376 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 22 mesh info:
+Final mesh has 137553 elements and 147121 nodes
+Final mesh has 125124 owned elements and 134248 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 23 mesh info:
+Final mesh has 141987 elements and 152129 nodes
+Final mesh has 124926 owned elements and 134476 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 24 mesh info:
+Final mesh has 141976 elements and 151930 nodes
+Final mesh has 124929 owned elements and 134211 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 25 mesh info:
+Final mesh has 136671 elements and 145819 nodes
+Final mesh has 124929 owned elements and 133619 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 26 mesh info:
+Final mesh has 139418 elements and 148482 nodes
+Final mesh has 124981 owned elements and 133516 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 27 mesh info:
+Final mesh has 143271 elements and 153023 nodes
+Final mesh has 124877 owned elements and 133889 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 28 mesh info:
+Final mesh has 138774 elements and 148514 nodes
+Final mesh has 124921 owned elements and 134141 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 29 mesh info:
+Final mesh has 133814 elements and 142466 nodes
+Final mesh has 124937 owned elements and 133243 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 30 mesh info:
+Final mesh has 141715 elements and 151709 nodes
+Final mesh has 124929 owned elements and 134260 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 31 mesh info:
+Final mesh has 138313 elements and 147683 nodes
+Final mesh has 124929 owned elements and 133814 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 32 mesh info:
+Final mesh has 146909 elements and 158384 nodes
+Final mesh has 125124 owned elements and 137713 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 33 mesh info:
+Final mesh has 144944 elements and 156558 nodes
+Final mesh has 125125 owned elements and 138039 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 34 mesh info:
+Final mesh has 138320 elements and 147927 nodes
+Final mesh has 125122 owned elements and 134324 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 35 mesh info:
+Final mesh has 136067 elements and 145624 nodes
+Final mesh has 125085 owned elements and 134260 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 36 mesh info:
+Final mesh has 140947 elements and 151084 nodes
+Final mesh has 125114 owned elements and 134619 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 37 mesh info:
+Final mesh has 144556 elements and 154875 nodes
+Final mesh has 125114 owned elements and 134637 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 38 mesh info:
+Final mesh has 142504 elements and 152695 nodes
+Final mesh has 125114 owned elements and 134641 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 39 mesh info:
+Final mesh has 138135 elements and 147711 nodes
+Final mesh has 125115 owned elements and 134181 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 40 mesh info:
+Final mesh has 136568 elements and 145406 nodes
+Final mesh has 125097 owned elements and 133524 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 41 mesh info:
+Final mesh has 138463 elements and 146986 nodes
+Final mesh has 125090 owned elements and 133074 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 42 mesh info:
+Final mesh has 134155 elements and 142980 nodes
+Final mesh has 124878 owned elements and 133368 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 43 mesh info:
+Final mesh has 137564 elements and 146920 nodes
+Final mesh has 124961 owned elements and 133828 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 44 mesh info:
+Final mesh has 135973 elements and 144403 nodes
+Final mesh has 124885 owned elements and 132897 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 45 mesh info:
+Final mesh has 139999 elements and 149270 nodes
+Final mesh has 125042 owned elements and 133736 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 46 mesh info:
+Final mesh has 142320 elements and 151438 nodes
+Final mesh has 125047 owned elements and 133519 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 47 mesh info:
+Final mesh has 139823 elements and 148930 nodes
+Final mesh has 124881 owned elements and 133422 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 48 mesh info:
+Final mesh has 139999 elements and 149274 nodes
+Final mesh has 124879 owned elements and 133558 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 49 mesh info:
+Final mesh has 143419 elements and 153132 nodes
+Final mesh has 125056 owned elements and 134061 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 50 mesh info:
+Final mesh has 141718 elements and 151806 nodes
+Final mesh has 125062 owned elements and 134492 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 51 mesh info:
+Final mesh has 138303 elements and 147744 nodes
+Final mesh has 125056 owned elements and 133998 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 52 mesh info:
+Final mesh has 134288 elements and 143149 nodes
+Final mesh has 125092 owned elements and 133596 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 53 mesh info:
+Final mesh has 137225 elements and 146284 nodes
+Final mesh has 124884 owned elements and 133470 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 54 mesh info:
+Final mesh has 138584 elements and 147972 nodes
+Final mesh has 124996 owned elements and 133863 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 55 mesh info:
+Final mesh has 141845 elements and 151828 nodes
+Final mesh has 125081 owned elements and 134406 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 56 mesh info:
+Final mesh has 136386 elements and 145237 nodes
+Final mesh has 125068 owned elements and 133474 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 57 mesh info:
+Final mesh has 140582 elements and 149859 nodes
+Final mesh has 125069 owned elements and 133748 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 58 mesh info:
+Final mesh has 133311 elements and 141639 nodes
+Final mesh has 125055 owned elements and 133051 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 59 mesh info:
+Final mesh has 136527 elements and 145175 nodes
+Final mesh has 125083 owned elements and 133275 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 60 mesh info:
+Final mesh has 140335 elements and 150217 nodes
+Final mesh has 125016 owned elements and 134284 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 61 mesh info:
+Final mesh has 137652 elements and 147544 nodes
+Final mesh has 125121 owned elements and 134476 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 62 mesh info:
+Final mesh has 140390 elements and 149935 nodes
+Final mesh has 125069 owned elements and 134005 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+-----------------------------
+Rank 63 mesh info:
+Final mesh has 144601 elements and 154935 nodes
+Final mesh has 125069 owned elements and 134646 owned nodes
+Final mesh num_dims = 3
+-----------------------------
+Total number of nodes: 8120601
+Error in node count = 0
+Generating phony data for gauss points to test MPI communications for the gauss point field communication
+Rank 0 gauss point fields communication time over 20 step(s): min=0.000281841 avg=0.000345145 max=0.000395665 seconds
+Rank 0 gauss point fields_vec communication time over 20 step(s): min=0.000285367 avg=0.000340481 max=0.000529367 seconds
+Rank 1 gauss point fields communication time over 20 step(s): min=0.00044591 avg=0.000538385 max=0.00144424 seconds
+Rank 1 gauss point fields_vec communication time over 20 step(s): min=0.000457041 avg=0.000515236 max=0.000816999 seconds
+Rank 2 gauss point fields communication time over 20 step(s): min=0.00047783 avg=0.000606092 max=0.00147178 seconds
+Rank 2 gauss point fields_vec communication time over 20 step(s): min=0.000489662 avg=0.000549172 max=0.000850763 seconds
+Rank 3 gauss point fields communication time over 20 step(s): min=0.000421073 avg=0.00055979 max=0.00125682 seconds
+Rank 3 gauss point fields_vec communication time over 20 step(s): min=0.000390345 avg=0.000451186 max=0.000687915 seconds
+Rank 4 gauss point fields communication time over 20 step(s): min=0.000414901 avg=0.000515108 max=0.00118149 seconds
+Rank 4 gauss point fields_vec communication time over 20 step(s): min=0.000313601 avg=0.000373762 max=0.000934932 seconds
+Rank 5 gauss point fields communication time over 20 step(s): min=0.000477069 avg=0.000563937 max=0.00126513 seconds
+Rank 5 gauss point fields_vec communication time over 20 step(s): min=0.000414721 avg=0.000467157 max=0.000979575 seconds
+Rank 6 gauss point fields communication time over 20 step(s): min=0.000405373 avg=0.000448465 max=0.000641889 seconds
+Rank 6 gauss point fields_vec communication time over 20 step(s): min=0.000262855 avg=0.000329137 max=0.000921516 seconds
+Rank 8 gauss point fields communication time over 20 step(s): min=0.000478461 avg=0.000568673 max=0.00123089 seconds
+Rank 8 gauss point fields_vec communication time over 20 step(s): min=0.000471789 avg=0.000537038 max=0.000972943 seconds
+Rank 7 gauss point fields communication time over 20 step(s): min=0.000446682 avg=0.000480215 max=0.000671094 seconds
+Rank 7 gauss point fields_vec communication time over 20 step(s): min=0.000356702 avg=0.000421068 max=0.000949679 seconds
+Rank 9 gauss point fields communication time over 20 step(s): min=0.000453454 avg=0.000503355 max=0.00102826 seconds
+Rank 9 gauss point fields_vec communication time over 20 step(s): min=0.000391778 avg=0.000451996 max=0.000950981 seconds
+Rank 10 gauss point fields communication time over 20 step(s): min=0.000449166 avg=0.000526214 max=0.00144019 seconds
+Rank 10 gauss point fields_vec communication time over 20 step(s): min=0.00045652 avg=0.000516004 max=0.00089675 seconds
+Rank 11 gauss point fields communication time over 20 step(s): min=0.000421985 avg=0.000501628 max=0.00141296 seconds
+Rank 11 gauss point fields_vec communication time over 20 step(s): min=0.000404102 avg=0.000469127 max=0.0009024 seconds
+Rank 12 gauss point fields communication time over 20 step(s): min=0.000386708 avg=0.000441291 max=0.000478171 seconds
+Rank 12 gauss point fields_vec communication time over 20 step(s): min=0.000309663 avg=0.000365613 max=0.000916547 seconds
+Rank 13 gauss point fields communication time over 20 step(s): min=0.00044061 avg=0.000513403 max=0.00104609 seconds
+Rank 13 gauss point fields_vec communication time over 20 step(s): min=0.000397329 avg=0.000453526 max=0.000899695 seconds
+Rank 14 gauss point fields communication time over 20 step(s): min=0.000395154 avg=0.000490304 max=0.00140815 seconds
+Rank 14 gauss point fields_vec communication time over 20 step(s): min=0.000415623 avg=0.000471084 max=0.000880589 seconds
+Rank 15 gauss point fields communication time over 20 step(s): min=0.000329291 avg=0.00040075 max=0.0010366 seconds
+Rank 15 gauss point fields_vec communication time over 20 step(s): min=0.000393943 avg=0.000446229 max=0.000849691 seconds
+Rank 16 gauss point fields communication time over 20 step(s): min=0.000433788 avg=0.000530003 max=0.0012119 seconds
+Rank 16 gauss point fields_vec communication time over 20 step(s): min=0.000356543 avg=0.000403582 max=0.000952854 seconds
+Rank 17 gauss point fields communication time over 20 step(s): min=0.00037547 avg=0.000411711 max=0.000463611 seconds
+Rank 17 gauss point fields_vec communication time over 20 step(s): min=0.000293686 avg=0.000331124 max=0.000694788 seconds
+Rank 18 gauss point fields communication time over 20 step(s): min=0.000399916 avg=0.000467802 max=0.000944054 seconds
+Rank 18 gauss point fields_vec communication time over 20 step(s): min=0.000348582 avg=0.000394195 max=0.000806954 seconds
+Rank 19 gauss point fields communication time over 20 step(s): min=0.000429249 avg=0.000546213 max=0.00122195 seconds
+Rank 19 gauss point fields_vec communication time over 20 step(s): min=0.000387274 avg=0.000435032 max=0.000840827 seconds
+Rank 20 gauss point fields communication time over 20 step(s): min=0.000349838 avg=0.000469104 max=0.00121483 seconds
+Rank 20 gauss point fields_vec communication time over 20 step(s): min=0.000333705 avg=0.00037098 max=0.000748566 seconds
+Rank 21 gauss point fields communication time over 20 step(s): min=0.000247171 avg=0.000335287 max=0.000667061 seconds
+Rank 21 gauss point fields_vec communication time over 20 step(s): min=0.000243888 avg=0.000260818 max=0.000286771 seconds
+Rank 22 gauss point fields communication time over 20 step(s): min=0.000323019 avg=0.000392924 max=0.000989731 seconds
+Rank 22 gauss point fields_vec communication time over 20 step(s): min=0.000280136 avg=0.000337452 max=0.000682495 seconds
+Rank 23 gauss point fields communication time over 20 step(s): min=0.000428341 avg=0.000519691 max=0.00122824 seconds
+Rank 23 gauss point fields_vec communication time over 20 step(s): min=0.000372188 avg=0.000414477 max=0.000716858 seconds
+Rank 24 gauss point fields communication time over 20 step(s): min=0.00040255 avg=0.000568654 max=0.00125926 seconds
+Rank 24 gauss point fields_vec communication time over 20 step(s): min=0.000395326 avg=0.000450826 max=0.000793358 seconds
+Rank 25 gauss point fields communication time over 20 step(s): min=0.00030731 avg=0.000457913 max=0.00121163 seconds
+Rank 25 gauss point fields_vec communication time over 20 step(s): min=0.000269368 avg=0.000325144 max=0.000759454 seconds
+Rank 26 gauss point fields communication time over 20 step(s): min=0.000355151 avg=0.000520756 max=0.00122525 seconds
+Rank 26 gauss point fields_vec communication time over 20 step(s): min=0.00033911 avg=0.000389136 max=0.000777077 seconds
+Rank 27 gauss point fields communication time over 20 step(s): min=0.000397431 avg=0.000564055 max=0.00125162 seconds
+Rank 27 gauss point fields_vec communication time over 20 step(s): min=0.00039751 avg=0.000459644 max=0.000830879 seconds
+Rank 28 gauss point fields communication time over 20 step(s): min=0.000375159 avg=0.000500892 max=0.00123079 seconds
+Rank 28 gauss point fields_vec communication time over 20 step(s): min=0.000378204 avg=0.00040317 max=0.000622044 seconds
+Rank 29 gauss point fields communication time over 20 step(s): min=0.00027017 avg=0.000314801 max=0.000362655 seconds
+Rank 29 gauss point fields_vec communication time over 20 step(s): min=0.000193516 avg=0.000229334 max=0.000278085 seconds
+Rank 30 gauss point fields communication time over 20 step(s): min=0.000418611 avg=0.000545758 max=0.00122305 seconds
+Rank 30 gauss point fields_vec communication time over 20 step(s): min=0.000396258 avg=0.000448878 max=0.000956537 seconds
+Rank 31 gauss point fields communication time over 20 step(s): min=0.000299996 avg=0.000405653 max=0.00120246 seconds
+Rank 31 gauss point fields_vec communication time over 20 step(s): min=0.000289667 avg=0.000319285 max=0.000365771 seconds
+Rank 32 gauss point fields communication time over 20 step(s): min=0.000439303 avg=0.000549599 max=0.00113326 seconds
+Rank 32 gauss point fields_vec communication time over 20 step(s): min=0.000423003 avg=0.000481578 max=0.000964277 seconds
+Rank 33 gauss point fields communication time over 20 step(s): min=0.000429284 avg=0.000539076 max=0.0012572 seconds
+Rank 33 gauss point fields_vec communication time over 20 step(s): min=0.000402885 avg=0.000442622 max=0.00081096 seconds
+Rank 34 gauss point fields communication time over 20 step(s): min=0.000321753 avg=0.000428948 max=0.000827561 seconds
+Rank 34 gauss point fields_vec communication time over 20 step(s): min=0.000293319 avg=0.000337415 max=0.000728616 seconds
+Rank 35 gauss point fields communication time over 20 step(s): min=0.000269114 avg=0.000375861 max=0.000945572 seconds
+Rank 35 gauss point fields_vec communication time over 20 step(s): min=0.000269856 avg=0.000311662 max=0.000726882 seconds
+Rank 36 gauss point fields communication time over 20 step(s): min=0.000360064 avg=0.00044016 max=0.000985046 seconds
+Rank 36 gauss point fields_vec communication time over 20 step(s): min=0.000339967 avg=0.000379029 max=0.000771245 seconds
+Rank 37 gauss point fields communication time over 20 step(s): min=0.000457076 avg=0.000583947 max=0.00122223 seconds
+Rank 37 gauss point fields_vec communication time over 20 step(s): min=0.000416691 avg=0.000466802 max=0.000849612 seconds
+Rank 38 gauss point fields communication time over 20 step(s): min=0.000431999 avg=0.000569193 max=0.00125954 seconds
+Rank 38 gauss point fields_vec communication time over 20 step(s): min=0.000392485 avg=0.000437652 max=0.000813494 seconds
+Rank 39 gauss point fields communication time over 20 step(s): min=0.000345928 avg=0.000408276 max=0.000996648 seconds
+Rank 39 gauss point fields_vec communication time over 20 step(s): min=0.000314589 avg=0.000362556 max=0.000730839 seconds
+Rank 40 gauss point fields communication time over 20 step(s): min=0.000345075 avg=0.000464879 max=0.000895382 seconds
+Rank 40 gauss point fields_vec communication time over 20 step(s): min=0.000350695 avg=0.000391636 max=0.000748627 seconds
+Rank 41 gauss point fields communication time over 20 step(s): min=0.000343772 avg=0.000478067 max=0.00105008 seconds
+Rank 41 gauss point fields_vec communication time over 20 step(s): min=0.000361926 avg=0.000410097 max=0.000914206 seconds
+Rank 42 gauss point fields communication time over 20 step(s): min=0.000254345 avg=0.000331306 max=0.000820271 seconds
+Rank 42 gauss point fields_vec communication time over 20 step(s): min=0.000242883 avg=0.000298594 max=0.000681433 seconds
+Rank 43 gauss point fields communication time over 20 step(s): min=0.000349382 avg=0.000433562 max=0.000971994 seconds
+Rank 43 gauss point fields_vec communication time over 20 step(s): min=0.000313295 avg=0.000381466 max=0.000668578 seconds
+Rank 44 gauss point fields communication time over 20 step(s): min=0.00032136 avg=0.000457536 max=0.00121554 seconds
+Rank 44 gauss point fields_vec communication time over 20 step(s): min=0.000313546 avg=0.000360142 max=0.000716548 seconds
+Rank 45 gauss point fields communication time over 20 step(s): min=0.000381492 avg=0.000510978 max=0.00124327 seconds
+Rank 45 gauss point fields_vec communication time over 20 step(s): min=0.000371113 avg=0.000436032 max=0.000728129 seconds
+Rank 46 gauss point fields communication time over 20 step(s): min=0.000435844 avg=0.000583277 max=0.00125398 seconds
+Rank 46 gauss point fields_vec communication time over 20 step(s): min=0.000405237 avg=0.000466214 max=0.000939775 seconds
+Rank 47 gauss point fields communication time over 20 step(s): min=0.000403604 avg=0.000532304 max=0.0012438 seconds
+Rank 47 gauss point fields_vec communication time over 20 step(s): min=0.000374208 avg=0.000415689 max=0.000796748 seconds
+Rank 48 gauss point fields communication time over 20 step(s): min=0.000384813 avg=0.000511878 max=0.00108961 seconds
+Rank 48 gauss point fields_vec communication time over 20 step(s): min=0.000342563 avg=0.000422302 max=0.000925838 seconds
+Rank 49 gauss point fields communication time over 20 step(s): min=0.000431711 avg=0.000581468 max=0.0012142 seconds
+Rank 49 gauss point fields_vec communication time over 20 step(s): min=0.000401794 avg=0.000479509 max=0.000925257 seconds
+Rank 50 gauss point fields communication time over 20 step(s): min=0.000415511 avg=0.000479698 max=0.000775827 seconds
+Rank 50 gauss point fields_vec communication time over 20 step(s): min=0.00038341 avg=0.000449725 max=0.00087861 seconds
+Rank 51 gauss point fields communication time over 20 step(s): min=0.000329819 avg=0.000415565 max=0.000819779 seconds
+Rank 51 gauss point fields_vec communication time over 20 step(s): min=0.000328698 avg=0.000384935 max=0.000888068 seconds
+Rank 52 gauss point fields communication time over 20 step(s): min=0.000311375 avg=0.000357023 max=0.000831842 seconds
+Rank 52 gauss point fields_vec communication time over 20 step(s): min=0.000302298 avg=0.000350587 max=0.000832503 seconds
+Rank 53 gauss point fields communication time over 20 step(s): min=0.000332976 avg=0.00038814 max=0.000811023 seconds
+Rank 53 gauss point fields_vec communication time over 20 step(s): min=0.000297819 avg=0.000347077 max=0.000640843 seconds
+Rank 54 gauss point fields communication time over 20 step(s): min=0.000339587 avg=0.000450498 max=0.00107102 seconds
+Rank 54 gauss point fields_vec communication time over 20 step(s): min=0.000309081 avg=0.00038886 max=0.000912082 seconds
+Rank 55 gauss point fields communication time over 20 step(s): min=0.000389943 avg=0.000503279 max=0.00109507 seconds
+Rank 55 gauss point fields_vec communication time over 20 step(s): min=0.000390423 avg=0.000462235 max=0.000886224 seconds
+Rank 56 gauss point fields communication time over 20 step(s): min=0.000291406 avg=0.000340807 max=0.000492284 seconds
+Rank 56 gauss point fields_vec communication time over 20 step(s): min=0.000271109 avg=0.000310139 max=0.000339748 seconds
+Rank 57 gauss point fields communication time over 20 step(s): min=0.000417283 avg=0.000492589 max=0.000958919 seconds
+Rank 57 gauss point fields_vec communication time over 20 step(s): min=0.000380223 avg=0.000421128 max=0.000927239 seconds
+Rank 58 gauss point fields communication time over 20 step(s): min=0.000252534 avg=0.000298389 max=0.000524263 seconds
+Rank 58 gauss point fields_vec communication time over 20 step(s): min=0.0002403 avg=0.000265392 max=0.000285475 seconds
+Rank 59 gauss point fields communication time over 20 step(s): min=0.000288601 avg=0.000400722 max=0.000745789 seconds
+Rank 59 gauss point fields_vec communication time over 20 step(s): min=0.00031957 avg=0.000370192 max=0.00090108 seconds
+Rank 60 gauss point fields communication time over 20 step(s): min=0.000408156 avg=0.000526956 max=0.00143276 seconds
+Rank 60 gauss point fields_vec communication time over 20 step(s): min=0.000441658 avg=0.000495293 max=0.000804359 seconds
+Rank 61 gauss point fields communication time over 20 step(s): min=0.000350197 avg=0.000437749 max=0.000780774 seconds
+Rank 61 gauss point fields_vec communication time over 20 step(s): min=0.000300063 avg=0.000318686 max=0.000332874 seconds
+Generating phony data for nodes to test MPI communications for the nodal fields
+Rank 62 gauss point fields communication time over 20 step(s): min=0.000384271 avg=0.000476139 max=0.000958979 seconds
+Rank 62 gauss point fields_vec communication time over 20 step(s): min=0.000378139 avg=0.000415768 max=0.000808637 seconds
+Rank 63 gauss point fields communication time over 20 step(s): min=0.000434906 avg=0.000558857 max=0.00146048 seconds
+Rank 63 gauss point fields_vec communication time over 20 step(s): min=0.000468509 avg=0.000529209 max=0.00084792 seconds
+Rank 0 nodal scalar_field communication time over 20 step(s): min=0.000427245 avg=0.000493903 max=0.000671014 seconds
+Rank 0 nodal vector_field communication time over 20 step(s): min=0.000446802 avg=0.000494485 max=0.000649674 seconds
+Rank 1 nodal scalar_field communication time over 20 step(s): min=0.0004562 avg=0.000552625 max=0.000726188 seconds
+Rank 1 nodal vector_field communication time over 20 step(s): min=0.000510532 avg=0.000551809 max=0.00070633 seconds
+Rank 2 nodal scalar_field communication time over 20 step(s): min=0.000612193 avg=0.000665839 max=0.000832168 seconds
+Rank 2 nodal vector_field communication time over 20 step(s): min=0.000611552 avg=0.000674405 max=0.00107995 seconds
+Rank 3 nodal scalar_field communication time over 20 step(s): min=0.000534246 avg=0.000595609 max=0.000801881 seconds
+Rank 3 nodal vector_field communication time over 20 step(s): min=0.000554846 avg=0.000617852 max=0.001044 seconds
+Rank 4 nodal scalar_field communication time over 20 step(s): min=0.00046213 avg=0.000535319 max=0.000662779 seconds
+Rank 4 nodal vector_field communication time over 20 step(s): min=0.00048836 avg=0.000575459 max=0.00108634 seconds
+Rank 5 nodal scalar_field communication time over 20 step(s): min=0.00057863 avg=0.000640345 max=0.00081207 seconds
+Rank 5 nodal vector_field communication time over 20 step(s): min=0.000593639 avg=0.000660176 max=0.0011342 seconds
+Rank 6 nodal scalar_field communication time over 20 step(s): min=0.00043517 avg=0.00051829 max=0.000670493 seconds
+Rank 6 nodal vector_field communication time over 20 step(s): min=0.00046182 avg=0.000518663 max=0.00065314 seconds
+Rank 7 nodal scalar_field communication time over 20 step(s): min=0.000524448 avg=0.000603067 max=0.000728522 seconds
+Rank 7 nodal vector_field communication time over 20 step(s): min=0.000562329 avg=0.000607055 max=0.000741918 seconds
+Rank 8 nodal scalar_field communication time over 20 step(s): min=0.000605942 avg=0.000664987 max=0.000893494 seconds
+Rank 8 nodal vector_field communication time over 20 step(s): min=0.000609538 avg=0.000672765 max=0.00105705 seconds
+Rank 9 nodal scalar_field communication time over 20 step(s): min=0.000552381 avg=0.000616415 max=0.000863978 seconds
+Rank 9 nodal vector_field communication time over 20 step(s): min=0.000568922 avg=0.000621671 max=0.000895457 seconds
+Rank 10 nodal scalar_field communication time over 20 step(s): min=0.000493129 avg=0.000589533 max=0.000638864 seconds
+Rank 10 nodal vector_field communication time over 20 step(s): min=0.000515351 avg=0.000593185 max=0.00070056 seconds
+Rank 11 nodal scalar_field communication time over 20 step(s): min=0.000399102 avg=0.000524761 max=0.000717762 seconds
+Rank 11 nodal vector_field communication time over 20 step(s): min=0.00049358 avg=0.000549508 max=0.000719115 seconds
+Rank 12 nodal scalar_field communication time over 20 step(s): min=0.000390476 avg=0.000460299 max=0.000835635 seconds
+Rank 12 nodal vector_field communication time over 20 step(s): min=0.000423518 avg=0.000486027 max=0.000871352 seconds
+Rank 13 nodal scalar_field communication time over 20 step(s): min=0.000515953 avg=0.000616675 max=0.000876983 seconds
+Rank 13 nodal vector_field communication time over 20 step(s): min=0.000566428 avg=0.000639249 max=0.000931785 seconds
+Rank 14 nodal scalar_field communication time over 20 step(s): min=0.000441552 avg=0.000497828 max=0.000608757 seconds
+Rank 14 nodal vector_field communication time over 20 step(s): min=0.000497778 avg=0.000526018 max=0.000592516 seconds
+Rank 15 nodal scalar_field communication time over 20 step(s): min=0.000366661 avg=0.000421422 max=0.00054685 seconds
+Rank 15 nodal vector_field communication time over 20 step(s): min=0.000416816 avg=0.000452573 max=0.000532543 seconds
+Rank 16 nodal scalar_field communication time over 20 step(s): min=0.000476392 avg=0.000543039 max=0.000869532 seconds
+Rank 16 nodal vector_field communication time over 20 step(s): min=0.000464239 avg=0.00055758 max=0.00103457 seconds
+Rank 17 nodal scalar_field communication time over 20 step(s): min=0.000374353 avg=0.000450676 max=0.000802694 seconds
+Rank 17 nodal vector_field communication time over 20 step(s): min=0.000383573 avg=0.000456892 max=0.00083964 seconds
+Rank 18 nodal scalar_field communication time over 20 step(s): min=0.000572006 avg=0.000641635 max=0.00120072 seconds
+Rank 18 nodal vector_field communication time over 20 step(s): min=0.000567606 avg=0.000631784 max=0.000824065 seconds
+Rank 19 nodal scalar_field communication time over 20 step(s): min=0.000602667 avg=0.000668105 max=0.00122559 seconds
+Rank 19 nodal vector_field communication time over 20 step(s): min=0.000589467 avg=0.000668315 max=0.00104616 seconds
+Rank 20 nodal scalar_field communication time over 20 step(s): min=0.000408366 avg=0.000513796 max=0.000847951 seconds
+Rank 20 nodal vector_field communication time over 20 step(s): min=0.000401871 avg=0.000512549 max=0.000887064 seconds
+Rank 21 nodal scalar_field communication time over 20 step(s): min=0.000245495 avg=0.000368423 max=0.000771615 seconds
+Rank 21 nodal vector_field communication time over 20 step(s): min=0.000250244 avg=0.000375701 max=0.000800529 seconds
+Rank 22 nodal scalar_field communication time over 20 step(s): min=0.000526469 avg=0.000701856 max=0.00341381 seconds
+Rank 22 nodal vector_field communication time over 20 step(s): min=0.00051711 avg=0.000591558 max=0.000890764 seconds
+Rank 23 nodal scalar_field communication time over 20 step(s): min=0.000559504 avg=0.000736037 max=0.00342491 seconds
+Rank 23 nodal vector_field communication time over 20 step(s): min=0.000551961 avg=0.000642703 max=0.00103785 seconds
+Rank 32 nodal scalar_field communication time over 20 step(s): min=0.000614973 avg=0.000676724 max=0.00122803 seconds
+Rank 32 nodal vector_field communication time over 20 step(s): min=0.000617687 avg=0.000667534 max=0.00101357 seconds
+Rank 24 nodal scalar_field communication time over 20 step(s): min=0.000559968 avg=0.000631093 max=0.00119137 seconds
+Rank 24 nodal vector_field communication time over 20 step(s): min=0.000578262 avg=0.000641215 max=0.00111713 seconds
+Rank 33 nodal scalar_field communication time over 20 step(s): min=0.000605705 avg=0.000663628 max=0.00121065 seconds
+Rank 33 nodal vector_field communication time over 20 step(s): min=0.000598101 avg=0.00065313 max=0.000925014 seconds
+Rank 25 nodal scalar_field communication time over 20 step(s): min=0.000395316 avg=0.000516716 max=0.00115662 seconds
+Rank 25 nodal vector_field communication time over 20 step(s): min=0.000458295 avg=0.000518117 max=0.0010436 seconds
+Rank 34 nodal scalar_field communication time over 20 step(s): min=0.000543177 avg=0.000594149 max=0.00113759 seconds
+Rank 34 nodal vector_field communication time over 20 step(s): min=0.000530384 avg=0.000561311 max=0.000601166 seconds
+Rank 26 nodal scalar_field communication time over 20 step(s): min=0.000477532 avg=0.000546424 max=0.00117519 seconds
+Rank 26 nodal vector_field communication time over 20 step(s): min=0.000491218 avg=0.000541188 max=0.000991723 seconds
+Rank 35 nodal scalar_field communication time over 20 step(s): min=0.000502151 avg=0.000569008 max=0.0011214 seconds
+Rank 35 nodal vector_field communication time over 20 step(s): min=0.00049658 avg=0.000556497 max=0.000852457 seconds
+Rank 27 nodal scalar_field communication time over 20 step(s): min=0.000607247 avg=0.000686499 max=0.00123436 seconds
+Rank 27 nodal vector_field communication time over 20 step(s): min=0.000601896 avg=0.000675305 max=0.00106214 seconds
+Rank 36 nodal scalar_field communication time over 20 step(s): min=0.000534642 avg=0.00075216 max=0.00343305 seconds
+Rank 36 nodal vector_field communication time over 20 step(s): min=0.000533379 avg=0.000590116 max=0.000887433 seconds
+Rank 28 nodal scalar_field communication time over 20 step(s): min=0.000530351 avg=0.00058418 max=0.000717896 seconds
+Rank 28 nodal vector_field communication time over 20 step(s): min=0.000553395 avg=0.000617666 max=0.00110313 seconds
+Rank 37 nodal scalar_field communication time over 20 step(s): min=0.000626885 avg=0.000691742 max=0.00124707 seconds
+Rank 37 nodal vector_field communication time over 20 step(s): min=0.000617667 avg=0.000681423 max=0.0010536 seconds
+Rank 29 nodal scalar_field communication time over 20 step(s): min=0.000256975 avg=0.000310246 max=0.00034433 seconds
+Rank 29 nodal vector_field communication time over 20 step(s): min=0.000254701 avg=0.000349401 max=0.00104518 seconds
+Rank 38 nodal scalar_field communication time over 20 step(s): min=0.000570509 avg=0.000640529 max=0.00121315 seconds
+Rank 38 nodal vector_field communication time over 20 step(s): min=0.000562845 avg=0.000631115 max=0.00103852 seconds
+Rank 30 nodal scalar_field communication time over 20 step(s): min=0.000561159 avg=0.000617406 max=0.000877708 seconds
+Rank 30 nodal vector_field communication time over 20 step(s): min=0.000576929 avg=0.000643195 max=0.00111997 seconds
+Rank 39 nodal scalar_field communication time over 20 step(s): min=0.000545412 avg=0.000758252 max=0.0034208 seconds
+Rank 39 nodal vector_field communication time over 20 step(s): min=0.000537918 avg=0.000603069 max=0.000892603 seconds
+Rank 31 nodal scalar_field communication time over 20 step(s): min=0.000379186 avg=0.000483127 max=0.000805641 seconds
+Rank 31 nodal vector_field communication time over 20 step(s): min=0.000377102 avg=0.000471336 max=0.00105847 seconds
+Rank 40 nodal scalar_field communication time over 20 step(s): min=0.000560977 avg=0.000620506 max=0.00113256 seconds
+Rank 40 nodal vector_field communication time over 20 step(s): min=0.000549997 avg=0.000591928 max=0.000618675 seconds
+Rank 41 nodal scalar_field communication time over 20 step(s): min=0.000581135 avg=0.000635977 max=0.00111889 seconds
+Rank 41 nodal vector_field communication time over 20 step(s): min=0.000565816 avg=0.000607394 max=0.000632752 seconds
+Rank 42 nodal scalar_field communication time over 20 step(s): min=0.000409665 avg=0.000464995 max=0.00109821 seconds
+Rank 42 nodal vector_field communication time over 20 step(s): min=0.000402331 avg=0.000430593 max=0.000457264 seconds
+Rank 43 nodal scalar_field communication time over 20 step(s): min=0.000442175 avg=0.000481271 max=0.000515172 seconds
+Rank 43 nodal vector_field communication time over 20 step(s): min=0.000438559 avg=0.000479572 max=0.000521433 seconds
+Rank 44 nodal scalar_field communication time over 20 step(s): min=0.000448227 avg=0.000508374 max=0.00113481 seconds
+Rank 44 nodal vector_field communication time over 20 step(s): min=0.000443999 avg=0.000472607 max=0.00049798 seconds
+Rank 45 nodal scalar_field communication time over 20 step(s): min=0.000501396 avg=0.000568936 max=0.00114544 seconds
+Rank 45 nodal vector_field communication time over 20 step(s): min=0.000474596 avg=0.000538116 max=0.000656656 seconds
+Rank 46 nodal scalar_field communication time over 20 step(s): min=0.000608526 avg=0.000671924 max=0.00122868 seconds
+Rank 46 nodal vector_field communication time over 20 step(s): min=0.000606292 avg=0.000659305 max=0.00104231 seconds
+Rank 47 nodal scalar_field communication time over 20 step(s): min=0.000574092 avg=0.000642723 max=0.0011955 seconds
+Rank 48 nodal scalar_field communication time over 20 step(s): min=0.000503015 avg=0.000597453 max=0.000752564 seconds
+Rank 48 nodal vector_field communication time over 20 step(s): min=0.00047406 avg=0.000603991 max=0.000970372 seconds
+Rank 47 nodal vector_field communication time over 20 step(s): min=0.000571697 avg=0.000633216 max=0.00102805 seconds
+Rank 49 nodal scalar_field communication time over 20 step(s): min=0.000616608 avg=0.000678275 max=0.00122787 seconds
+Rank 49 nodal vector_field communication time over 20 step(s): min=0.000615225 avg=0.000664044 max=0.00104463 seconds
+Rank 50 nodal scalar_field communication time over 20 step(s): min=0.000472016 avg=0.000590979 max=0.000774685 seconds
+Rank 50 nodal vector_field communication time over 20 step(s): min=0.000463661 avg=0.00059642 max=0.00098502 seconds
+Rank 51 nodal scalar_field communication time over 20 step(s): min=0.000397707 avg=0.000471907 max=0.000696517 seconds
+Rank 51 nodal vector_field communication time over 20 step(s): min=0.00039947 avg=0.000468825 max=0.000917954 seconds
+Rank 52 nodal scalar_field communication time over 20 step(s): min=0.000341391 avg=0.000398173 max=0.000427913 seconds
+Rank 52 nodal vector_field communication time over 20 step(s): min=0.000358824 avg=0.000388456 max=0.000439536 seconds
+Rank 53 nodal scalar_field communication time over 20 step(s): min=0.000346641 avg=0.000379584 max=0.000441589 seconds
+Rank 53 nodal vector_field communication time over 20 step(s): min=0.000347923 avg=0.000376604 max=0.000460504 seconds
+Rank 54 nodal scalar_field communication time over 20 step(s): min=0.000429467 avg=0.000472938 max=0.000706777 seconds
+Rank 54 nodal vector_field communication time over 20 step(s): min=0.000424057 avg=0.000474269 max=0.000924676 seconds
+Rank 56 nodal scalar_field communication time over 20 step(s): min=0.000456456 avg=0.000490655 max=0.000516108 seconds
+Rank 56 nodal vector_field communication time over 20 step(s): min=0.000461576 avg=0.000498458 max=0.000530555 seconds
+Rank 57 nodal scalar_field communication time over 20 step(s): min=0.000594856 avg=0.000656253 max=0.00120901 seconds
+Rank 57 nodal vector_field communication time over 20 step(s): min=0.000591439 avg=0.000640061 max=0.000981251 seconds
+Rank 55 nodal scalar_field communication time over 20 step(s): min=0.000502173 avg=0.000540149 max=0.000758234 seconds
+Rank 55 nodal vector_field communication time over 20 step(s): min=0.000484109 avg=0.000551321 max=0.000975452 seconds
+Rank 58 nodal scalar_field communication time over 20 step(s): min=0.000381456 avg=0.000463953 max=0.000502663 seconds
+Rank 58 nodal vector_field communication time over 20 step(s): min=0.000366998 avg=0.000457252 max=0.000504035 seconds
+Rank 59 nodal scalar_field communication time over 20 step(s): min=0.000394911 avg=0.000494547 max=0.000534162 seconds
+Rank 59 nodal vector_field communication time over 20 step(s): min=0.000390392 avg=0.000486628 max=0.000536126 seconds
+Rank 60 nodal scalar_field communication time over 20 step(s): min=0.000452569 avg=0.000560079 max=0.000631585 seconds
+Rank 60 nodal vector_field communication time over 20 step(s): min=0.000517561 avg=0.000567418 max=0.000604905 seconds
+Rank 61 nodal scalar_field communication time over 20 step(s): min=0.000466716 avg=0.000502444 max=0.000529293 seconds
+Rank 61 nodal vector_field communication time over 20 step(s): min=0.000493856 avg=0.000514654 max=0.000539201 seconds
+Rank 62 nodal scalar_field communication time over 20 step(s): min=0.000579707 avg=0.000650652 max=0.00120813 seconds
+Rank 62 nodal vector_field communication time over 20 step(s): min=0.000555251 avg=0.00061562 max=0.000652524 seconds
+Rank 63 nodal scalar_field communication time over 20 step(s): min=0.000625633 avg=0.000689867 max=0.00124777 seconds
+Rank 63 nodal vector_field communication time over 20 step(s): min=0.000619192 avg=0.000679188 max=0.00102563 seconds
+Rank 0 communication volume (sent 804544 bytes, received 804928 bytes):
+  element (gauss) fields:
+    -> rank 1: 127104 bytes
+    -> rank 2: 4384 bytes
+    -> rank 3: 69888 bytes
+    -> rank 5: 14208 bytes
+    -> rank 7: 82496 bytes
+    -> rank 50: 3136 bytes
+    -> rank 53: 81696 bytes
+    -> rank 55: 4800 bytes
+    <- rank 1: 126112 bytes
+    <- rank 2: 4544 bytes
+    <- rank 3: 69504 bytes
+    <- rank 5: 13984 bytes
+    <- rank 7: 84192 bytes
+    <- rank 50: 3456 bytes
+    <- rank 53: 81280 bytes
+    <- rank 55: 4672 bytes
+  node fields:
+    -> rank 1: 130784 bytes
+    -> rank 2: 6624 bytes
+    -> rank 3: 75072 bytes
+    -> rank 5: 17568 bytes
+    -> rank 7: 86688 bytes
+    -> rank 50: 4832 bytes
+    -> rank 53: 87008 bytes
+    -> rank 55: 8256 bytes
+    <- rank 1: 128928 bytes
+    <- rank 2: 7008 bytes
+    <- rank 3: 74144 bytes
+    <- rank 5: 17216 bytes
+    <- rank 7: 90272 bytes
+    <- rank 50: 5472 bytes
+    <- rank 53: 86080 bytes
+    <- rank 55: 8064 bytes
+Rank 1 communication volume (sent 1171264 bytes, received 1179680 bytes):
+  element (gauss) fields:
+    -> rank 0: 126112 bytes
+    -> rank 2: 113120 bytes
+    -> rank 3: 10880 bytes
+    -> rank 7: 60192 bytes
+    -> rank 8: 256 bytes
+    -> rank 10: 99968 bytes
+    -> rank 11: 14880 bytes
+    -> rank 49: 864 bytes
+    -> rank 50: 117088 bytes
+    -> rank 53: 4512 bytes
+    -> rank 55: 2432 bytes
+    -> rank 60: 11552 bytes
+    -> rank 63: 1824 bytes
+    <- rank 0: 127104 bytes
+    <- rank 2: 111968 bytes
+    <- rank 3: 10560 bytes
+    <- rank 7: 62528 bytes
+    <- rank 8: 256 bytes
+    <- rank 10: 101696 bytes
+    <- rank 11: 14720 bytes
+    <- rank 49: 864 bytes
+    <- rank 50: 117408 bytes
+    <- rank 53: 4320 bytes
+    <- rank 55: 2336 bytes
+    <- rank 60: 11200 bytes
+    <- rank 63: 1728 bytes
+  node fields:
+    -> rank 0: 128928 bytes
+    -> rank 2: 120192 bytes
+    -> rank 3: 14400 bytes
+    -> rank 7: 64640 bytes
+    -> rank 8: 960 bytes
+    -> rank 10: 105184 bytes
+    -> rank 11: 17888 bytes
+    -> rank 49: 2528 bytes
+    -> rank 50: 123904 bytes
+    -> rank 53: 7488 bytes
+    -> rank 55: 3776 bytes
+    -> rank 60: 14496 bytes
+    -> rank 63: 3200 bytes
+    <- rank 0: 130784 bytes
+    <- rank 2: 117920 bytes
+    <- rank 3: 13696 bytes
+    <- rank 7: 69472 bytes
+    <- rank 8: 960 bytes
+    <- rank 10: 108640 bytes
+    <- rank 11: 17504 bytes
+    <- rank 49: 2528 bytes
+    <- rank 50: 124288 bytes
+    <- rank 53: 6944 bytes
+    <- rank 55: 3520 bytes
+    <- rank 60: 13728 bytes
+    <- rank 63: 3008 bytes
+Rank 2 communication volume (sent 1480544 bytes, received 1490624 bytes):
+  element (gauss) fields:
+    -> rank 0: 4544 bytes
+    -> rank 1: 111968 bytes
+    -> rank 3: 119584 bytes
+    -> rank 5: 78528 bytes
+    -> rank 7: 34144 bytes
+    -> rank 8: 152448 bytes
+    -> rank 10: 9824 bytes
+    -> rank 11: 2784 bytes
+    -> rank 27: 58688 bytes
+    -> rank 30: 2208 bytes
+    -> rank 46: 3168 bytes
+    -> rank 49: 109024 bytes
+    -> rank 50: 8192 bytes
+    -> rank 55: 4448 bytes
+    -> rank 63: 5568 bytes
+    <- rank 0: 4384 bytes
+    <- rank 1: 113120 bytes
+    <- rank 3: 119040 bytes
+    <- rank 5: 79232 bytes
+    <- rank 7: 34240 bytes
+    <- rank 8: 152672 bytes
+    <- rank 10: 9248 bytes
+    <- rank 11: 2720 bytes
+    <- rank 27: 61056 bytes
+    <- rank 30: 2528 bytes
+    <- rank 46: 3456 bytes
+    <- rank 49: 108416 bytes
+    <- rank 50: 8160 bytes
+    <- rank 55: 4416 bytes
+    <- rank 63: 5952 bytes
+  node fields:
+    -> rank 0: 7008 bytes
+    -> rank 1: 117920 bytes
+    -> rank 3: 126368 bytes
+    -> rank 5: 85312 bytes
+    -> rank 7: 39456 bytes
+    -> rank 8: 160960 bytes
+    -> rank 10: 15776 bytes
+    -> rank 11: 4128 bytes
+    -> rank 27: 63136 bytes
+    -> rank 30: 4352 bytes
+    -> rank 46: 5152 bytes
+    -> rank 49: 116896 bytes
+    -> rank 50: 13024 bytes
+    -> rank 55: 7616 bytes
+    -> rank 63: 8320 bytes
+    <- rank 0: 6624 bytes
+    <- rank 1: 120192 bytes
+    <- rank 3: 125088 bytes
+    <- rank 5: 86784 bytes
+    <- rank 7: 39488 bytes
+    <- rank 8: 161024 bytes
+    <- rank 10: 14560 bytes
+    <- rank 11: 4064 bytes
+    <- rank 27: 67744 bytes
+    <- rank 30: 5152 bytes
+    <- rank 46: 5792 bytes
+    <- rank 49: 115488 bytes
+    <- rank 50: 13024 bytes
+    <- rank 55: 7712 bytes
+    <- rank 63: 9248 bytes
+Rank 3 communication volume (sent 1186464 bytes, received 1200800 bytes):
+  element (gauss) fields:
+    -> rank 0: 69504 bytes
+    -> rank 1: 10560 bytes
+    -> rank 2: 119040 bytes
+    -> rank 5: 123200 bytes
+    -> rank 24: 59936 bytes
+    -> rank 27: 24544 bytes
+    -> rank 45: 48032 bytes
+    -> rank 46: 9952 bytes
+    -> rank 49: 3808 bytes
+    -> rank 50: 32 bytes
+    -> rank 53: 160 bytes
+    -> rank 55: 102592 bytes
+    <- rank 0: 69888 bytes
+    <- rank 1: 10880 bytes
+    <- rank 2: 119584 bytes
+    <- rank 5: 124640 bytes
+    <- rank 24: 61312 bytes
+    <- rank 27: 25312 bytes
+    <- rank 45: 47488 bytes
+    <- rank 46: 10048 bytes
+    <- rank 49: 3840 bytes
+    <- rank 50: 32 bytes
+    <- rank 53: 160 bytes
+    <- rank 55: 102784 bytes
+  node fields:
+    -> rank 0: 74144 bytes
+    -> rank 1: 13696 bytes
+    -> rank 2: 125088 bytes
+    -> rank 5: 128544 bytes
+    -> rank 24: 64512 bytes
+    -> rank 27: 27840 bytes
+    -> rank 45: 53248 bytes
+    -> rank 46: 12544 bytes
+    -> rank 49: 6304 bytes
+    -> rank 50: 224 bytes
+    -> rank 53: 608 bytes
+    -> rank 55: 108352 bytes
+    <- rank 0: 75072 bytes
+    <- rank 1: 14400 bytes
+    <- rank 2: 126368 bytes
+    <- rank 5: 131520 bytes
+    <- rank 24: 67136 bytes
+    <- rank 27: 29632 bytes
+    <- rank 45: 52064 bytes
+    <- rank 46: 12736 bytes
+    <- rank 49: 6368 bytes
+    <- rank 50: 224 bytes
+    <- rank 53: 608 bytes
+    <- rank 55: 108704 bytes
+Rank 4 communication volume (sent 834848 bytes, received 855328 bytes):
+  element (gauss) fields:
+    -> rank 5: 154144 bytes
+    -> rank 6: 86432 bytes
+    -> rank 9: 45696 bytes
+    -> rank 28: 75136 bytes
+    -> rank 30: 45792 bytes
+    <- rank 5: 155616 bytes
+    <- rank 6: 87872 bytes
+    <- rank 9: 48192 bytes
+    <- rank 28: 74848 bytes
+    <- rank 30: 47200 bytes
+  node fields:
+    -> rank 5: 158720 bytes
+    -> rank 6: 90592 bytes
+    -> rank 9: 48384 bytes
+    -> rank 28: 79808 bytes
+    -> rank 30: 50144 bytes
+    <- rank 5: 161920 bytes
+    <- rank 6: 93568 bytes
+    <- rank 9: 53728 bytes
+    <- rank 28: 79360 bytes
+    <- rank 30: 53024 bytes
+Rank 5 communication volume (sent 1316480 bytes, received 1306336 bytes):
+  element (gauss) fields:
+    -> rank 0: 13984 bytes
+    -> rank 2: 79232 bytes
+    -> rank 3: 124640 bytes
+    -> rank 4: 155616 bytes
+    -> rank 6: 22048 bytes
+    -> rank 7: 73600 bytes
+    -> rank 8: 26048 bytes
+Rank 8 communication volume (sent 1350400 bytes, received 1355616 bytes):
+  element (gauss) fields:
+    -> rank 1: 256 bytes
+    -> rank 2: 152672 bytes
+    -> rank 5: 25792 bytes
+    -> rank 7: 6624 bytes
+    -> rank 9: 104480 bytes
+    -> rank 10: 102848 bytes
+    -> rank 11: 13600 bytes
+    -> rank 12: 3648 bytes
+    -> rank 9: 20544 bytes
+    -> rank 24: 21600 bytes
+    -> rank 27: 2816 bytes
+    -> rank 28: 45024 bytes
+    -> rank 30: 42144 bytes
+    <- rank 0: 14208 bytes
+    <- rank 2: 78528 bytes
+    <- rank 3: 123200 bytes
+    <- rank 4: 154144 bytes
+    <- rank 6: 22400 bytes
+    <- rank 7: 71712 bytes
+    <- rank 8: 25792 bytes
+    <- rank 9: 21056 bytes
+    <- rank 24: 22208 bytes
+    <- rank 27: 2720 bytes
+    <- rank 28: 45024 bytes
+    -> rank 13: 90112 bytes
+    -> rank 14: 1888 bytes
+    -> rank 15: 32 bytes
+    -> rank 16: 11840 bytes
+    -> rank 19: 46368 bytes
+    -> rank 27: 26112 bytes
+    -> rank 30: 14400 bytes
+    -> rank 49: 1760 bytes
+    -> rank 63: 41472 bytes
+    <- rank 1: 256 bytes
+    <- rank 2: 152448 bytes
+    <- rank 5: 26048 bytes
+    <- rank 7: 6912 bytes
+    <- rank 9: 105184 bytes
+    <- rank 30: 43392 bytes
+  node fields:
+    -> rank 0: 17216 bytes
+    -> rank 2: 86784 bytes
+    -> rank 3: 131520 bytes
+    -> rank 4: 161920 bytes
+    -> rank 6: 27712 bytes
+    -> rank 7: 80416 bytes
+    -> rank 8: 30464 bytes
+    -> rank 9: 24544 bytes
+    -> rank 24: 26368 bytes
+    -> rank 27: 5440 bytes
+    -> rank 28: 49856 bytes
+    -> rank 30: 46944 bytes
+    <- rank 0: 17568 bytes
+    <- rank 2: 85312 bytes
+    <- rank 3: 128544 bytes
+    <- rank 10: 103232 bytes
+    <- rank 11: 13600 bytes
+    <- rank 12: 3616 bytes
+    <- rank 13: 87936 bytes
+    <- rank 14: 1984 bytes
+    <- rank 15: 32 bytes
+    <- rank 16: 11616 bytes
+    <- rank 19: 45536 bytes
+    <- rank 27: 25600 bytes
+    <- rank 30: 14336 bytes
+    <- rank 49: 2304 bytes
+    <- rank 63: 45184 bytes
+  node fields:
+    -> rank 1: 960 bytes
+    -> rank 2: 161024 bytes
+    -> rank 5: 29920 bytes
+    -> rank 7: 8544 bytes
+    -> rank 9: 108960 bytes
+    -> rank 10: 107936 bytes
+    -> rank 11: 16512 bytes
+    <- rank 4: 158720 bytes
+    <- rank 6: 28416 bytes
+    <- rank 7: 76160 bytes
+    <- rank 8: 29920 bytes
+    <- rank 9: 25504 bytes
+    <- rank 24: 27360 bytes
+    <- rank 27: 5152 bytes
+    <- rank 28: 49824 bytes
+    <- rank 30: 49472 bytes
+    -> rank 12: 6432 bytes
+    -> rank 13: 97152 bytes
+    -> rank 14: 4640 bytes
+    -> rank 15: 224 bytes
+    -> rank 16: 14688 bytes
+    -> rank 19: 52384 bytes
+    -> rank 27: 31296 bytes
+    -> rank 30: 17504 bytes
+    -> rank 49: 2976 bytes
+    -> rank 63: 45344 bytes
+    <- rank 1: 960 bytes
+    <- rank 2: 160960 bytes
+    <- rank 5: 30464 bytes
+    <- rank 7: 9120 bytes
+    <- rank 9: 110624 bytes
+    <- rank 10: 108480 bytes
+    <- rank 11: 16640 bytes
+Rank 6 communication volume (sent 727872 bytes, received 722784 bytes):
+  element (gauss) fields:
+    -> rank 4: 87872 bytes
+    -> rank 5: 22400 bytes
+    -> rank 7: 163680 bytes
+    -> rank 9: 16576 bytes
+    -> rank 11: 60096 bytes
+    <- rank 4: 86432 bytes
+    <- rank 5: 22048 bytes
+    <- rank 7: 162944 bytes
+    <- rank 9: 17088 bytes
+    <- rank 12: 6368 bytes
+    <- rank 13: 92160 bytes
+    <- rank 14: 4768 bytes
+    <- rank 15: 224 bytes
+    <- rank 16: 14208 bytes
+    <- rank 19: 50496 bytes
+    <- rank 27: 30016 bytes
+    <- rank 30: 17376 bytes
+    <- rank 49: 4096 bytes
+    <- rank 63: 52832 bytes
+    <- rank 11: 60256 bytes
+  node fields:
+    -> rank 4: 93568 bytes
+    -> rank 5: 28416 bytes
+    -> rank 7: 170208 bytes
+    -> rank 9: 19840 bytes
+    -> rank 11: 65216 bytes
+    <- rank 4: 90592 bytes
+    <- rank 5: 27712 bytes
+    <- rank 7: 168768 bytes
+    <- rank 9: 21056 bytes
+    <- rank 11: 65888 bytes
+Rank 9 communication volume (sent 1026592 bytes, received 1010528 bytes):
+  element (gauss) fields:
+    -> rank 4: 48192 bytes
+    -> rank 5: 21056 bytes
+    -> rank 6: 17088 bytes
+    -> rank 7: 5984 bytes
+    -> rank 8: 105184 bytes
+    -> rank 10: 12352 bytes
+    -> rank 11: 111552 bytes
+    -> rank 12: 79232 bytes
+    -> rank 13: 960 bytes
+    -> rank 14: 160 bytes
+    -> rank 15: 10976 bytes
+    -> rank 16: 32000 bytes
+    -> rank 30: 43712 bytes
+    <- rank 4: 45696 bytes
+    <- rank 5: 20544 bytes
+Rank 7 communication volume (sent 1035392 bytes, received 1033184 bytes):
+  element (gauss) fields:
+    -> rank 0: 84192 bytes
+    -> rank 1: 62528 bytes
+    -> rank 2: 34240 bytes
+    -> rank 5: 71712 bytes
+    -> rank 6: 162944 bytes
+    -> rank 8: 6912 bytes
+    -> rank 9: 6176 bytes
+    <- rank 6: 16576 bytes
+    <- rank 7: 6176 bytes
+    <- rank 8: 104480 bytes
+    <- rank 10: 12224 bytes
+    <- rank 11: 109760 bytes
+    <- rank 12: 78528 bytes
+    <- rank 13: 832 bytes
+    <- rank 14: 192 bytes
+    <- rank 15: 11136 bytes
+    <- rank 16: 32640 bytes
+    <- rank 30: 44928 bytes
+  node fields:
+    -> rank 4: 53728 bytes
+    -> rank 5: 25504 bytes
+    -> rank 6: 21056 bytes
+    -> rank 7: 7872 bytes
+    -> rank 8: 110624 bytes
+    -> rank 10: 16128 bytes
+    -> rank 11: 117696 bytes
+    -> rank 12: 84416 bytes
+    -> rank 13: 2240 bytes
+    -> rank 14: 512 bytes
+    -> rank 15: 14656 bytes
+    -> rank 16: 35680 bytes
+    -> rank 30: 48032 bytes
+    <- rank 4: 48384 bytes
+    -> rank 11: 69952 bytes
+    <- rank 0: 82496 bytes
+    <- rank 1: 60192 bytes
+    <- rank 2: 34144 bytes
+    <- rank 5: 73600 bytes
+    <- rank 6: 163680 bytes
+    <- rank 8: 6624 bytes
+    <- rank 9: 5984 bytes
+    <- rank 11: 71104 bytes
+  node fields:
+    -> rank 0: 90272 bytes
+    -> rank 1: 69472 bytes
+    -> rank 2: 39488 bytes
+    -> rank 5: 76160 bytes
+    -> rank 6: 168768 bytes
+    -> rank 8: 9120 bytes
+    -> rank 9: 8288 bytes
+    <- rank 5: 24544 bytes
+    <- rank 6: 19840 bytes
+    <- rank 7: 8288 bytes
+    <- rank 8: 108960 bytes
+    <- rank 10: 15488 bytes
+    <- rank 11: 114176 bytes
+    <- rank 12: 82336 bytes
+    <- rank 13: 1856 bytes
+    <- rank 14: 576 bytes
+    <- rank 15: 14816 bytes
+    <- rank 16: 37024 bytes
+    <- rank 30: 50528 bytes
+    -> rank 11: 75168 bytes
+    <- rank 0: 86688 bytes
+    <- rank 1: 64640 bytes
+    <- rank 2: 39456 bytes
+    <- rank 5: 80416 bytes
+    <- rank 6: 170208 bytes
+    <- rank 8: 8544 bytes
+    <- rank 9: 7872 bytes
+    <- rank 11: 77536 bytes
+Rank 10 communication volume (sent 1143712 bytes, received 1146720 bytes):
+  element (gauss) fields:
+    -> rank 1: 101696 bytes
+    -> rank 2: 9248 bytes
+    -> rank 8: 103232 bytes
+    -> rank 9: 12224 bytes
+    -> rank 11: 115840 bytes
+    -> rank 13: 3552 bytes
+    -> rank 14: 108576 bytes
+    -> rank 15: 27232 bytes
+    -> rank 60: 56800 bytes
+    -> rank 63: 10784 bytes
+    <- rank 1: 99968 bytes
+    <- rank 2: 9824 bytes
+    <- rank 8: 102848 bytes
+    <- rank 9: 12352 bytes
+    <- rank 11: 116832 bytes
+    <- rank 13: 3680 bytes
+    <- rank 14: 106944 bytes
+    <- rank 15: 28320 bytes
+    <- rank 60: 57440 bytes
+    <- rank 63: 11232 bytes
+  node fields:
+    -> rank 1: 108640 bytes
+    -> rank 2: 14560 bytes
+    -> rank 8: 108480 bytes
+    -> rank 9: 15488 bytes
+    -> rank 11: 121024 bytes
+    -> rank 13: 6400 bytes
+    -> rank 14: 114464 bytes
+    -> rank 15: 30240 bytes
+    -> rank 60: 61408 bytes
+    -> rank 63: 13824 bytes
+    <- rank 1: 105184 bytes
+    <- rank 2: 15776 bytes
+    <- rank 8: 107936 bytes
+    <- rank 9: 16128 bytes
+    <- rank 11: 123456 bytes
+    <- rank 13: 6848 bytes
+    <- rank 14: 111520 bytes
+    <- rank 15: 32864 bytes
+    <- rank 60: 62752 bytes
+    <- rank 63: 14816 bytes
+Rank 11 communication volume (sent 902560 bytes, received 904576 bytes):
+  element (gauss) fields:
+    -> rank 1: 14720 bytes
+    -> rank 2: 2720 bytes
+    -> rank 6: 60256 bytes
+    -> rank 7: 71104 bytes
+    -> rank 8: 13600 bytes
+    -> rank 9: 109760 bytes
+    -> rank 10: 116832 bytes
+    -> rank 15: 45600 bytes
+    <- rank 1: 14880 bytes
+    <- rank 2: 2784 bytes
+    <- rank 6: 60096 bytes
+    <- rank 7: 69952 bytes
+    <- rank 8: 13600 bytes
+    <- rank 9: 111552 bytes
+    <- rank 10: 115840 bytes
+    <- rank 15: 46912 bytes
+  node fields:
+    -> rank 1: 17504 bytes
+    -> rank 2: 4064 bytes
+    -> rank 6: 65888 bytes
+    -> rank 7: 77536 bytes
+    -> rank 8: 16640 bytes
+    -> rank 9: 114176 bytes
+    -> rank 10: 123456 bytes
+    -> rank 15: 48704 bytes
+    <- rank 1: 17888 bytes
+    <- rank 2: 4128 bytes
+    <- rank 6: 65216 bytes
+    <- rank 7: 75168 bytes
+    <- rank 8: 16512 bytes
+    <- rank 9: 117696 bytes
+    <- rank 10: 121024 bytes
+    <- rank 15: 51328 bytes
+Rank 12 communication volume (sent 806080 bytes, received 812768 bytes):
+  element (gauss) fields:
+    -> rank 8: 3616 bytes
+    -> rank 9: 78528 bytes
+    -> rank 13: 107008 bytes
+    -> rank 14: 2496 bytes
+    -> rank 15: 84000 bytes
+    -> rank 16: 48992 bytes
+    -> rank 17: 63744 bytes
+    -> rank 18: 480 bytes
+    <- rank 8: 3648 bytes
+    <- rank 9: 79232 bytes
+    <- rank 13: 106560 bytes
+    <- rank 14: 2688 bytes
+    <- rank 15: 84544 bytes
+    <- rank 16: 50048 bytes
+    <- rank 17: 63936 bytes
+    <- rank 18: 256 bytes
+  node fields:
+    -> rank 8: 6368 bytes
+    -> rank 9: 82336 bytes
+    -> rank 13: 112064 bytes
+    -> rank 14: 5024 bytes
+    -> rank 15: 88736 bytes
+    -> rank 16: 53216 bytes
+    -> rank 17: 68288 bytes
+    -> rank 18: 1184 bytes
+    <- rank 8: 6432 bytes
+    <- rank 9: 84416 bytes
+    <- rank 13: 111072 bytes
+    <- rank 14: 5664 bytes
+    <- rank 15: 89728 bytes
+    <- rank 16: 55232 bytes
+    <- rank 17: 68704 bytes
+    <- rank 18: 608 bytes
+Rank 16 communication volume (sent 1115584 bytes, received 1085248 bytes):
+  element (gauss) fields:
+    -> rank 8: 11616 bytes
+    -> rank 9: 32640 bytes
+    -> rank 12: 50048 bytes
+    -> rank 13: 7744 bytes
+    -> rank 17: 106976 bytes
+    -> rank 18: 8640 bytes
+    -> rank 19: 103456 bytes
+    -> rank 20: 94496 bytes
+    -> rank 21: 14112 bytes
+    -> rank 22: 1600 bytes
+    -> rank 23: 15008 bytes
+    -> rank 27: 9344 bytes
+Rank 13 communication volume (sent 1191040 bytes, received 1180160 bytes):
+  element (gauss) fields:
+    -> rank 8: 87936 bytes
+    -> rank 9: 832 bytes
+    -> rank 10: 3680 bytes
+    -> rank 12: 106560 bytes
+    -> rank 14: 103232 bytes
+    -> rank 15: 2912 bytes
+    -> rank 16: 7104 bytes
+    -> rank 30: 68960 bytes
+    -> rank 31: 2016 bytes
+    <- rank 8: 11840 bytes
+    <- rank 9: 32000 bytes
+    <- rank 12: 48992 bytes
+    <- rank 13: 7104 bytes
+    <- rank 17: 107712 bytes
+    <- rank 18: 8832 bytes
+    <- rank 19: 101408 bytes
+    -> rank 17: 11136 bytes
+    -> rank 18: 84096 bytes
+    -> rank 19: 52992 bytes
+    -> rank 60: 1824 bytes
+    -> rank 61: 17824 bytes
+    -> rank 62: 61824 bytes
+    -> rank 63: 23968 bytes
+    <- rank 8: 90112 bytes
+    <- rank 9: 960 bytes
+    <- rank 10: 3552 bytes
+    <- rank 12: 107008 bytes
+    <- rank 14: 102016 bytes
+    <- rank 15: 3168 bytes
+    <- rank 16: 7744 bytes
+    <- rank 17: 10496 bytes
+    <- rank 18: 80640 bytes
+    <- rank 19: 52640 bytes
+    <- rank 60: 1632 bytes
+    <- rank 61: 17024 bytes
+    <- rank 62: 60512 bytes
+    <- rank 20: 89952 bytes
+    <- rank 21: 13184 bytes
+    <- rank 22: 1600 bytes
+    <- rank 23: 14144 bytes
+    <- rank 27: 9792 bytes
+    <- rank 30: 68160 bytes
+    <- rank 31: 1920 bytes
+  node fields:
+    -> rank 8: 14208 bytes
+    -> rank 9: 37024 bytes
+    -> rank 12: 55232 bytes
+    -> rank 13: 10944 bytes
+    -> rank 17: 111456 bytes
+    -> rank 18: 13600 bytes
+    -> rank 19: 110528 bytes
+    -> rank 20: 103232 bytes
+    -> rank 21: 18656 bytes
+    -> rank 22: 2816 bytes
+    -> rank 23: 20800 bytes
+    -> rank 27: 12736 bytes
+    <- rank 63: 24704 bytes
+  node fields:
+    -> rank 8: 92160 bytes
+    -> rank 9: 1856 bytes
+    -> rank 10: 6848 bytes
+    -> rank 12: 111072 bytes
+    -> rank 14: 109792 bytes
+    -> rank 15: 6240 bytes
+    -> rank 16: 9472 bytes
+    -> rank 17: 14528 bytes
+    -> rank 18: 91520 bytes
+    -> rank 19: 59008 bytes
+    -> rank 60: 3584 bytes
+    -> rank 61: 22912 bytes
+    -> rank 30: 74240 bytes
+    -> rank 31: 3456 bytes
+    <- rank 8: 14688 bytes
+    <- rank 9: 35680 bytes
+    <- rank 12: 53216 bytes
+    <- rank 13: 9472 bytes
+    <- rank 17: 112928 bytes
+    <- rank 18: 14080 bytes
+    <- rank 19: 106560 bytes
+    <- rank 20: 94144 bytes
+    <- rank 21: 16704 bytes
+    <- rank 22: 2816 bytes
+    <- rank 23: 19040 bytes
+    <- rank 27: 13696 bytes
+    <- rank 30: 72448 bytes
+    <- rank 31: 3136 bytes
+    -> rank 62: 68288 bytes
+    -> rank 63: 27840 bytes
+    <- rank 8: 97152 bytes
+    <- rank 9: 2240 bytes
+    <- rank 10: 6400 bytes
+    <- rank 12: 112064 bytes
+    <- rank 14: 107072 bytes
+    <- rank 15: 6880 bytes
+    <- rank 16: 10944 bytes
+    <- rank 17: 13120 bytes
+    <- rank 18: 84576 bytes
+    <- rank 19: 58240 bytes
+    <- rank 60: 3104 bytes
+    <- rank 61: 21248 bytes
+    <- rank 62: 65536 bytes
+Rank 17 communication volume (sent 730816 bytes, received 737824 bytes):
+  element (gauss) fields:
+    -> rank 12: 63936 bytes
+    -> rank 13: 10496 bytes
+    -> rank 16: 107712 bytes
+    -> rank 18: 87776 bytes
+    -> rank 20: 416 bytes
+    -> rank 21: 67648 bytes
+    <- rank 63: 29376 bytes
+    -> rank 22: 14976 bytes
+    <- rank 12: 63744 bytes
+    <- rank 13: 11136 bytes
+    <- rank 16: 106976 bytes
+    <- rank 18: 89760 bytes
+    <- rank 20: 416 bytes
+    <- rank 21: 67840 bytes
+    <- rank 22: 15360 bytes
+  node fields:
+    -> rank 12: 68704 bytes
+Rank 14 communication volume (sent 936096 bytes, received 940128 bytes):
+  element (gauss) fields:
+    -> rank 8: 1984 bytes
+    -> rank 9: 192 bytes
+    -> rank 10: 106944 bytes
+    -> rank 12: 2688 bytes
+    -> rank 13: 102016 bytes
+    -> rank 13: 13120 bytes
+    -> rank 16: 112928 bytes
+    -> rank 18: 91776 bytes
+    -> rank 20: 1344 bytes
+    -> rank 21: 72064 bytes
+    -> rank 22: 17920 bytes
+    <- rank 12: 68288 bytes
+    <- rank 13: 14528 bytes
+    <- rank 16: 111456 bytes
+    <- rank 18: 95840 bytes
+    <- rank 20: 1344 bytes
+    <- rank 21: 72384 bytes
+    <- rank 22: 18752 bytes
+    -> rank 15: 108192 bytes
+    -> rank 60: 30528 bytes
+    -> rank 61: 100128 bytes
+    -> rank 63: 128 bytes
+    <- rank 8: 1888 bytes
+    <- rank 9: 160 bytes
+    <- rank 10: 108576 bytes
+    <- rank 12: 2496 bytes
+    <- rank 13: 103232 bytes
+    <- rank 15: 107904 bytes
+    <- rank 60: 30560 bytes
+    <- rank 61: 99136 bytes
+Rank 18 communication volume (sent 971872 bytes, received 981120 bytes):
+  element (gauss) fields:
+    -> rank 12: 256 bytes
+    -> rank 13: 80640 bytes
+    -> rank 16: 8832 bytes
+    -> rank 17: 89760 bytes
+    -> rank 19: 104288 bytes
+    -> rank 22: 67840 bytes
+    -> rank 23: 320 bytes
+    -> rank 36: 54432 bytes
+    -> rank 37: 14336 bytes
+    -> rank 62: 45696 bytes
+    <- rank 12: 480 bytes
+    <- rank 13: 84096 bytes
+    <- rank 63: 128 bytes
+  node fields:
+    -> rank 8: 4768 bytes
+    -> rank 9: 576 bytes
+    -> rank 10: 111520 bytes
+    -> rank 12: 5664 bytes
+    -> rank 13: 107072 bytes
+    -> rank 15: 112672 bytes
+    -> rank 60: 34368 bytes
+    -> rank 61: 106048 bytes
+    -> rank 63: 608 bytes
+    <- rank 8: 4640 bytes
+    <- rank 9: 512 bytes
+    <- rank 10: 114464 bytes
+    <- rank 12: 5024 bytes
+    <- rank 13: 109792 bytes
+    <- rank 16: 8640 bytes
+    <- rank 17: 87776 bytes
+    <- rank 19: 103936 bytes
+    <- rank 22: 70560 bytes
+    <- rank 23: 512 bytes
+    <- rank 36: 52928 bytes
+    <- rank 37: 13504 bytes
+    <- rank 62: 46784 bytes
+  node fields:
+    -> rank 12: 608 bytes
+    -> rank 13: 84576 bytes
+    -> rank 16: 14080 bytes
+    -> rank 17: 95840 bytes
+    -> rank 19: 108960 bytes
+    -> rank 22: 71200 bytes
+    -> rank 23: 1056 bytes
+    -> rank 36: 60224 bytes
+    -> rank 37: 19200 bytes
+    -> rank 62: 49728 bytes
+    <- rank 12: 1184 bytes
+    <- rank 15: 112064 bytes
+    <- rank 60: 34656 bytes
+    <- rank 61: 104288 bytes
+    <- rank 63: 608 bytes
+    <- rank 13: 91520 bytes
+    <- rank 16: 13600 bytes
+    <- rank 17: 91776 bytes
+    <- rank 19: 108576 bytes
+    <- rank 22: 76736 bytes
+    <- rank 23: 1696 bytes
+    <- rank 36: 57280 bytes
+    <- rank 37: 17408 bytes
+    <- rank 62: 52128 bytes
+Rank 15 communication volume (sent 589920 bytes, received 580416 bytes):
+  element (gauss) fields:
+    -> rank 8: 32 bytes
+    -> rank 9: 11136 bytes
+    -> rank 10: 28320 bytes
+    -> rank 11: 46912 bytes
+    -> rank 12: 84544 bytes
+Rank 19 communication volume (sent 1212384 bytes, received 1228800 bytes):
+  element (gauss) fields:
+    -> rank 8: 45536 bytes
+    -> rank 13: 52640 bytes
+    -> rank 16: 101408 bytes
+    -> rank 18: 103936 bytes
+    -> rank 22: 2560 bytes
+    -> rank 23: 81504 bytes
+    -> rank 27: 74304 bytes
+    -> rank 30: 96 bytes
+    -> rank 36: 192 bytes
+    -> rank 37: 75968 bytes
+    -> rank 38: 10656 bytes
+    -> rank 49: 1280 bytes
+    -> rank 62: 6848 bytes
+    -> rank 63: 23488 bytes
+    <- rank 8: 46368 bytes
+    <- rank 13: 52992 bytes
+    <- rank 16: 103456 bytes
+    -> rank 13: 3168 bytes
+    -> rank 14: 107904 bytes
+    <- rank 8: 32 bytes
+    <- rank 9: 10976 bytes
+    <- rank 10: 27232 bytes
+    <- rank 11: 45600 bytes
+    <- rank 12: 84000 bytes
+    <- rank 13: 2912 bytes
+    <- rank 14: 108192 bytes
+  node fields:
+    -> rank 8: 224 bytes
+    -> rank 9: 14816 bytes
+    -> rank 10: 32864 bytes
+    -> rank 11: 51328 bytes
+    -> rank 12: 89728 bytes
+    <- rank 18: 104288 bytes
+    <- rank 22: 2816 bytes
+    <- rank 23: 82176 bytes
+    <- rank 27: 77120 bytes
+    <- rank 30: 96 bytes
+    <- rank 36: 192 bytes
+    <- rank 37: 75136 bytes
+    <- rank 38: 10784 bytes
+    <- rank 49: 960 bytes
+    <- rank 62: 6880 bytes
+    <- rank 63: 22656 bytes
+  node fields:
+    -> rank 8: 50496 bytes
+    -> rank 13: 58240 bytes
+    -> rank 16: 106560 bytes
+    -> rank 18: 108576 bytes
+    -> rank 13: 6880 bytes
+    -> rank 14: 112064 bytes
+    <- rank 8: 224 bytes
+    <- rank 9: 14656 bytes
+    <- rank 10: 30240 bytes
+    <- rank 11: 48704 bytes
+    <- rank 12: 88736 bytes
+    <- rank 13: 6240 bytes
+    <- rank 14: 112672 bytes
+    -> rank 22: 5568 bytes
+    -> rank 23: 86656 bytes
+    -> rank 27: 77792 bytes
+    -> rank 30: 384 bytes
+    -> rank 36: 640 bytes
+    -> rank 37: 82816 bytes
+    -> rank 38: 14624 bytes
+    -> rank 49: 2368 bytes
+    -> rank 62: 9056 bytes
+    -> rank 63: 28192 bytes
+    <- rank 8: 52384 bytes
+    <- rank 13: 59008 bytes
+    <- rank 16: 110528 bytes
+    <- rank 18: 108960 bytes
+    <- rank 22: 6080 bytes
+    <- rank 23: 87872 bytes
+    <- rank 27: 83616 bytes
+    <- rank 30: 384 bytes
+    <- rank 36: 640 bytes
+    <- rank 37: 81216 bytes
+    <- rank 38: 14880 bytes
+    <- rank 49: 1664 bytes
+    <- rank 62: 9184 bytes
+    <- rank 63: 26464 bytes
+Rank 20 communication volume (sent 980224 bytes, received 992704 bytes):
+  element (gauss) fields:
+    -> rank 16: 89952 bytes
+    -> rank 17: 416 bytes
+    -> rank 21: 125664 bytes
+    -> rank 22: 1568 bytes
+    -> rank 23: 107264 bytes
+    -> rank 26: 14464 bytes
+    -> rank 27: 672 bytes
+    -> rank 30: 8256 bytes
+    -> rank 31: 125664 bytes
+    <- rank 16: 94496 bytes
+    <- rank 17: 416 bytes
+    <- rank 21: 124704 bytes
+    <- rank 22: 1856 bytes
+    <- rank 23: 107424 bytes
+    <- rank 26: 15008 bytes
+    <- rank 27: 704 bytes
+    <- rank 30: 8384 bytes
+    <- rank 31: 125024 bytes
+  node fields:
+    -> rank 16: 94144 bytes
+    -> rank 17: 1344 bytes
+    -> rank 21: 132064 bytes
+    -> rank 22: 2432 bytes
+    -> rank 23: 113408 bytes
+    -> rank 26: 17920 bytes
+    -> rank 27: 1792 bytes
+    -> rank 30: 11232 bytes
+    -> rank 31: 131968 bytes
+    <- rank 16: 103232 bytes
+    <- rank 17: 1344 bytes
+    <- rank 21: 130112 bytes
+    <- rank 22: 3040 bytes
+    <- rank 23: 114240 bytes
+    <- rank 26: 19008 bytes
+    <- rank 27: 1888 bytes
+    <- rank 30: 11552 bytes
+    <- rank 31: 130272 bytes
+Rank 24 communication volume (sent 1160800 bytes, received 1145184 bytes):
+  element (gauss) fields:
+    -> rank 3: 61312 bytes
+    -> rank 5: 22208 bytes
+    -> rank 25: 132256 bytes
+    -> rank 26: 35680 bytes
+    -> rank 27: 73632 bytes
+    -> rank 28: 93120 bytes
+    -> rank 29: 4416 bytes
+Rank 21 communication volume (sent 684256 bytes, received 691136 bytes):
+  element (gauss) fields:
+    -> rank 16: 13184 bytes
+    -> rank 17: 67840 bytes
+    -> rank 20: 124704 bytes
+    -> rank 22: 93600 bytes
+    -> rank 23: 31712 bytes
+    <- rank 16: 14112 bytes
+    <- rank 17: 67648 bytes
+    -> rank 30: 17760 bytes
+    -> rank 31: 4864 bytes
+    -> rank 44: 23392 bytes
+    -> rank 45: 60480 bytes
+    -> rank 46: 11552 bytes
+    -> rank 47: 10112 bytes
+    <- rank 3: 59936 bytes
+    <- rank 5: 21600 bytes
+    <- rank 20: 125664 bytes
+    <- rank 22: 91264 bytes
+    <- rank 23: 34336 bytes
+  node fields:
+    -> rank 16: 16704 bytes
+    -> rank 17: 72384 bytes
+    -> rank 20: 130112 bytes
+    -> rank 22: 99488 bytes
+    -> rank 23: 34528 bytes
+    <- rank 16: 18656 bytes
+    <- rank 17: 72064 bytes
+    <- rank 20: 132064 bytes
+    <- rank 22: 94976 bytes
+    <- rank 23: 40352 bytes
+    <- rank 25: 132128 bytes
+    <- rank 26: 36160 bytes
+    <- rank 27: 72384 bytes
+    <- rank 28: 91520 bytes
+    <- rank 29: 4608 bytes
+    <- rank 30: 17632 bytes
+    <- rank 31: 4800 bytes
+    <- rank 44: 23360 bytes
+    <- rank 45: 59072 bytes
+    <- rank 46: 11616 bytes
+    <- rank 47: 10688 bytes
+  node fields:
+    -> rank 3: 67136 bytes
+    -> rank 5: 27360 bytes
+    -> rank 25: 137568 bytes
+    -> rank 26: 40128 bytes
+    -> rank 27: 79136 bytes
+    -> rank 28: 100352 bytes
+    -> rank 29: 6240 bytes
+Rank 22 communication volume (sent 834848 bytes, received 826272 bytes):
+  element (gauss) fields:
+    -> rank 16: 1600 bytes
+    -> rank 17: 15360 bytes
+    -> rank 18: 70560 bytes
+    -> rank 19: 2816 bytes
+    -> rank 20: 1856 bytes
+    -> rank 21: 91264 bytes
+    -> rank 23: 124032 bytes
+    -> rank 36: 28288 bytes
+    -> rank 37: 32 bytes
+    -> rank 38: 928 bytes
+    -> rank 39: 63424 bytes
+    <- rank 16: 1600 bytes
+    <- rank 17: 14976 bytes
+    <- rank 18: 67840 bytes
+    <- rank 19: 2560 bytes
+    <- rank 20: 1568 bytes
+    <- rank 21: 93600 bytes
+    <- rank 23: 123328 bytes
+    <- rank 36: 27968 bytes
+    <- rank 37: 32 bytes
+    <- rank 38: 768 bytes
+    <- rank 39: 63488 bytes
+  node fields:
+    -> rank 16: 2816 bytes
+    -> rank 30: 22688 bytes
+    -> rank 31: 6752 bytes
+    -> rank 44: 27904 bytes
+    -> rank 45: 66880 bytes
+    -> rank 46: 14976 bytes
+    -> rank 47: 12896 bytes
+    <- rank 3: 64512 bytes
+    <- rank 5: 26368 bytes
+    <- rank 25: 137184 bytes
+    <- rank 26: 41152 bytes
+    <- rank 27: 76928 bytes
+    <- rank 28: 97024 bytes
+    <- rank 29: 6624 bytes
+    <- rank 30: 22496 bytes
+    -> rank 17: 18752 bytes
+    -> rank 18: 76736 bytes
+    -> rank 19: 6080 bytes
+    -> rank 20: 3040 bytes
+    -> rank 21: 94976 bytes
+    -> rank 23: 128448 bytes
+    -> rank 36: 32672 bytes
+    -> rank 37: 224 bytes
+    -> rank 38: 2272 bytes
+    -> rank 39: 68672 bytes
+    <- rank 16: 2816 bytes
+    <- rank 17: 17920 bytes
+    <- rank 18: 71200 bytes
+    <- rank 19: 5568 bytes
+    <- rank 20: 2432 bytes
+    <- rank 21: 99488 bytes
+    <- rank 23: 126368 bytes
+    <- rank 36: 32000 bytes
+    <- rank 37: 224 bytes
+    <- rank 38: 1824 bytes
+    <- rank 39: 68704 bytes
+    <- rank 31: 6624 bytes
+    <- rank 44: 27712 bytes
+    <- rank 45: 63968 bytes
+    <- rank 46: 15104 bytes
+    <- rank 47: 13984 bytes
+Rank 23 communication volume (sent 1143264 bytes, received 1140352 bytes):
+  element (gauss) fields:
+    -> rank 16: 14144 bytes
+    -> rank 18: 512 bytes
+    -> rank 19: 82176 bytes
+    -> rank 20: 107424 bytes
+    -> rank 21: 34336 bytes
+    -> rank 22: 123328 bytes
+    -> rank 26: 87872 bytes
+    -> rank 27: 18272 bytes
+    -> rank 31: 704 bytes
+    -> rank 36: 224 bytes
+Rank 25 communication volume (sent 769152 bytes, received 779648 bytes):
+  element (gauss) fields:
+    -> rank 24: 132128 bytes
+    -> rank 37: 736 bytes
+    -> rank 38: 66816 bytes
+    -> rank 39: 10336 bytes
+    <- rank 16: 15008 bytes
+    <- rank 18: 320 bytes
+    <- rank 19: 81504 bytes
+    <- rank 20: 107264 bytes
+    <- rank 21: 31712 bytes
+    <- rank 22: 124032 bytes
+    <- rank 26: 87520 bytes
+    <- rank 27: 18240 bytes
+    <- rank 31: 736 bytes
+    <- rank 36: 192 bytes
+    <- rank 37: 640 bytes
+    -> rank 26: 65920 bytes
+    -> rank 28: 12768 bytes
+    -> rank 29: 83040 bytes
+    -> rank 31: 5952 bytes
+    -> rank 44: 62752 bytes
+    -> rank 47: 9824 bytes
+    <- rank 24: 132256 bytes
+    <- rank 26: 68480 bytes
+    <- rank 28: 13184 bytes
+    <- rank 29: 81792 bytes
+    <- rank 31: 6144 bytes
+    <- rank 44: 63552 bytes
+    <- rank 47: 10336 bytes
+  node fields:
+    -> rank 24: 137184 bytes
+    -> rank 26: 68032 bytes
+    -> rank 28: 16000 bytes
+    -> rank 29: 88160 bytes
+    -> rank 31: 8192 bytes
+    -> rank 44: 66752 bytes
+    -> rank 47: 12448 bytes
+    <- rank 24: 137568 bytes
+    <- rank 26: 73472 bytes
+    <- rank 28: 16896 bytes
+    <- rank 29: 85440 bytes
+    <- rank 31: 8640 bytes
+    <- rank 44: 68352 bytes
+    <- rank 47: 13536 bytes
+    <- rank 38: 68064 bytes
+    <- rank 39: 10720 bytes
+  node fields:
+    -> rank 16: 19040 bytes
+    -> rank 18: 1696 bytes
+    -> rank 19: 87872 bytes
+    -> rank 20: 114240 bytes
+    -> rank 21: 40352 bytes
+    -> rank 22: 126368 bytes
+    -> rank 26: 93728 bytes
+    -> rank 27: 22752 bytes
+    -> rank 31: 1824 bytes
+    -> rank 36: 672 bytes
+    -> rank 37: 1792 bytes
+    -> rank 38: 72128 bytes
+    -> rank 39: 13920 bytes
+    <- rank 16: 20800 bytes
+    <- rank 18: 1056 bytes
+    <- rank 19: 86656 bytes
+Rank 26 communication volume (sent 964192 bytes, received 962272 bytes):
+  element (gauss) fields:
+    -> rank 20: 15008 bytes
+    -> rank 23: 87520 bytes
+    -> rank 24: 36160 bytes
+    -> rank 25: 68480 bytes
+    -> rank 27: 89120 bytes
+    -> rank 30: 1280 bytes
+    -> rank 31: 66048 bytes
+    -> rank 38: 28096 bytes
+    <- rank 20: 113408 bytes
+    <- rank 21: 34528 bytes
+    <- rank 22: 128448 bytes
+    <- rank 26: 92928 bytes
+    <- rank 27: 22752 bytes
+    <- rank 31: 1952 bytes
+    <- rank 36: 608 bytes
+    <- rank 37: 1536 bytes
+    <- rank 38: 74880 bytes
+    <- rank 39: 14848 bytes
+    -> rank 47: 70912 bytes
+    <- rank 20: 14464 bytes
+    <- rank 23: 87872 bytes
+    <- rank 24: 35680 bytes
+    <- rank 25: 65920 bytes
+    <- rank 27: 87776 bytes
+    <- rank 30: 1344 bytes
+    <- rank 31: 68192 bytes
+    <- rank 38: 28576 bytes
+    <- rank 47: 72160 bytes
+  node fields:
+    -> rank 20: 19008 bytes
+    -> rank 23: 92928 bytes
+    -> rank 24: 41152 bytes
+    -> rank 25: 73472 bytes
+    -> rank 27: 94112 bytes
+    -> rank 30: 2208 bytes
+    -> rank 31: 70112 bytes
+    -> rank 38: 32352 bytes
+    -> rank 47: 76224 bytes
+    <- rank 20: 17920 bytes
+    <- rank 23: 93728 bytes
+    <- rank 24: 40128 bytes
+    <- rank 25: 68032 bytes
+    <- rank 27: 91456 bytes
+    <- rank 30: 2400 bytes
+    <- rank 31: 74528 bytes
+    <- rank 38: 33376 bytes
+    <- rank 47: 78720 bytes
+Rank 27 communication volume (sent 1258272 bytes, received 1242240 bytes):
+  element (gauss) fields:
+    -> rank 2: 61056 bytes
+    -> rank 3: 25312 bytes
+    -> rank 5: 2720 bytes
+    -> rank 8: 25600 bytes
+    -> rank 16: 9792 bytes
+    -> rank 19: 77120 bytes
+    -> rank 20: 704 bytes
+    -> rank 23: 18240 bytes
+    -> rank 24: 72384 bytes
+    -> rank 26: 87776 bytes
+    -> rank 30: 91744 bytes
+    -> rank 31: 16096 bytes
+    -> rank 37: 11584 bytes
+    -> rank 38: 11200 bytes
+    -> rank 46: 67840 bytes
+    -> rank 47: 9344 bytes
+    -> rank 49: 5280 bytes
+    <- rank 2: 58688 bytes
+    <- rank 3: 24544 bytes
+    <- rank 5: 2816 bytes
+    <- rank 8: 26112 bytes
+    <- rank 16: 9344 bytes
+    <- rank 19: 74304 bytes
+    <- rank 20: 672 bytes
+    <- rank 23: 18272 bytes
+    <- rank 24: 73632 bytes
+    <- rank 26: 89120 bytes
+    <- rank 30: 91776 bytes
+    <- rank 31: 15520 bytes
+    <- rank 37: 10816 bytes
+    <- rank 38: 10816 bytes
+    <- rank 46: 66784 bytes
+    <- rank 47: 9568 bytes
+    <- rank 49: 5824 bytes
+  node fields:
+    -> rank 2: 67744 bytes
+    -> rank 3: 29632 bytes
+    -> rank 5: 5152 bytes
+    -> rank 8: 30016 bytes
+    -> rank 16: 13696 bytes
+    -> rank 19: 83616 bytes
+    -> rank 20: 1888 bytes
+    -> rank 23: 22752 bytes
+    -> rank 24: 76928 bytes
+    -> rank 26: 91456 bytes
+    -> rank 30: 97856 bytes
+    -> rank 31: 19488 bytes
+    -> rank 37: 14848 bytes
+    -> rank 38: 14176 bytes
+    -> rank 46: 74816 bytes
+    -> rank 47: 12640 bytes
+    -> rank 49: 7776 bytes
+    <- rank 2: 63136 bytes
+    <- rank 3: 27840 bytes
+    <- rank 5: 5440 bytes
+    <- rank 8: 31296 bytes
+    <- rank 16: 12736 bytes
+    <- rank 19: 77792 bytes
+    <- rank 20: 1792 bytes
+    <- rank 23: 22752 bytes
+    <- rank 24: 79136 bytes
+    <- rank 26: 94112 bytes
+    <- rank 30: 97952 bytes
+    <- rank 31: 18400 bytes
+    <- rank 37: 13184 bytes
+    <- rank 38: 13440 bytes
+    <- rank 46: 72512 bytes
+    <- rank 47: 13152 bytes
+    <- rank 49: 8960 bytes
+Rank 28 communication volume (sent 924480 bytes, received 920480 bytes):
+  element (gauss) fields:
+    -> rank 4: 74848 bytes
+    -> rank 5: 45024 bytes
+    -> rank 24: 91520 bytes
+    -> rank 25: 13184 bytes
+    -> rank 29: 113568 bytes
+    -> rank 30: 90848 bytes
+    -> rank 31: 15616 bytes
+    <- rank 4: 75136 bytes
+    <- rank 5: 45024 bytes
+    <- rank 24: 93120 bytes
+    <- rank 25: 12768 bytes
+    <- rank 29: 113248 bytes
+    <- rank 30: 89248 bytes
+    <- rank 31: 14752 bytes
+  node fields:
+    -> rank 4: 79360 bytes
+    -> rank 5: 49824 bytes
+    -> rank 24: 97024 bytes
+    -> rank 25: 16896 bytes
+    -> rank 29: 119040 bytes
+    -> rank 30: 97440 bytes
+    -> rank 31: 20288 bytes
+    <- rank 4: 79808 bytes
+    <- rank 5: 49856 bytes
+    <- rank 24: 100352 bytes
+    <- rank 25: 16000 bytes
+    <- rank 29: 118304 bytes
+    <- rank 30: 94336 bytes
+    <- rank 31: 18528 bytes
+Rank 32 communication volume (sent 1366848 bytes, received 1389760 bytes):
+  element (gauss) fields:
+    -> rank 33: 294400 bytes
+    -> rank 34: 101280 bytes
+    -> rank 35: 14784 bytes
+    -> rank 36: 224 bytes
+    -> rank 37: 80928 bytes
+    -> rank 38: 12192 bytes
+    -> rank 40: 6784 bytes
+    -> rank 41: 68384 bytes
+Rank 29 communication volume (sent 575552 bytes, received 586112 bytes):
+  element (gauss) fields:
+    -> rank 24: 4608 bytes
+    -> rank 25: 81792 bytes
+    -> rank 28: 113248 bytes
+    -> rank 31: 81024 bytes
+    <- rank 24: 4416 bytes
+    <- rank 25: 83040 bytes
+    <- rank 28: 113568 bytes
+    -> rank 46: 17120 bytes
+    -> rank 47: 64 bytes
+    -> rank 48: 35328 bytes
+    -> rank 49: 6304 bytes
+    -> rank 57: 48256 bytes
+    -> rank 63: 1632 bytes
+    <- rank 33: 297504 bytes
+    <- rank 34: 99264 bytes
+    <- rank 35: 15648 bytes
+    <- rank 31: 83040 bytes
+  node fields:
+    -> rank 24: 6624 bytes
+    -> rank 25: 85440 bytes
+    -> rank 28: 118304 bytes
+    -> rank 31: 84512 bytes
+    <- rank 24: 6240 bytes
+    <- rank 25: 88160 bytes
+    <- rank 28: 119040 bytes
+    <- rank 31: 88608 bytes
+    <- rank 36: 192 bytes
+    <- rank 37: 84896 bytes
+    <- rank 38: 13312 bytes
+    <- rank 40: 8256 bytes
+    <- rank 41: 68800 bytes
+    <- rank 46: 17504 bytes
+    <- rank 47: 64 bytes
+    <- rank 48: 34528 bytes
+    <- rank 49: 6176 bytes
+    <- rank 57: 49344 bytes
+    <- rank 63: 1632 bytes
+  node fields:
+    -> rank 33: 241440 bytes
+    -> rank 34: 106752 bytes
+    -> rank 35: 20384 bytes
+    -> rank 36: 704 bytes
+    -> rank 37: 86272 bytes
+    -> rank 38: 14848 bytes
+    -> rank 40: 9216 bytes
+Rank 30 communication volume (sent 1131904 bytes, received 1124608 bytes):
+  element (gauss) fields:
+    -> rank 2: 2528 bytes
+    -> rank 4: 47200 bytes
+    -> rank 5: 43392 bytes
+    -> rank 8: 14336 bytes
+    -> rank 9: 44928 bytes
+    -> rank 16: 68160 bytes
+    -> rank 19: 96 bytes
+    -> rank 20: 8384 bytes
+    -> rank 41: 73536 bytes
+    -> rank 46: 20800 bytes
+    -> rank 47: 320 bytes
+    -> rank 48: 40352 bytes
+    -> rank 49: 8352 bytes
+    -> rank 57: 53344 bytes
+    -> rank 63: 2848 bytes
+    <- rank 33: 245120 bytes
+    <- rank 34: 103168 bytes
+    <- rank 35: 21376 bytes
+    <- rank 36: 576 bytes
+    <- rank 37: 93632 bytes
+    <- rank 38: 16544 bytes
+    <- rank 40: 11648 bytes
+    <- rank 41: 73920 bytes
+    <- rank 46: 21376 bytes
+    <- rank 47: 320 bytes
+    <- rank 48: 38688 bytes
+    <- rank 49: 8096 bytes
+    <- rank 57: 55328 bytes
+    <- rank 63: 2848 bytes
+    -> rank 24: 17632 bytes
+    -> rank 26: 1344 bytes
+    -> rank 27: 91776 bytes
+    -> rank 28: 89248 bytes
+    -> rank 31: 110304 bytes
+    <- rank 2: 2208 bytes
+    <- rank 4: 45792 bytes
+    <- rank 5: 42144 bytes
+    <- rank 8: 14400 bytes
+    <- rank 9: 43712 bytes
+    <- rank 16: 68960 bytes
+    <- rank 19: 96 bytes
+    <- rank 20: 8256 bytes
+    <- rank 24: 17760 bytes
+Rank 33 communication volume (sent 1260672 bytes, received 1250592 bytes):
+  element (gauss) fields:
+    -> rank 32: 297504 bytes
+    -> rank 34: 192 bytes
+    -> rank 35: 94976 bytes
+    -> rank 37: 13376 bytes
+    -> rank 38: 77568 bytes
+    -> rank 39: 37408 bytes
+    -> rank 40: 99072 bytes
+    -> rank 41: 8032 bytes
+    -> rank 46: 736 bytes
+    -> rank 47: 8320 bytes
+    <- rank 32: 294400 bytes
+    <- rank 26: 1280 bytes
+    <- rank 27: 91744 bytes
+    <- rank 28: 90848 bytes
+    <- rank 31: 109952 bytes
+  node fields:
+    -> rank 2: 5152 bytes
+    -> rank 4: 53024 bytes
+    -> rank 5: 49472 bytes
+    -> rank 8: 17376 bytes
+    -> rank 9: 50528 bytes
+    -> rank 16: 72448 bytes
+    -> rank 19: 384 bytes
+    -> rank 20: 11552 bytes
+    -> rank 24: 22496 bytes
+    -> rank 26: 2400 bytes
+    -> rank 27: 97952 bytes
+    <- rank 34: 224 bytes
+    <- rank 35: 96960 bytes
+    <- rank 37: 14720 bytes
+    <- rank 38: 75872 bytes
+    <- rank 39: 36704 bytes
+    <- rank 40: 96960 bytes
+    <- rank 41: 8992 bytes
+    <- rank 46: 1120 bytes
+    <- rank 47: 8256 bytes
+  node fields:
+    -> rank 32: 245120 bytes
+    -> rank 34: 672 bytes
+    -> rank 35: 100448 bytes
+    -> rank 37: 18112 bytes
+    -> rank 38: 84832 bytes
+    -> rank 39: 42976 bytes
+    -> rank 40: 106592 bytes
+    -> rank 41: 11072 bytes
+    -> rank 28: 94336 bytes
+    -> rank 31: 115456 bytes
+    <- rank 2: 4352 bytes
+    <- rank 4: 50144 bytes
+    <- rank 5: 46944 bytes
+    <- rank 8: 17504 bytes
+    <- rank 9: 48032 bytes
+    <- rank 16: 74240 bytes
+    <- rank 19: 384 bytes
+    <- rank 20: 11232 bytes
+    <- rank 24: 22688 bytes
+    <- rank 26: 2208 bytes
+    <- rank 27: 97856 bytes
+    <- rank 28: 97440 bytes
+    -> rank 46: 1312 bytes
+    -> rank 47: 12352 bytes
+    <- rank 32: 241440 bytes
+    <- rank 34: 800 bytes
+    <- rank 35: 103392 bytes
+    <- rank 37: 20192 bytes
+    <- rank 38: 80864 bytes
+    <- rank 39: 41504 bytes
+    <- rank 40: 101408 bytes
+    <- rank 41: 12480 bytes
+    <- rank 46: 2144 bytes
+    <- rank 47: 12160 bytes
+    <- rank 31: 114432 bytes
+Rank 34 communication volume (sent 868480 bytes, received 872032 bytes):
+  element (gauss) fields:
+    -> rank 32: 99264 bytes
+    -> rank 33: 224 bytes
+    -> rank 35: 129728 bytes
+    -> rank 36: 100672 bytes
+    -> rank 37: 10080 bytes
+    -> rank 56: 53472 bytes
+    -> rank 57: 27392 bytes
+    <- rank 32: 101280 bytes
+    <- rank 33: 192 bytes
+    <- rank 35: 128736 bytes
+    <- rank 36: 100192 bytes
+    <- rank 37: 10304 bytes
+    <- rank 56: 53152 bytes
+    <- rank 57: 28480 bytes
+  node fields:
+    -> rank 32: 103168 bytes
+    -> rank 33: 800 bytes
+    -> rank 35: 134080 bytes
+    -> rank 36: 106656 bytes
+    -> rank 37: 13728 bytes
+Rank 31 communication volume (sent 895200 bytes, received 890336 bytes):
+  element (gauss) fields:
+    -> rank 16: 1920 bytes
+    -> rank 20: 125024 bytes
+    -> rank 23: 736 bytes
+    -> rank 24: 4800 bytes
+    -> rank 25: 6144 bytes
+    -> rank 56: 57952 bytes
+    -> rank 57: 31264 bytes
+    <- rank 32: 106752 bytes
+    <- rank 33: 672 bytes
+    <- rank 35: 131712 bytes
+    <- rank 36: 105568 bytes
+    <- rank 37: 14240 bytes
+    <- rank 56: 57312 bytes
+    <- rank 57: 33440 bytes
+    -> rank 26: 68192 bytes
+    -> rank 27: 15520 bytes
+    -> rank 28: 14752 bytes
+    -> rank 29: 83040 bytes
+    -> rank 30: 109952 bytes
+    <- rank 16: 2016 bytes
+    <- rank 20: 125664 bytes
+    <- rank 23: 704 bytes
+    <- rank 24: 4864 bytes
+    <- rank 25: 5952 bytes
+    <- rank 26: 66048 bytes
+    <- rank 27: 16096 bytes
+    <- rank 28: 15616 bytes
+Rank 35 communication volume (sent 733760 bytes, received 728064 bytes):
+  element (gauss) fields:
+    -> rank 32: 15648 bytes
+    -> rank 33: 96960 bytes
+    -> rank 34: 128736 bytes
+    -> rank 36: 14016 bytes
+    <- rank 29: 81024 bytes
+    <- rank 30: 110304 bytes
+  node fields:
+    -> rank 16: 3136 bytes
+    -> rank 20: 130272 bytes
+    -> rank 23: 1952 bytes
+    -> rank 24: 6624 bytes
+    -> rank 25: 8640 bytes
+    -> rank 26: 74528 bytes
+    -> rank 27: 18400 bytes
+    -> rank 28: 18528 bytes
+    -> rank 29: 88608 bytes
+    -> rank 30: 114432 bytes
+    <- rank 16: 3456 bytes
+    <- rank 20: 131968 bytes
+    <- rank 23: 1824 bytes
+    <- rank 24: 6752 bytes
+    <- rank 25: 8192 bytes
+    -> rank 37: 2176 bytes
+    -> rank 39: 96512 bytes
+    <- rank 32: 14784 bytes
+    <- rank 33: 94976 bytes
+    <- rank 34: 129728 bytes
+    <- rank 36: 14176 bytes
+    <- rank 37: 1952 bytes
+    <- rank 39: 95808 bytes
+  node fields:
+    -> rank 32: 21376 bytes
+    -> rank 33: 103392 bytes
+    -> rank 34: 131712 bytes
+    -> rank 36: 17472 bytes
+    -> rank 37: 3328 bytes
+    -> rank 39: 102432 bytes
+    <- rank 32: 20384 bytes
+    <- rank 33: 100448 bytes
+    <- rank 34: 134080 bytes
+    <- rank 36: 17696 bytes
+    <- rank 37: 2880 bytes
+    <- rank 39: 101152 bytes
+    <- rank 26: 70112 bytes
+    <- rank 27: 19488 bytes
+    <- rank 28: 20288 bytes
+    <- rank 29: 84512 bytes
+    <- rank 30: 115456 bytes
+Rank 36 communication volume (sent 1052800 bytes, received 1057344 bytes):
+  element (gauss) fields:
+    -> rank 18: 52928 bytes
+    -> rank 19: 192 bytes
+    -> rank 22: 27968 bytes
+    -> rank 23: 192 bytes
+    -> rank 32: 192 bytes
+    -> rank 34: 100192 bytes
+    -> rank 35: 14176 bytes
+    -> rank 37: 130336 bytes
+    -> rank 38: 1312 bytes
+    -> rank 39: 84288 bytes
+    -> rank 56: 27360 bytes
+    -> rank 57: 6432 bytes
+    -> rank 62: 58400 bytes
+    -> rank 63: 1120 bytes
+    <- rank 18: 54432 bytes
+    <- rank 19: 192 bytes
+    <- rank 22: 28288 bytes
+    <- rank 23: 224 bytes
+    <- rank 32: 224 bytes
+    <- rank 34: 100672 bytes
+    <- rank 35: 14016 bytes
+    <- rank 37: 128224 bytes
+    <- rank 38: 1088 bytes
+    <- rank 39: 86592 bytes
+    <- rank 56: 26656 bytes
+    <- rank 57: 6752 bytes
+    <- rank 62: 58336 bytes
+    <- rank 63: 960 bytes
+  node fields:
+    -> rank 18: 57280 bytes
+    -> rank 19: 640 bytes
+    -> rank 22: 32000 bytes
+    -> rank 23: 608 bytes
+    -> rank 32: 576 bytes
+    -> rank 34: 105568 bytes
+    -> rank 35: 17696 bytes
+    -> rank 37: 137280 bytes
+    -> rank 38: 2272 bytes
+    -> rank 39: 87936 bytes
+    -> rank 56: 31520 bytes
+    -> rank 57: 8832 bytes
+    -> rank 62: 63232 bytes
+    -> rank 63: 2272 bytes
+    <- rank 18: 60224 bytes
+    <- rank 19: 640 bytes
+    <- rank 22: 32672 bytes
+    <- rank 23: 672 bytes
+    <- rank 32: 704 bytes
+    <- rank 34: 106656 bytes
+    <- rank 35: 17472 bytes
+    <- rank 37: 132800 bytes
+    <- rank 38: 1760 bytes
+    <- rank 39: 92544 bytes
+    <- rank 56: 30048 bytes
+    <- rank 57: 9472 bytes
+    <- rank 62: 63136 bytes
+    <- rank 63: 1888 bytes
+Rank 37 communication volume (sent 1312608 bytes, received 1312000 bytes):
+  element (gauss) fields:
+    -> rank 18: 13504 bytes
+    -> rank 19: 75136 bytes
+    -> rank 22: 32 bytes
+    -> rank 23: 640 bytes
+    -> rank 27: 10816 bytes
+    -> rank 32: 84896 bytes
+    -> rank 33: 14720 bytes
+    -> rank 34: 10304 bytes
+    -> rank 35: 1952 bytes
+    -> rank 36: 128224 bytes
+    -> rank 38: 116192 bytes
+    -> rank 39: 21824 bytes
+    -> rank 46: 36384 bytes
+    -> rank 49: 22016 bytes
+    -> rank 57: 9120 bytes
+    -> rank 62: 15616 bytes
+    -> rank 63: 61728 bytes
+    <- rank 18: 14336 bytes
+    <- rank 19: 75968 bytes
+    <- rank 22: 32 bytes
+    <- rank 23: 736 bytes
+    <- rank 27: 11584 bytes
+    <- rank 32: 80928 bytes
+    <- rank 33: 13376 bytes
+    <- rank 34: 10080 bytes
+    <- rank 35: 2176 bytes
+    <- rank 36: 130336 bytes
+    <- rank 38: 114944 bytes
+    <- rank 39: 21824 bytes
+    <- rank 46: 38464 bytes
+    <- rank 49: 22432 bytes
+    <- rank 57: 10080 bytes
+    <- rank 62: 15840 bytes
+    <- rank 63: 59008 bytes
+  node fields:
+    -> rank 18: 17408 bytes
+    -> rank 19: 81216 bytes
+    -> rank 22: 224 bytes
+    -> rank 23: 1536 bytes
+    -> rank 27: 13184 bytes
+    -> rank 32: 93632 bytes
+    -> rank 33: 20192 bytes
+    -> rank 34: 14240 bytes
+    -> rank 35: 2880 bytes
+    -> rank 36: 132800 bytes
+    -> rank 38: 122912 bytes
+    -> rank 39: 25344 bytes
+    -> rank 46: 39104 bytes
+    -> rank 49: 25472 bytes
+    -> rank 57: 11776 bytes
+    -> rank 62: 19104 bytes
+    -> rank 63: 68480 bytes
+    <- rank 18: 19200 bytes
+    <- rank 19: 82816 bytes
+    <- rank 22: 224 bytes
+    <- rank 23: 1792 bytes
+    <- rank 27: 14848 bytes
+    <- rank 32: 86272 bytes
+    <- rank 33: 18112 bytes
+    <- rank 34: 13728 bytes
+    <- rank 35: 3328 bytes
+    <- rank 36: 137280 bytes
+    <- rank 38: 120576 bytes
+    <- rank 39: 25472 bytes
+    <- rank 46: 43456 bytes
+Rank 40 communication volume (sent 754752 bytes, received 759680 bytes):
+  element (gauss) fields:
+    -> rank 32: 8256 bytes
+    -> rank 33: 96960 bytes
+    -> rank 41: 91520 bytes
+    -> rank 42: 74912 bytes
+    -> rank 44: 5056 bytes
+    -> rank 47: 89280 bytes
+    <- rank 32: 6784 bytes
+    <- rank 33: 99072 bytes
+    <- rank 49: 26368 bytes
+    <- rank 57: 13824 bytes
+    <- rank 62: 19552 bytes
+    <- rank 63: 63008 bytes
+    <- rank 41: 89696 bytes
+    <- rank 42: 76832 bytes
+    <- rank 44: 5184 bytes
+    <- rank 47: 89504 bytes
+  node fields:
+    -> rank 32: 11648 bytes
+    -> rank 33: 101408 bytes
+    -> rank 41: 96288 bytes
+    -> rank 42: 78176 bytes
+    -> rank 44: 7424 bytes
+Rank 38 communication volume (sent 1162656 bytes, received 1163008 bytes):
+  element (gauss) fields:
+    -> rank 19: 10784 bytes
+    -> rank 22: 768 bytes
+    -> rank 23: 68064 bytes
+    -> rank 26: 28576 bytes
+    -> rank 27: 10816 bytes
+    -> rank 32: 13312 bytes
+    -> rank 33: 75872 bytes
+    -> rank 36: 1088 bytes
+    -> rank 47: 93824 bytes
+    <- rank 32: 9216 bytes
+    <- rank 33: 106592 bytes
+    <- rank 41: 92352 bytes
+    <- rank 42: 82080 bytes
+    <- rank 44: 7808 bytes
+    <- rank 47: 94560 bytes
+    -> rank 37: 114944 bytes
+    -> rank 39: 102848 bytes
+    -> rank 46: 38336 bytes
+    -> rank 47: 90944 bytes
+    <- rank 19: 10656 bytes
+    <- rank 22: 928 bytes
+    <- rank 23: 66816 bytes
+    <- rank 26: 28096 bytes
+    <- rank 27: 11200 bytes
+    <- rank 32: 12192 bytes
+    <- rank 33: 77568 bytes
+    <- rank 36: 1312 bytes
+    <- rank 37: 116192 bytes
+    <- rank 39: 101056 bytes
+    <- rank 46: 39328 bytes
+    <- rank 47: 91136 bytes
+  node fields:
+    -> rank 19: 14880 bytes
+    -> rank 22: 1824 bytes
+    -> rank 23: 74880 bytes
+Rank 41 communication volume (sent 896832 bytes, received 895808 bytes):
+  element (gauss) fields:
+    -> rank 32: 68800 bytes
+    -> rank 33: 8992 bytes
+    -> rank 40: 89696 bytes
+    -> rank 42: 11072 bytes
+    -> rank 43: 78976 bytes
+    -> rank 44: 512 bytes
+    -> rank 45: 672 bytes
+    -> rank 46: 74272 bytes
+    -> rank 47: 14752 bytes
+    -> rank 48: 50368 bytes
+    -> rank 54: 30624 bytes
+    <- rank 32: 68384 bytes
+    -> rank 26: 33376 bytes
+    -> rank 27: 13440 bytes
+    -> rank 32: 16544 bytes
+    -> rank 33: 80864 bytes
+    -> rank 36: 1760 bytes
+    -> rank 37: 120576 bytes
+    -> rank 39: 109728 bytes
+    -> rank 46: 42400 bytes
+    -> rank 47: 96032 bytes
+    <- rank 19: 14624 bytes
+    <- rank 22: 2272 bytes
+    <- rank 23: 72128 bytes
+    <- rank 26: 32352 bytes
+    <- rank 27: 14176 bytes
+    <- rank 32: 14848 bytes
+    <- rank 33: 84832 bytes
+    <- rank 36: 2272 bytes
+    <- rank 37: 122912 bytes
+    <- rank 39: 105440 bytes
+    <- rank 46: 44608 bytes
+    <- rank 47: 96064 bytes
+    <- rank 33: 8032 bytes
+    <- rank 40: 91520 bytes
+    <- rank 42: 10816 bytes
+    <- rank 43: 77216 bytes
+    <- rank 44: 512 bytes
+    <- rank 45: 544 bytes
+    <- rank 46: 73760 bytes
+    <- rank 47: 14624 bytes
+    <- rank 48: 51360 bytes
+    <- rank 54: 31168 bytes
+  node fields:
+    -> rank 32: 73920 bytes
+    -> rank 33: 12480 bytes
+    -> rank 40: 92352 bytes
+    -> rank 42: 14720 bytes
+    -> rank 43: 84512 bytes
+    -> rank 44: 1216 bytes
+    -> rank 45: 1824 bytes
+Rank 39 communication volume (sent 865856 bytes, received 867648 bytes):
+  element (gauss) fields:
+    -> rank 22: 63488 bytes
+    -> rank 23: 10720 bytes
+    -> rank 33: 36704 bytes
+    -> rank 35: 95808 bytes
+    -> rank 36: 86592 bytes
+    -> rank 37: 21824 bytes
+    -> rank 38: 101056 bytes
+    <- rank 22: 63424 bytes
+    <- rank 23: 10336 bytes
+    <- rank 33: 37408 bytes
+    <- rank 35: 96512 bytes
+    <- rank 36: 84288 bytes
+    <- rank 37: 21824 bytes
+    <- rank 38: 102848 bytes
+  node fields:
+    -> rank 46: 79168 bytes
+    -> rank 47: 18624 bytes
+    -> rank 48: 54592 bytes
+    -> rank 54: 34688 bytes
+    <- rank 32: 73536 bytes
+    <- rank 33: 11072 bytes
+    <- rank 40: 96288 bytes
+    <- rank 42: 14208 bytes
+    <- rank 43: 80992 bytes
+    <- rank 44: 1216 bytes
+    <- rank 45: 1440 bytes
+    <- rank 46: 78144 bytes
+    <- rank 47: 18336 bytes
+    <- rank 48: 56640 bytes
+    <- rank 54: 36000 bytes
+    -> rank 22: 68704 bytes
+    -> rank 23: 14848 bytes
+    -> rank 33: 41504 bytes
+    -> rank 35: 101152 bytes
+    -> rank 36: 92544 bytes
+    -> rank 37: 25472 bytes
+    -> rank 38: 105440 bytes
+    <- rank 22: 68672 bytes
+    <- rank 23: 13920 bytes
+    <- rank 33: 42976 bytes
+    <- rank 35: 102432 bytes
+    <- rank 36: 87936 bytes
+    <- rank 37: 25344 bytes
+    <- rank 38: 109728 bytes
+Rank 42 communication volume (sent 614432 bytes, received 613696 bytes):
+  element (gauss) fields:
+    -> rank 40: 76832 bytes
+    -> rank 41: 10816 bytes
+    -> rank 43: 107584 bytes
+    -> rank 44: 87488 bytes
+    -> rank 45: 12288 bytes
+    -> rank 47: 2080 bytes
+    <- rank 40: 74912 bytes
+    <- rank 41: 11072 bytes
+    <- rank 43: 107040 bytes
+    <- rank 44: 89152 bytes
+    <- rank 45: 12704 bytes
+    <- rank 47: 1984 bytes
+  node fields:
+    -> rank 40: 82080 bytes
+    -> rank 41: 14208 bytes
+    -> rank 43: 111456 bytes
+    -> rank 44: 91104 bytes
+    -> rank 45: 15072 bytes
+    -> rank 47: 3424 bytes
+    <- rank 40: 78176 bytes
+    <- rank 41: 14720 bytes
+    <- rank 43: 110240 bytes
+    <- rank 44: 94560 bytes
+    <- rank 45: 15968 bytes
+    <- rank 47: 3168 bytes
+Rank 43 communication volume (sent 831968 bytes, received 836960 bytes):
+  element (gauss) fields:
+    -> rank 41: 77216 bytes
+    -> rank 42: 107040 bytes
+    -> rank 44: 1952 bytes
+    -> rank 45: 88800 bytes
+    -> rank 46: 9472 bytes
+    -> rank 54: 93152 bytes
+    -> rank 55: 23872 bytes
+    <- rank 41: 78976 bytes
+    <- rank 42: 107584 bytes
+    <- rank 44: 2208 bytes
+    <- rank 45: 88416 bytes
+    <- rank 46: 8928 bytes
+    <- rank 54: 93120 bytes
+    <- rank 55: 24064 bytes
+  node fields:
+    -> rank 41: 80992 bytes
+    -> rank 42: 110240 bytes
+    -> rank 44: 3488 bytes
+    -> rank 45: 95040 bytes
+    -> rank 46: 13728 bytes
+    -> rank 54: 98880 bytes
+    -> rank 55: 28096 bytes
+    <- rank 41: 84512 bytes
+    <- rank 42: 111456 bytes
+    <- rank 44: 4128 bytes
+    <- rank 45: 94144 bytes
+    <- rank 46: 12416 bytes
+    <- rank 54: 98464 bytes
+    <- rank 55: 28544 bytes
+Rank 44 communication volume (sent 736416 bytes, received 736672 bytes):
+  element (gauss) fields:
+    -> rank 24: 23360 bytes
+    -> rank 25: 63552 bytes
+    -> rank 40: 5184 bytes
+    -> rank 41: 512 bytes
+    -> rank 42: 89152 bytes
+    -> rank 43: 2208 bytes
+    -> rank 45: 89120 bytes
+    -> rank 47: 81600 bytes
+    <- rank 24: 23392 bytes
+    <- rank 25: 62752 bytes
+    <- rank 40: 5056 bytes
+    <- rank 41: 512 bytes
+    <- rank 42: 87488 bytes
+    <- rank 43: 1952 bytes
+    <- rank 45: 90144 bytes
+    <- rank 47: 83520 bytes
+  node fields:
+    -> rank 24: 27712 bytes
+    -> rank 25: 68352 bytes
+    -> rank 40: 7808 bytes
+    -> rank 41: 1216 bytes
+    -> rank 42: 94560 bytes
+    -> rank 43: 4128 bytes
+    -> rank 45: 92736 bytes
+    -> rank 47: 85216 bytes
+    <- rank 24: 27904 bytes
+    <- rank 25: 66752 bytes
+    <- rank 40: 7424 bytes
+    <- rank 41: 1216 bytes
+    <- rank 42: 91104 bytes
+    <- rank 43: 3488 bytes
+    <- rank 45: 94784 bytes
+    <- rank 47: 89184 bytes
+Rank 45 communication volume (sent 988544 bytes, received 996960 bytes):
+  element (gauss) fields:
+    -> rank 3: 47488 bytes
+    -> rank 24: 59072 bytes
+    -> rank 41: 544 bytes
+    -> rank 42: 12704 bytes
+    -> rank 43: 88416 bytes
+    -> rank 44: 90144 bytes
+    -> rank 46: 98464 bytes
+    -> rank 47: 5536 bytes
+    -> rank 55: 73760 bytes
+    <- rank 3: 48032 bytes
+    <- rank 24: 60480 bytes
+    <- rank 41: 672 bytes
+    <- rank 42: 12288 bytes
+    <- rank 43: 88800 bytes
+    <- rank 44: 89120 bytes
+    <- rank 46: 97600 bytes
+    <- rank 47: 5568 bytes
+    <- rank 55: 76064 bytes
+  node fields:
+    -> rank 3: 52064 bytes
+    -> rank 24: 63968 bytes
+    -> rank 41: 1440 bytes
+    -> rank 42: 15968 bytes
+    -> rank 43: 94144 bytes
+    -> rank 44: 94784 bytes
+    -> rank 46: 102880 bytes
+    -> rank 47: 8992 bytes
+    -> rank 55: 78176 bytes
+Rank 48 communication volume (sent 998304 bytes, received 1010528 bytes):
+  element (gauss) fields:
+    -> rank 32: 34528 bytes
+    -> rank 41: 51360 bytes
+    -> rank 46: 7008 bytes
+    -> rank 49: 92352 bytes
+    -> rank 50: 1632 bytes
+    -> rank 51: 98560 bytes
+    <- rank 3: 53248 bytes
+    <- rank 24: 66880 bytes
+    <- rank 41: 1824 bytes
+    <- rank 42: 15072 bytes
+    <- rank 43: 95040 bytes
+    <- rank 44: 92736 bytes
+    <- rank 46: 101568 bytes
+    <- rank 47: 9056 bytes
+    <- rank 55: 82912 bytes
+Rank 46 communication volume (sent 1177184 bytes, received 1162752 bytes):
+  element (gauss) fields:
+    -> rank 2: 3456 bytes
+    -> rank 3: 10048 bytes
+    -> rank 24: 11616 bytes
+    -> rank 52: 736 bytes
+    -> rank 54: 85632 bytes
+    -> rank 55: 576 bytes
+    -> rank 57: 93088 bytes
+    -> rank 59: 14496 bytes
+    <- rank 32: 35328 bytes
+    <- rank 41: 50368 bytes
+    <- rank 46: 7008 bytes
+    <- rank 49: 92384 bytes
+    <- rank 50: 1536 bytes
+    <- rank 51: 99200 bytes
+    -> rank 27: 66784 bytes
+    -> rank 32: 17504 bytes
+    -> rank 33: 1120 bytes
+    -> rank 37: 38464 bytes
+    -> rank 38: 39328 bytes
+    -> rank 41: 73760 bytes
+    -> rank 43: 8928 bytes
+    -> rank 45: 97600 bytes
+    -> rank 47: 85376 bytes
+    -> rank 48: 7008 bytes
+    -> rank 49: 64512 bytes
+    -> rank 54: 4256 bytes
+    -> rank 55: 27584 bytes
+    <- rank 2: 3168 bytes
+    <- rank 3: 9952 bytes
+    <- rank 24: 11552 bytes
+    <- rank 27: 67840 bytes
+    <- rank 52: 768 bytes
+    <- rank 54: 87968 bytes
+    <- rank 55: 704 bytes
+    <- rank 57: 94112 bytes
+    <- rank 59: 14464 bytes
+  node fields:
+    -> rank 32: 38688 bytes
+    -> rank 41: 56640 bytes
+    -> rank 46: 9632 bytes
+    -> rank 49: 96256 bytes
+    -> rank 50: 4384 bytes
+    -> rank 51: 103392 bytes
+    -> rank 52: 2048 bytes
+    -> rank 54: 89504 bytes
+    -> rank 55: 1184 bytes
+    -> rank 57: 98400 bytes
+    -> rank 59: 18208 bytes
+    <- rank 32: 17120 bytes
+    <- rank 33: 736 bytes
+    <- rank 37: 36384 bytes
+    <- rank 38: 38336 bytes
+    <- rank 41: 74272 bytes
+    <- rank 43: 9472 bytes
+    <- rank 45: 98464 bytes
+    <- rank 47: 84864 bytes
+    <- rank 48: 7008 bytes
+    <- rank 49: 62880 bytes
+    <- rank 54: 4000 bytes
+    <- rank 55: 26688 bytes
+  node fields:
+    -> rank 2: 5792 bytes
+    -> rank 3: 12736 bytes
+    -> rank 24: 15104 bytes
+    -> rank 27: 72512 bytes
+    -> rank 32: 21376 bytes
+    -> rank 33: 2144 bytes
+    -> rank 37: 43456 bytes
+    -> rank 38: 44608 bytes
+    -> rank 41: 78144 bytes
+    -> rank 43: 12416 bytes
+    -> rank 45: 101568 bytes
+    -> rank 47: 89344 bytes
+    <- rank 32: 40352 bytes
+    <- rank 41: 54592 bytes
+    <- rank 46: 9632 bytes
+    <- rank 49: 96160 bytes
+    <- rank 50: 4064 bytes
+    <- rank 51: 104672 bytes
+    <- rank 52: 2112 bytes
+    <- rank 54: 94880 bytes
+    <- rank 55: 1568 bytes
+    <- rank 57: 100448 bytes
+    <- rank 59: 18208 bytes
+    -> rank 48: 9632 bytes
+    -> rank 49: 71104 bytes
+    -> rank 54: 6528 bytes
+    -> rank 55: 33376 bytes
+    <- rank 2: 5152 bytes
+    <- rank 3: 12544 bytes
+    <- rank 24: 14976 bytes
+    <- rank 27: 74816 bytes
+    <- rank 32: 20800 bytes
+    <- rank 33: 1312 bytes
+    <- rank 37: 39104 bytes
+    <- rank 38: 42400 bytes
+    <- rank 41: 79168 bytes
+    <- rank 43: 13728 bytes
+    <- rank 45: 102880 bytes
+    <- rank 47: 88288 bytes
+    <- rank 48: 9632 bytes
+    <- rank 49: 67808 bytes
+    <- rank 54: 5952 bytes
+    <- rank 55: 31456 bytes
+Rank 47 communication volume (sent 1012800 bytes, received 1000480 bytes):
+  element (gauss) fields:
+    -> rank 24: 10688 bytes
+    -> rank 25: 10336 bytes
+    -> rank 26: 72160 bytes
+    -> rank 27: 9568 bytes
+    -> rank 32: 64 bytes
+    -> rank 33: 8256 bytes
+    -> rank 38: 91136 bytes
+    -> rank 40: 89504 bytes
+    -> rank 41: 14624 bytes
+    -> rank 42: 1984 bytes
+    -> rank 44: 83520 bytes
+Rank 49 communication volume (sent 1234304 bytes, received 1235264 bytes):
+  element (gauss) fields:
+    -> rank 1: 864 bytes
+    -> rank 2: 108416 bytes
+    -> rank 3: 3840 bytes
+    -> rank 8: 2304 bytes
+    -> rank 19: 960 bytes
+    -> rank 27: 5824 bytes
+    -> rank 32: 6176 bytes
+    -> rank 37: 22432 bytes
+    -> rank 46: 62880 bytes
+    -> rank 45: 5568 bytes
+    -> rank 46: 84864 bytes
+    <- rank 24: 10112 bytes
+    <- rank 25: 9824 bytes
+    <- rank 26: 70912 bytes
+    <- rank 27: 9344 bytes
+    <- rank 32: 64 bytes
+    <- rank 33: 8320 bytes
+    <- rank 38: 90944 bytes
+    <- rank 40: 89280 bytes
+    <- rank 41: 14752 bytes
+    <- rank 42: 2080 bytes
+    <- rank 44: 81600 bytes
+    <- rank 45: 5536 bytes
+    <- rank 46: 85376 bytes
+  node fields:
+    -> rank 24: 13984 bytes
+    -> rank 25: 13536 bytes
+    -> rank 48: 92384 bytes
+    -> rank 50: 83712 bytes
+    -> rank 51: 4384 bytes
+    -> rank 54: 4896 bytes
+    -> rank 55: 86432 bytes
+    -> rank 57: 10496 bytes
+    -> rank 63: 91392 bytes
+    <- rank 1: 864 bytes
+    <- rank 2: 109024 bytes
+    <- rank 3: 3808 bytes
+    <- rank 8: 1760 bytes
+    <- rank 19: 1280 bytes
+    <- rank 27: 5280 bytes
+    -> rank 26: 78720 bytes
+    -> rank 27: 13152 bytes
+    -> rank 32: 320 bytes
+    -> rank 33: 12160 bytes
+    -> rank 38: 96064 bytes
+    -> rank 40: 94560 bytes
+    -> rank 41: 18336 bytes
+    -> rank 42: 3168 bytes
+    -> rank 44: 89184 bytes
+    -> rank 45: 9056 bytes
+    -> rank 46: 88288 bytes
+    <- rank 24: 12896 bytes
+    <- rank 25: 12448 bytes
+    <- rank 26: 76224 bytes
+    <- rank 27: 12640 bytes
+    <- rank 32: 320 bytes
+    <- rank 33: 12352 bytes
+    <- rank 38: 96032 bytes
+    <- rank 40: 93824 bytes
+    <- rank 41: 18624 bytes
+    <- rank 42: 3424 bytes
+    <- rank 44: 85216 bytes
+    <- rank 45: 8992 bytes
+    <- rank 46: 89344 bytes
+    <- rank 32: 6304 bytes
+    <- rank 37: 22016 bytes
+    <- rank 46: 64512 bytes
+    <- rank 48: 92352 bytes
+    <- rank 50: 82976 bytes
+    <- rank 51: 4160 bytes
+    <- rank 54: 4736 bytes
+    <- rank 55: 85664 bytes
+    <- rank 57: 10784 bytes
+    <- rank 63: 92096 bytes
+  node fields:
+    -> rank 1: 2528 bytes
+    -> rank 2: 115488 bytes
+    -> rank 3: 6368 bytes
+    -> rank 8: 4096 bytes
+    -> rank 19: 1664 bytes
+    -> rank 27: 8960 bytes
+    -> rank 32: 8096 bytes
+    -> rank 37: 26368 bytes
+    -> rank 46: 67808 bytes
+    -> rank 48: 96160 bytes
+    -> rank 50: 88768 bytes
+    -> rank 51: 8128 bytes
+    -> rank 54: 8672 bytes
+    -> rank 55: 92480 bytes
+    -> rank 57: 14528 bytes
+    -> rank 63: 96800 bytes
+    <- rank 1: 2528 bytes
+    <- rank 2: 116896 bytes
+    <- rank 3: 6304 bytes
+    <- rank 8: 2976 bytes
+    <- rank 19: 2368 bytes
+    <- rank 27: 7776 bytes
+    <- rank 32: 8352 bytes
+    <- rank 37: 25472 bytes
+    <- rank 46: 71104 bytes
+    <- rank 48: 96256 bytes
+    <- rank 50: 87392 bytes
+    <- rank 51: 7552 bytes
+    <- rank 54: 8256 bytes
+    <- rank 55: 91040 bytes
+    <- rank 57: 15168 bytes
+    <- rank 63: 98208 bytes
+Rank 50 communication volume (sent 1122368 bytes, received 1116576 bytes):
+  element (gauss) fields:
+    -> rank 0: 3456 bytes
+    -> rank 1: 117408 bytes
+    -> rank 2: 8160 bytes
+    -> rank 3: 32 bytes
+    -> rank 48: 1536 bytes
+    -> rank 49: 82976 bytes
+    -> rank 51: 120160 bytes
+    -> rank 52: 6880 bytes
+    -> rank 53: 85376 bytes
+    -> rank 55: 11712 bytes
+    -> rank 57: 544 bytes
+    -> rank 59: 6656 bytes
+    -> rank 60: 57696 bytes
+    -> rank 63: 32128 bytes
+    <- rank 0: 3136 bytes
+    <- rank 1: 117088 bytes
+    <- rank 2: 8192 bytes
+    <- rank 3: 32 bytes
+    <- rank 48: 1632 bytes
+    <- rank 49: 83712 bytes
+    <- rank 51: 119744 bytes
+    <- rank 52: 7424 bytes
+    <- rank 53: 85344 bytes
+    <- rank 55: 11456 bytes
+    <- rank 57: 576 bytes
+    <- rank 59: 6592 bytes
+    <- rank 60: 55456 bytes
+    <- rank 63: 32608 bytes
+  node fields:
+    -> rank 0: 5472 bytes
+    -> rank 1: 124288 bytes
+    -> rank 2: 13024 bytes
+    -> rank 3: 224 bytes
+    -> rank 48: 4064 bytes
+    -> rank 49: 87392 bytes
+    -> rank 51: 125888 bytes
+    -> rank 52: 9312 bytes
+    -> rank 53: 91008 bytes
+    -> rank 55: 15296 bytes
+    -> rank 57: 1152 bytes
+    -> rank 59: 10912 bytes
+    -> rank 60: 63456 bytes
+    -> rank 63: 36160 bytes
+    <- rank 0: 4832 bytes
+    <- rank 1: 123904 bytes
+    <- rank 2: 13024 bytes
+    <- rank 3: 224 bytes
+    <- rank 48: 4384 bytes
+    <- rank 49: 88768 bytes
+    <- rank 51: 124832 bytes
+    <- rank 52: 10336 bytes
+    <- rank 53: 90496 bytes
+    <- rank 55: 14816 bytes
+    <- rank 57: 1216 bytes
+    <- rank 59: 10720 bytes
+    <- rank 60: 58816 bytes
+    <- rank 63: 37216 bytes
+Rank 51 communication volume (sent 878080 bytes, received 880928 bytes):
+  element (gauss) fields:
+    -> rank 48: 99200 bytes
+    -> rank 49: 4160 bytes
+    -> rank 50: 119744 bytes
+    -> rank 52: 91200 bytes
+    -> rank 53: 3424 bytes
+    -> rank 54: 8416 bytes
+    -> rank 55: 384 bytes
+    -> rank 57: 576 bytes
+    -> rank 59: 95968 bytes
+    <- rank 48: 98560 bytes
+    <- rank 49: 4384 bytes
+    <- rank 50: 120160 bytes
+    <- rank 52: 90016 bytes
+    <- rank 53: 2912 bytes
+    <- rank 54: 8288 bytes
+    <- rank 55: 448 bytes
+    <- rank 57: 704 bytes
+    <- rank 59: 98432 bytes
+  node fields:
+    -> rank 48: 104672 bytes
+    -> rank 49: 7552 bytes
+    -> rank 50: 124832 bytes
+    -> rank 52: 97184 bytes
+    -> rank 53: 5600 bytes
+    -> rank 54: 12576 bytes
+    -> rank 55: 928 bytes
+    -> rank 57: 1344 bytes
+    -> rank 59: 100320 bytes
+    <- rank 48: 103392 bytes
+    <- rank 49: 8128 bytes
+    <- rank 50: 125888 bytes
+    <- rank 52: 94656 bytes
+    <- rank 53: 4384 bytes
+    <- rank 54: 12288 bytes
+    <- rank 55: 1056 bytes
+    <- rank 57: 1728 bytes
+    <- rank 59: 105504 bytes
+Rank 52 communication volume (sent 601856 bytes, received 608736 bytes):
+  element (gauss) fields:
+    -> rank 48: 768 bytes
+    -> rank 50: 7424 bytes
+    -> rank 51: 90016 bytes
+    -> rank 53: 112384 bytes
+    -> rank 54: 81472 bytes
+    <- rank 48: 736 bytes
+    <- rank 50: 6880 bytes
+    <- rank 51: 91200 bytes
+    <- rank 53: 111680 bytes
+    <- rank 54: 83776 bytes
+  node fields:
+    -> rank 48: 2112 bytes
+    -> rank 50: 10336 bytes
+    -> rank 51: 94656 bytes
+    -> rank 53: 117376 bytes
+    -> rank 54: 85312 bytes
+    <- rank 48: 2048 bytes
+    <- rank 50: 9312 bytes
+    <- rank 51: 97184 bytes
+    <- rank 53: 115872 bytes
+    <- rank 54: 90048 bytes
+Rank 53 communication volume (sent 818560 bytes, received 821344 bytes):
+  element (gauss) fields:
+    -> rank 0: 81280 bytes
+    -> rank 1: 4320 bytes
+    -> rank 3: 160 bytes
+    -> rank 50: 85344 bytes
+    -> rank 51: 2912 bytes
+    -> rank 52: 111680 bytes
+    -> rank 54: 18464 bytes
+    -> rank 55: 90208 bytes
+    <- rank 0: 81696 bytes
+    <- rank 1: 4512 bytes
+    <- rank 3: 160 bytes
+    <- rank 50: 85376 bytes
+    <- rank 51: 3424 bytes
+    <- rank 52: 112384 bytes
+    <- rank 54: 18432 bytes
+    <- rank 55: 88928 bytes
+  node fields:
+    -> rank 0: 86080 bytes
+    -> rank 1: 6944 bytes
+    -> rank 3: 608 bytes
+    -> rank 50: 90496 bytes
+    -> rank 51: 4384 bytes
+    -> rank 52: 115872 bytes
+    -> rank 54: 23392 bytes
+    -> rank 55: 96416 bytes
+    <- rank 0: 87008 bytes
+    <- rank 1: 7488 bytes
+    <- rank 3: 608 bytes
+    <- rank 50: 91008 bytes
+    <- rank 51: 5600 bytes
+    <- rank 52: 117376 bytes
+    <- rank 54: 23392 bytes
+    <- rank 55: 93952 bytes
+Rank 54 communication volume (sent 920608 bytes, received 907008 bytes):
+  element (gauss) fields:
+    -> rank 41: 31168 bytes
+    -> rank 43: 93120 bytes
+    -> rank 46: 4000 bytes
+    -> rank 48: 87968 bytes
+    -> rank 49: 4736 bytes
+    -> rank 51: 8288 bytes
+    -> rank 52: 83776 bytes
+    -> rank 53: 18432 bytes
+    -> rank 55: 107648 bytes
+    <- rank 41: 30624 bytes
+    <- rank 43: 93152 bytes
+    <- rank 46: 4256 bytes
+    <- rank 48: 85632 bytes
+    <- rank 49: 4896 bytes
+    <- rank 51: 8416 bytes
+    <- rank 52: 81472 bytes
+    <- rank 53: 18464 bytes
+    <- rank 55: 107904 bytes
+  node fields:
+    -> rank 41: 36000 bytes
+    -> rank 43: 98464 bytes
+    -> rank 46: 5952 bytes
+    -> rank 48: 94880 bytes
+    -> rank 49: 8256 bytes
+    -> rank 51: 12288 bytes
+    -> rank 52: 90048 bytes
+    -> rank 53: 23392 bytes
+    -> rank 55: 112192 bytes
+    <- rank 41: 34688 bytes
+    <- rank 43: 98880 bytes
+    <- rank 46: 6528 bytes
+    <- rank 48: 89504 bytes
+    <- rank 49: 8672 bytes
+    <- rank 51: 12576 bytes
+Rank 56 communication volume (sent 745728 bytes, received 751712 bytes):
+  element (gauss) fields:
+    -> rank 34: 53152 bytes
+    -> rank 36: 26656 bytes
+    -> rank 57: 119296 bytes
+    -> rank 58: 83136 bytes
+    -> rank 61: 8384 bytes
+    -> rank 62: 66464 bytes
+    -> rank 63: 3040 bytes
+    <- rank 34: 53472 bytes
+    <- rank 36: 27360 bytes
+    <- rank 52: 85312 bytes
+    <- rank 53: 23392 bytes
+    <- rank 55: 112640 bytes
+    <- rank 57: 118784 bytes
+    <- rank 58: 84960 bytes
+    <- rank 61: 8224 bytes
+    <- rank 62: 66208 bytes
+    <- rank 63: 3168 bytes
+  node fields:
+    -> rank 34: 57312 bytes
+    -> rank 36: 30048 bytes
+    -> rank 57: 123680 bytes
+    -> rank 58: 86944 bytes
+Rank 55 communication volume (sent 1122112 bytes, received 1122592 bytes):
+  element (gauss) fields:
+    -> rank 0: 4672 bytes
+    -> rank 1: 2336 bytes
+    -> rank 2: 4416 bytes
+    -> rank 3: 102784 bytes
+    -> rank 43: 24064 bytes
+    -> rank 45: 76064 bytes
+    -> rank 46: 26688 bytes
+    -> rank 61: 11520 bytes
+    -> rank 62: 71456 bytes
+    -> rank 63: 4640 bytes
+    <- rank 34: 57952 bytes
+    <- rank 36: 31520 bytes
+    <- rank 57: 122432 bytes
+    <- rank 58: 90592 bytes
+    <- rank 61: 11104 bytes
+    <- rank 62: 70880 bytes
+    <- rank 63: 5056 bytes
+    -> rank 48: 704 bytes
+    -> rank 49: 85664 bytes
+    -> rank 50: 11456 bytes
+    -> rank 51: 448 bytes
+    -> rank 53: 88928 bytes
+    -> rank 54: 107904 bytes
+    <- rank 0: 4800 bytes
+    <- rank 1: 2432 bytes
+    <- rank 2: 4448 bytes
+    <- rank 3: 102592 bytes
+    <- rank 43: 23872 bytes
+    <- rank 45: 73760 bytes
+    <- rank 46: 27584 bytes
+    <- rank 48: 576 bytes
+    <- rank 49: 86432 bytes
+    <- rank 50: 11712 bytes
+Rank 57 communication volume (sent 1051712 bytes, received 1039328 bytes):
+  element (gauss) fields:
+    -> rank 32: 49344 bytes
+    -> rank 34: 28480 bytes
+    -> rank 36: 6752 bytes
+    -> rank 37: 10080 bytes
+    -> rank 48: 94112 bytes
+    -> rank 49: 10784 bytes
+    -> rank 50: 576 bytes
+    -> rank 51: 704 bytes
+    -> rank 56: 118784 bytes
+    -> rank 58: 9472 bytes
+    -> rank 59: 83488 bytes
+    -> rank 62: 5984 bytes
+    -> rank 63: 82144 bytes
+    <- rank 32: 48256 bytes
+    <- rank 34: 27392 bytes
+    <- rank 36: 6432 bytes
+    <- rank 37: 9120 bytes
+    <- rank 48: 93088 bytes
+    <- rank 49: 10496 bytes
+    <- rank 50: 544 bytes
+    <- rank 51: 576 bytes
+    <- rank 56: 119296 bytes
+    <- rank 58: 9664 bytes
+    <- rank 59: 82176 bytes
+    <- rank 62: 6272 bytes
+    <- rank 63: 83104 bytes
+  node fields:
+    -> rank 32: 55328 bytes
+    -> rank 34: 33440 bytes
+    -> rank 36: 9472 bytes
+    -> rank 37: 13824 bytes
+    -> rank 48: 100448 bytes
+    -> rank 49: 15168 bytes
+    <- rank 51: 384 bytes
+    <- rank 53: 90208 bytes
+    <- rank 54: 107648 bytes
+  node fields:
+    -> rank 0: 8064 bytes
+    -> rank 1: 3520 bytes
+    -> rank 2: 7712 bytes
+    -> rank 3: 108704 bytes
+    -> rank 43: 28544 bytes
+    -> rank 45: 82912 bytes
+    -> rank 46: 31456 bytes
+    -> rank 48: 1568 bytes
+    -> rank 49: 91040 bytes
+    -> rank 50: 14816 bytes
+    -> rank 51: 1056 bytes
+    -> rank 53: 93952 bytes
+    -> rank 50: 1216 bytes
+    -> rank 51: 1728 bytes
+    -> rank 56: 122432 bytes
+    -> rank 58: 13376 bytes
+    -> rank 59: 88928 bytes
+    -> rank 62: 8832 bytes
+    -> rank 63: 86816 bytes
+    <- rank 32: 53344 bytes
+    <- rank 34: 31264 bytes
+    -> rank 54: 112640 bytes
+    <- rank 0: 8256 bytes
+    <- rank 1: 3776 bytes
+    <- rank 2: 7616 bytes
+    <- rank 3: 108352 bytes
+    <- rank 43: 28096 bytes
+    <- rank 45: 78176 bytes
+    <- rank 46: 33376 bytes
+    <- rank 48: 1184 bytes
+    <- rank 49: 92480 bytes
+    <- rank 50: 15296 bytes
+    <- rank 51: 928 bytes
+    <- rank 36: 8832 bytes
+    <- rank 37: 11776 bytes
+    <- rank 48: 98400 bytes
+    <- rank 49: 14528 bytes
+    <- rank 50: 1152 bytes
+    <- rank 51: 1344 bytes
+    <- rank 56: 123680 bytes
+    <- rank 58: 13760 bytes
+    <- rank 59: 86560 bytes
+    <- rank 62: 9408 bytes
+    <- rank 63: 88864 bytes
+    <- rank 53: 96416 bytes
+    <- rank 54: 112192 bytes
+Rank 58 communication volume (sent 558432 bytes, received 549280 bytes):
+  element (gauss) fields:
+    -> rank 56: 84960 bytes
+    -> rank 57: 9664 bytes
+    -> rank 59: 91712 bytes
+    -> rank 60: 26304 bytes
+    -> rank 61: 52448 bytes
+    -> rank 62: 384 bytes
+    -> rank 63: 1728 bytes
+    <- rank 56: 83136 bytes
+    <- rank 57: 9472 bytes
+    <- rank 59: 91712 bytes
+    <- rank 60: 25760 bytes
+    <- rank 61: 52000 bytes
+    <- rank 62: 320 bytes
+    <- rank 63: 1792 bytes
+  node fields:
+    -> rank 56: 90592 bytes
+    -> rank 57: 13760 bytes
+    -> rank 59: 95200 bytes
+    -> rank 60: 30688 bytes
+    -> rank 61: 56736 bytes
+    -> rank 62: 1312 bytes
+    -> rank 63: 2944 bytes
+    <- rank 56: 86944 bytes
+    <- rank 57: 13376 bytes
+    <- rank 59: 95200 bytes
+    <- rank 60: 29536 bytes
+    <- rank 61: 55904 bytes
+    <- rank 62: 1056 bytes
+    <- rank 63: 3072 bytes
+Rank 59 communication volume (sent 767520 bytes, received 761920 bytes):
+  element (gauss) fields:
+    -> rank 48: 14464 bytes
+    -> rank 50: 6592 bytes
+    -> rank 51: 98432 bytes
+    -> rank 57: 82176 bytes
+    -> rank 58: 91712 bytes
+    -> rank 60: 55104 bytes
+    -> rank 63: 19424 bytes
+    <- rank 48: 14496 bytes
+    <- rank 50: 6656 bytes
+    <- rank 51: 95968 bytes
+    <- rank 57: 83488 bytes
+    <- rank 58: 91712 bytes
+    <- rank 60: 54784 bytes
+    <- rank 63: 19104 bytes
+  node fields:
+    -> rank 48: 18208 bytes
+    -> rank 50: 10720 bytes
+    -> rank 51: 105504 bytes
+    -> rank 57: 86560 bytes
+    -> rank 58: 95200 bytes
+    -> rank 60: 60064 bytes
+    -> rank 63: 23360 bytes
+    <- rank 48: 18208 bytes
+    <- rank 50: 10912 bytes
+    <- rank 51: 100320 bytes
+    <- rank 57: 88928 bytes
+    <- rank 58: 95200 bytes
+    <- rank 60: 59424 bytes
+    <- rank 63: 22720 bytes
+Rank 60 communication volume (sent 1022624 bytes, received 1023552 bytes):
+  element (gauss) fields:
+    -> rank 1: 11200 bytes
+    -> rank 10: 57440 bytes
+    -> rank 13: 1632 bytes
+    -> rank 14: 30560 bytes
+    -> rank 50: 55456 bytes
+    -> rank 58: 25760 bytes
+    -> rank 59: 54784 bytes
+    -> rank 61: 128032 bytes
+    -> rank 62: 19648 bytes
+    -> rank 63: 105216 bytes
+    <- rank 1: 11552 bytes
+    <- rank 10: 56800 bytes
+    <- rank 13: 1824 bytes
+    <- rank 14: 30528 bytes
+    <- rank 50: 57696 bytes
+    <- rank 58: 26304 bytes
+    <- rank 59: 55104 bytes
+    <- rank 61: 128768 bytes
+    <- rank 62: 19520 bytes
+    <- rank 63: 102112 bytes
+  node fields:
+    -> rank 1: 13728 bytes
+    -> rank 10: 62752 bytes
+    -> rank 13: 3104 bytes
+    -> rank 14: 34656 bytes
+    -> rank 50: 58816 bytes
+    -> rank 58: 29536 bytes
+    -> rank 59: 59424 bytes
+    -> rank 61: 133120 bytes
+    -> rank 62: 24416 bytes
+    -> rank 63: 113344 bytes
+    <- rank 1: 14496 bytes
+    <- rank 10: 61408 bytes
+    <- rank 13: 3584 bytes
+    <- rank 14: 34368 bytes
+    <- rank 50: 63456 bytes
+    <- rank 58: 30688 bytes
+    <- rank 59: 60064 bytes
+    <- rank 61: 134560 bytes
+    <- rank 62: 23904 bytes
+    <- rank 63: 106816 bytes
+Rank 61 communication volume (sent 823072 bytes, received 833984 bytes):
+  element (gauss) fields:
+    -> rank 13: 17024 bytes
+    -> rank 14: 99136 bytes
+    -> rank 56: 8224 bytes
+    -> rank 58: 52000 bytes
+    -> rank 60: 128768 bytes
+    -> rank 62: 91200 bytes
+    -> rank 63: 928 bytes
+    <- rank 13: 17824 bytes
+    <- rank 14: 100128 bytes
+    <- rank 56: 8384 bytes
+    <- rank 58: 52448 bytes
+    <- rank 60: 128032 bytes
+    <- rank 62: 93184 bytes
+    <- rank 63: 992 bytes
+  node fields:
+    -> rank 13: 21248 bytes
+    -> rank 14: 104288 bytes
+    -> rank 56: 11104 bytes
+    -> rank 58: 55904 bytes
+    -> rank 60: 134560 bytes
+    -> rank 62: 96448 bytes
+    -> rank 63: 2240 bytes
+    <- rank 13: 22912 bytes
+    <- rank 14: 106048 bytes
+    <- rank 56: 11520 bytes
+    <- rank 58: 56736 bytes
+    <- rank 60: 133120 bytes
+    <- rank 62: 100320 bytes
+    <- rank 63: 2336 bytes
+Rank 62 communication volume (sent 1028256 bytes, received 1026016 bytes):
+  element (gauss) fields:
+    -> rank 13: 60512 bytes
+    -> rank 18: 46784 bytes
+    -> rank 19: 6880 bytes
+    -> rank 36: 58336 bytes
+    -> rank 37: 15840 bytes
+    -> rank 56: 66208 bytes
+    -> rank 57: 6272 bytes
+    -> rank 58: 320 bytes
+    -> rank 60: 19520 bytes
+    -> rank 61: 93184 bytes
+    -> rank 63: 117312 bytes
+    <- rank 13: 61824 bytes
+    <- rank 18: 45696 bytes
+    <- rank 19: 6848 bytes
+    <- rank 36: 58400 bytes
+    <- rank 37: 15616 bytes
+    <- rank 56: 66464 bytes
+    <- rank 57: 5984 bytes
+    <- rank 58: 384 bytes
+    <- rank 60: 19648 bytes
+    <- rank 61: 91200 bytes
+    <- rank 63: 118208 bytes
+  node fields:
+    -> rank 13: 65536 bytes
+    -> rank 18: 52128 bytes
+    -> rank 19: 9184 bytes
+    -> rank 36: 63136 bytes
+    -> rank 37: 19552 bytes
+    -> rank 56: 70880 bytes
+    -> rank 57: 9408 bytes
+    -> rank 58: 1056 bytes
+    -> rank 60: 23904 bytes
+    -> rank 61: 100320 bytes
+    -> rank 63: 121984 bytes
+    <- rank 13: 68288 bytes
+    <- rank 18: 49728 bytes
+    <- rank 19: 9056 bytes
+    <- rank 36: 63232 bytes
+    <- rank 37: 19104 bytes
+    <- rank 56: 71456 bytes
+    <- rank 57: 8832 bytes
+    <- rank 58: 1312 bytes
+    <- rank 60: 24416 bytes
+    <- rank 61: 96448 bytes
+    <- rank 63: 123872 bytes
+Rank 63 communication volume (sent 1318624 bytes, received 1314240 bytes):
+  element (gauss) fields:
+    -> rank 1: 1728 bytes
+    -> rank 2: 5952 bytes
+    -> rank 8: 45184 bytes
+    -> rank 10: 11232 bytes
+    -> rank 13: 24704 bytes
+    -> rank 14: 128 bytes
+    -> rank 19: 22656 bytes
+    -> rank 32: 1632 bytes
+    -> rank 36: 960 bytes
+    -> rank 37: 59008 bytes
+    -> rank 49: 92096 bytes
+    -> rank 50: 32608 bytes
+    -> rank 56: 3168 bytes
+    -> rank 57: 83104 bytes
+    -> rank 58: 1792 bytes
+    -> rank 59: 19104 bytes
+    -> rank 60: 102112 bytes
+    -> rank 61: 992 bytes
+    -> rank 62: 118208 bytes
+    <- rank 1: 1824 bytes
+    <- rank 2: 5568 bytes
+    <- rank 8: 41472 bytes
+    <- rank 10: 10784 bytes
+    <- rank 13: 23968 bytes
+    <- rank 14: 128 bytes
+    <- rank 19: 23488 bytes
+    <- rank 32: 1632 bytes
+    <- rank 36: 1120 bytes
+    <- rank 37: 61728 bytes
+    <- rank 49: 91392 bytes
+    <- rank 50: 32128 bytes
+    <- rank 56: 3040 bytes
+    <- rank 57: 82144 bytes
+    <- rank 58: 1728 bytes
+    <- rank 59: 19424 bytes
+    <- rank 60: 105216 bytes
+    <- rank 61: 928 bytes
+    <- rank 62: 117312 bytes
+  node fields:
+    -> rank 1: 3008 bytes
+    -> rank 2: 9248 bytes
+    -> rank 8: 52832 bytes
+    -> rank 10: 14816 bytes
+    -> rank 13: 29376 bytes
+    -> rank 14: 608 bytes
+    -> rank 19: 26464 bytes
+    -> rank 32: 2848 bytes
+    -> rank 36: 1888 bytes
+    -> rank 37: 63008 bytes
+    -> rank 49: 98208 bytes
+    -> rank 50: 37216 bytes
+    -> rank 56: 5056 bytes
+    -> rank 57: 88864 bytes
+    -> rank 58: 3072 bytes
+    -> rank 59: 22720 bytes
+    -> rank 60: 106816 bytes
+    -> rank 61: 2336 bytes
+    -> rank 62: 123872 bytes
+    <- rank 1: 3200 bytes
+    <- rank 2: 8320 bytes
+    <- rank 8: 45344 bytes
+    <- rank 10: 13824 bytes
+    <- rank 13: 27840 bytes
+    <- rank 14: 608 bytes
+    <- rank 19: 28192 bytes
+    <- rank 32: 2848 bytes
+    <- rank 36: 2272 bytes
+    <- rank 37: 68480 bytes
+    <- rank 49: 96800 bytes
+    <- rank 50: 36160 bytes
+    <- rank 56: 4640 bytes
+Total data volume exchanged across all ranks: 62505376 bytes (59.6098 MB)
+Writing VTU file for rank 0
+    <- rank 57: 86816 bytes
+    <- rank 58: 2944 bytes
+    <- rank 59: 23360 bytes
+    <- rank 60: 113344 bytes
+    <- rank 61: 2240 bytes
+    <- rank 62: 121984 bytes
+Total execution time: 74.26 seconds
+Wrote scaling-study CSV log: test2_results_mesh200x200x200_np64_comms20_smooth3.csv
