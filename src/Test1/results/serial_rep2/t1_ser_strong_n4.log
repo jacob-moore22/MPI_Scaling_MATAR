@@ -1,0 +1,24 @@
+srun: warning: can't run 4 processes on 8 nodes, setting nnodes to 4
+MATAR MPICArrayKokkos::all_reduce timing test
+  world_size  = 4
+  local_size  = 128000000 elements/rank
+  global_size = 512000000 elements
+  iterations  = 50 (+2 warm-up)
+Timing all_reduce operators...
+  [matar] sum: value=10 expected=10 [FAIL] min_ms=106.868 avg_ms=107.168
+RESULT,matar,sum,4,128000000,512000000,106.868,107.168,10,10,FAIL
+  [matar] max: value=3.125e-08 expected=3.125e-08 [PASS] min_ms=49.771 avg_ms=49.9158
+RESULT,matar,max,4,128000000,512000000,49.771,49.9158,3.125e-08,3.125e-08,PASS
+  [matar] min: value=7.8125e-09 expected=7.8125e-09 [PASS] min_ms=49.761 avg_ms=49.92
+RESULT,matar,min,4,128000000,512000000,49.761,49.92,7.8125e-09,7.8125e-09,PASS
+  [matar] product: value=0 expected=0 [SKIPPED] min_ms=106.825 avg_ms=107.029
+RESULT,matar,product,4,128000000,512000000,106.825,107.029,0,0,SKIPPED
+Timing bare-MPI all_reduce baseline...
+  [bare_mpi] sum: value=10 expected=10 [FAIL] min_ms=106.509 avg_ms=111.114
+RESULT,bare_mpi,sum,4,128000000,512000000,106.509,111.114,10,10,FAIL
+  [bare_mpi] max: value=3.125e-08 expected=3.125e-08 [PASS] min_ms=73.577 avg_ms=73.6447
+RESULT,bare_mpi,max,4,128000000,512000000,73.577,73.6447,3.125e-08,3.125e-08,PASS
+  [bare_mpi] min: value=7.8125e-09 expected=7.8125e-09 [PASS] min_ms=45.938 avg_ms=46.008
+RESULT,bare_mpi,min,4,128000000,512000000,45.938,46.008,7.8125e-09,7.8125e-09,PASS
+  [bare_mpi] product: value=0 expected=0 [SKIPPED] min_ms=106.915 avg_ms=108.137
+RESULT,bare_mpi,product,4,128000000,512000000,106.915,108.137,0,0,SKIPPED

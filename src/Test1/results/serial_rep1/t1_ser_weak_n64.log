@@ -1,0 +1,23 @@
+MATAR MPICArrayKokkos::all_reduce timing test
+  world_size  = 64
+  local_size  = 1000000 elements/rank
+  global_size = 64000000 elements
+  iterations  = 50 (+2 warm-up)
+Timing all_reduce operators...
+  [matar] sum: value=2080 expected=2080 [PASS] min_ms=0.826 avg_ms=1.38214
+RESULT,matar,sum,64,1000000,64000000,0.826,1.38214,2080,2080,PASS
+  [matar] max: value=6.4e-05 expected=6.4e-05 [PASS] min_ms=0.426 avg_ms=0.48434
+RESULT,matar,max,64,1000000,64000000,0.426,0.48434,6.4e-05,6.4e-05,PASS
+  [matar] min: value=1e-06 expected=1e-06 [PASS] min_ms=0.43 avg_ms=0.44212
+RESULT,matar,min,64,1000000,64000000,0.43,0.44212,1e-06,1e-06,PASS
+  [matar] product: value=0 expected=0 [SKIPPED] min_ms=0.832 avg_ms=0.88384
+RESULT,matar,product,64,1000000,64000000,0.832,0.88384,0,0,SKIPPED
+Timing bare-MPI all_reduce baseline...
+  [bare_mpi] sum: value=2080 expected=2080 [PASS] min_ms=0.825 avg_ms=0.83114
+RESULT,bare_mpi,sum,64,1000000,64000000,0.825,0.83114,2080,2080,PASS
+  [bare_mpi] max: value=6.4e-05 expected=6.4e-05 [PASS] min_ms=0.553 avg_ms=0.55778
+RESULT,bare_mpi,max,64,1000000,64000000,0.553,0.55778,6.4e-05,6.4e-05,PASS
+  [bare_mpi] min: value=1e-06 expected=1e-06 [PASS] min_ms=0.279 avg_ms=0.28474
+RESULT,bare_mpi,min,64,1000000,64000000,0.279,0.28474,1e-06,1e-06,PASS
+  [bare_mpi] product: value=0 expected=0 [SKIPPED] min_ms=0.821 avg_ms=0.89114
+RESULT,bare_mpi,product,64,1000000,64000000,0.821,0.89114,0,0,SKIPPED
